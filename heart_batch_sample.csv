@@ -1,0 +1,6 @@
+patient_name,age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,height,weight
+Nguyen Van A,52,1,1,140,250,1,0,140,1,2.3,2,1,7,170,75
+Tran Thi B,45,0,2,120,180,0,1,165,0,0.5,1,0,3,158,58
+Le Van C,63,1,4,160,310,1,2,120,1,3.5,3,2,7,175,82
+Pham Thi D,38,0,3,110,195,0,0,180,0,0.0,1,0,3,162,55
+Hoang Van E,57,1,2,130,220,0,1,145,0,1.2,2,1,6,168,70

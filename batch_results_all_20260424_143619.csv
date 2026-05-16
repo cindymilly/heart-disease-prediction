@@ -1,0 +1,1026 @@
+Ho ten,Tuoi,Gioi tinh,BMI,Phan loai BMI,Huyet ap,TT Huyet ap,Cholesterol,TT Cholesterol,Nhip tim toi da,Ket qua,Xac suat khoe (%),Xac suat benh (%),Do tin cay (%)
+Pham Van Phong,52,Nam,23.1,Binh thuong,125.0,Canh bao,212.0,Canh bao,168.0,Khoe manh,91.9,8.1,91.9
+Ngo Quoc Hung,53,Nam,27.3,Thua can,140.0,Nguy hiem,203.0,Canh bao,155.0,Nguy co benh tim,23.1,76.9,76.9
+Pham Viet Cuong,70,Nam,22.9,Binh thuong,145.0,Nguy hiem,174.0,Binh thuong,125.0,Nguy co benh tim,20.3,79.7,79.7
+Lam Xuan Binh,61,Nam,25.4,Thua can,148.0,Nguy hiem,203.0,Canh bao,161.0,Khoe manh,82.6,17.4,82.6
+Nguyen Ngoc Hong,62,Nu,23.9,Binh thuong,138.0,Canh bao,294.0,Nguy hiem,106.0,Nguy co benh tim,50.0,50.0,50.0
+Ngo Phuong Yen,58,Nu,21.3,Binh thuong,100.0,Binh thuong,248.0,Nguy hiem,122.0,Khoe manh,86.5,13.5,86.5
+Nguyen Viet Long,58,Nam,18.7,Binh thuong,114.0,Binh thuong,318.0,Nguy hiem,140.0,Nguy co benh tim,32.7,67.3,67.3
+Trinh Xuan Nam,55,Nam,22.1,Binh thuong,160.0,Nguy hiem,289.0,Nguy hiem,145.0,Nguy co benh tim,39.7,60.3,60.3
+Ha Trong Phong,46,Nam,24.3,Binh thuong,120.0,Canh bao,249.0,Nguy hiem,144.0,Khoe manh,88.7,11.3,88.7
+Nguyen Minh Vinh,54,Nam,20.0,Binh thuong,122.0,Canh bao,286.0,Nguy hiem,116.0,Nguy co benh tim,16.5,83.5,83.5
+Bui Lan Ha,71,Nu,22.0,Binh thuong,112.0,Binh thuong,149.0,Binh thuong,125.0,Khoe manh,76.2,23.8,76.2
+Do Mai Dung,43,Nu,18.9,Binh thuong,132.0,Canh bao,341.0,Nguy hiem,136.0,Nguy co benh tim,36.8,63.2,63.2
+Le Thu Dung,34,Nu,22.8,Binh thuong,118.0,Binh thuong,210.0,Canh bao,192.0,Khoe manh,92.8,7.2,92.8
+Dinh Huu Trung,51,Nam,24.4,Binh thuong,140.0,Nguy hiem,298.0,Nguy hiem,122.0,Nguy co benh tim,16.3,83.7,83.7
+Duong Van Hoang,52,Nam,22.8,Binh thuong,128.0,Canh bao,204.0,Canh bao,156.0,Nguy co benh tim,49.1,50.9,50.9
+Trinh Ngoc Nhi,34,Nu,27.1,Thua can,118.0,Binh thuong,210.0,Canh bao,192.0,Khoe manh,92.8,7.2,92.8
+Le Phuong Linh,51,Nu,19.9,Binh thuong,140.0,Nguy hiem,308.0,Nguy hiem,142.0,Khoe manh,97.2,2.8,97.2
+Thai Huu Phuc,54,Nam,20.5,Binh thuong,124.0,Canh bao,266.0,Nguy hiem,109.0,Nguy co benh tim,21.7,78.3,78.3
+Do Ngoc Bich,50,Nu,17.6,Thieu can,120.0,Canh bao,244.0,Nguy hiem,162.0,Khoe manh,98.3,1.7,98.3
+Ngo Thanh Cuong,58,Nam,24.0,Binh thuong,140.0,Nguy hiem,211.0,Canh bao,165.0,Khoe manh,90.8,9.2,90.8
+Ngo Duc Tuan,60,Nam,23.9,Binh thuong,140.0,Nguy hiem,185.0,Binh thuong,155.0,Nguy co benh tim,10.2,89.8,89.8
+Duong Kim Nga,67,Nu,21.7,Binh thuong,106.0,Binh thuong,223.0,Canh bao,142.0,Khoe manh,88.3,11.7,88.3
+Vu Huu Thanh,45,Nam,21.7,Binh thuong,104.0,Binh thuong,208.0,Canh bao,148.0,Nguy co benh tim,42.4,57.6,57.6
+Do Lan Chi,63,Nu,25.1,Thua can,135.0,Canh bao,252.0,Nguy hiem,172.0,Khoe manh,94.9,5.1,94.9
+Thai Bich Thuy,42,Nu,18.1,Thieu can,120.0,Canh bao,209.0,Canh bao,173.0,Khoe manh,95.9,4.1,95.9
+Ngo Bich Phuong,61,Nu,21.5,Binh thuong,145.0,Nguy hiem,307.0,Nguy hiem,146.0,Khoe manh,69.7,30.3,69.7
+Nguyen Thanh Nghia,44,Nam,25.0,Thua can,130.0,Canh bao,233.0,Canh bao,179.0,Khoe manh,74.2,25.8,74.2
+Ngo Mai Bich,58,Nu,24.8,Binh thuong,136.0,Canh bao,319.0,Nguy hiem,152.0,Khoe manh,92.4,7.6,92.4
+Ngo Van Son,56,Nam,22.7,Binh thuong,130.0,Canh bao,256.0,Nguy hiem,142.0,Nguy co benh tim,37.8,62.2,62.2
+Nguyen Lan Chi,55,Nu,25.0,Thua can,180.0,Nguy hiem,327.0,Nguy hiem,117.0,Nguy co benh tim,29.6,70.4,70.4
+Do Trong Son,44,Nam,23.1,Binh thuong,120.0,Canh bao,169.0,Binh thuong,144.0,Nguy co benh tim,31.8,68.2,68.2
+Do Kim Nhi,50,Nu,19.5,Binh thuong,120.0,Canh bao,244.0,Nguy hiem,162.0,Khoe manh,98.3,1.7,98.3
+Ha Minh Phong,57,Nam,26.9,Thua can,130.0,Canh bao,131.0,Binh thuong,115.0,Nguy co benh tim,31.7,68.3,68.3
+Hoang Quoc Nghia,70,Nam,26.0,Thua can,160.0,Nguy hiem,269.0,Nguy hiem,112.0,Nguy co benh tim,8.4,91.6,91.6
+Trinh Thanh Phuc,50,Nam,21.9,Binh thuong,129.0,Canh bao,196.0,Binh thuong,163.0,Khoe manh,95.0,5.0,95.0
+Ly Trong Tuan,46,Nam,27.4,Thua can,150.0,Nguy hiem,231.0,Canh bao,147.0,Nguy co benh tim,13.6,86.4,86.4
+Dinh Quoc Hung,51,Nam,27.4,Thua can,125.0,Canh bao,213.0,Canh bao,125.0,Nguy co benh tim,15.4,84.6,84.6
+Truong Tien Cuong,59,Nam,25.6,Thua can,138.0,Canh bao,271.0,Nguy hiem,182.0,Khoe manh,80.9,19.1,80.9
+Tran Duc Hung,64,Nam,22.8,Binh thuong,128.0,Canh bao,263.0,Nguy hiem,105.0,Nguy co benh tim,28.1,71.9,71.9
+Vu Xuan Trung,57,Nam,18.5,Binh thuong,128.0,Canh bao,229.0,Canh bao,150.0,Khoe manh,85.8,14.2,85.8
+Le Thu Nhi,65,Nu,23.4,Binh thuong,160.0,Nguy hiem,360.0,Nguy hiem,151.0,Khoe manh,91.4,8.6,91.4
+Thai Tien Lam,54,Nam,22.2,Binh thuong,120.0,Canh bao,258.0,Nguy hiem,147.0,Khoe manh,87.2,12.8,87.2
+Duong Phuong An,61,Nu,21.3,Binh thuong,130.0,Canh bao,330.0,Nguy hiem,169.0,Khoe manh,86.5,13.5,86.5
+Pham Viet Phong,46,Nam,24.3,Binh thuong,120.0,Canh bao,249.0,Nguy hiem,144.0,Khoe manh,88.7,11.3,88.7
+Bui Ngoc Linh,55,Nu,23.8,Binh thuong,132.0,Canh bao,342.0,Nguy hiem,166.0,Khoe manh,97.1,2.9,97.1
+Ly Minh Hoang,42,Nam,25.9,Thua can,140.0,Nguy hiem,226.0,Canh bao,178.0,Khoe manh,91.6,8.4,91.6
+Nguyen Thanh Lam,41,Nam,22.7,Binh thuong,135.0,Canh bao,203.0,Canh bao,132.0,Khoe manh,94.1,5.9,94.1
+Vu Phuong Dung,66,Nu,18.8,Binh thuong,178.0,Nguy hiem,228.0,Canh bao,165.0,Nguy co benh tim,37.4,62.6,62.6
+Dang Phuong Yen,66,Nu,23.2,Binh thuong,146.0,Nguy hiem,278.0,Nguy hiem,152.0,Khoe manh,86.5,13.5,86.5
+Do Minh Thanh,60,Nam,22.9,Binh thuong,117.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,57.8,42.2,57.8
+Vu Phuong Thu,58,Nu,21.5,Binh thuong,150.0,Nguy hiem,283.0,Nguy hiem,162.0,Khoe manh,68.0,32.0,68.0
+Nguyen Anh Mai,57,Nu,20.5,Binh thuong,140.0,Nguy hiem,241.0,Nguy hiem,123.0,Khoe manh,76.2,23.8,76.2
+Vo Van Dung,38,Nam,24.5,Binh thuong,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Dinh Thanh Nam,49,Nam,23.9,Binh thuong,120.0,Canh bao,188.0,Binh thuong,139.0,Nguy co benh tim,44.2,55.8,55.8
+Tran Quoc Phuc,55,Nam,23.3,Binh thuong,140.0,Nguy hiem,217.0,Canh bao,111.0,Nguy co benh tim,26.1,73.9,73.9
+Le Duc Kien,55,Nam,23.4,Binh thuong,140.0,Nguy hiem,217.0,Canh bao,111.0,Nguy co benh tim,26.1,73.9,73.9
+Le Viet Hung,56,Nam,29.7,Thua can,120.0,Canh bao,193.0,Binh thuong,162.0,Nguy co benh tim,20.1,79.9,79.9
+Hoang Tien Nghia,48,Nam,24.2,Binh thuong,130.0,Canh bao,245.0,Nguy hiem,180.0,Khoe manh,90.1,9.9,90.1
+Vu Thanh Lam,67,Nam,20.6,Binh thuong,152.0,Nguy hiem,212.0,Canh bao,150.0,Khoe manh,53.4,46.6,53.4
+Thai Xuan Long,57,Nam,25.4,Thua can,154.0,Nguy hiem,232.0,Canh bao,164.0,Khoe manh,94.9,5.1,94.9
+Trinh Quoc Quang,29,Nam,21.2,Binh thuong,130.0,Canh bao,204.0,Canh bao,202.0,Khoe manh,84.5,15.5,84.5
+Nguyen Mai Phuong,66,Nu,19.0,Binh thuong,146.0,Nguy hiem,278.0,Nguy hiem,152.0,Khoe manh,86.5,13.5,86.5
+Truong Tien Dung,67,Nam,29.0,Thua can,100.0,Binh thuong,299.0,Nguy hiem,125.0,Nguy co benh tim,29.7,70.3,70.3
+Ngo Quoc Cuong,59,Nam,22.1,Binh thuong,150.0,Nguy hiem,212.0,Canh bao,157.0,Khoe manh,83.9,16.1,83.9
+Bui Van Phuc,29,Nam,22.2,Binh thuong,130.0,Canh bao,204.0,Canh bao,202.0,Khoe manh,84.5,15.5,84.5
+Trinh Quoc Phuc,59,Nam,23.7,Binh thuong,170.0,Nguy hiem,288.0,Nguy hiem,159.0,Khoe manh,65.7,34.3,65.7
+Ngo Van Cuong,53,Nam,24.7,Binh thuong,130.0,Canh bao,197.0,Binh thuong,152.0,Nguy co benh tim,34.5,65.5,65.5
+Tran Quoc Cuong,42,Nam,27.4,Thua can,136.0,Canh bao,315.0,Nguy hiem,125.0,Nguy co benh tim,27.6,72.4,72.4
+Tran Mai Chi,37,Nu,21.7,Binh thuong,120.0,Canh bao,215.0,Canh bao,170.0,Khoe manh,96.2,3.8,96.2
+Truong Huong Lan,62,Nu,19.4,Binh thuong,160.0,Nguy hiem,164.0,Binh thuong,145.0,Nguy co benh tim,34.0,66.0,66.0
+Vo Quoc Nghia,59,Nam,26.8,Thua can,170.0,Nguy hiem,326.0,Nguy hiem,140.0,Nguy co benh tim,21.5,78.5,78.5
+Hoang Trong Phuc,61,Nam,24.0,Binh thuong,140.0,Nguy hiem,207.0,Canh bao,138.0,Khoe manh,61.0,39.0,61.0
+Vo Quoc Kien,56,Nam,25.4,Thua can,125.0,Canh bao,249.0,Nguy hiem,144.0,Nguy co benh tim,47.0,53.0,53.0
+Ly Quoc Dung,59,Nam,20.2,Binh thuong,140.0,Nguy hiem,177.0,Binh thuong,162.0,Khoe manh,79.6,20.4,79.6
+Pham Xuan Thanh,48,Nam,24.2,Binh thuong,130.0,Canh bao,256.0,Nguy hiem,150.0,Khoe manh,78.6,21.4,78.6
+Ly Xuan Hoang,47,Nam,24.4,Binh thuong,138.0,Canh bao,257.0,Nguy hiem,156.0,Khoe manh,96.9,3.1,96.9
+Tran Duc Binh,48,Nam,24.1,Binh thuong,124.0,Canh bao,255.0,Nguy hiem,175.0,Khoe manh,92.2,7.8,92.2
+Nguyen Huu Dung,63,Nam,21.7,Binh thuong,140.0,Nguy hiem,187.0,Binh thuong,144.0,Nguy co benh tim,25.6,74.4,74.4
+Ngo Quoc Long,52,Nam,24.7,Binh thuong,134.0,Canh bao,201.0,Canh bao,158.0,Khoe manh,96.8,3.2,96.8
+Trinh Tien Hung,52,Nam,25.2,Thua can,134.0,Canh bao,201.0,Canh bao,158.0,Khoe manh,96.8,3.2,96.8
+Ly Minh Phong,50,Nam,25.5,Thua can,140.0,Nguy hiem,233.0,Canh bao,163.0,Khoe manh,88.7,11.3,88.7
+Ha Quoc Cuong,49,Nam,21.5,Binh thuong,118.0,Binh thuong,149.0,Binh thuong,126.0,Khoe manh,85.6,14.4,85.6
+Ha Viet Dung,46,Nam,24.5,Binh thuong,150.0,Nguy hiem,231.0,Canh bao,147.0,Nguy co benh tim,13.6,86.4,86.4
+Tran Viet An,38,Nam,28.2,Thua can,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Le Huong Hoa,37,Nu,20.6,Binh thuong,120.0,Canh bao,215.0,Canh bao,170.0,Khoe manh,96.2,3.8,96.2
+Ly Tien Kien,44,Nam,21.5,Binh thuong,120.0,Canh bao,220.0,Canh bao,170.0,Khoe manh,96.8,3.2,96.8
+Do Xuan Binh,58,Nam,24.4,Binh thuong,140.0,Nguy hiem,211.0,Canh bao,165.0,Khoe manh,90.8,9.2,90.8
+Vu Thu An,59,Nu,24.6,Binh thuong,174.0,Nguy hiem,249.0,Nguy hiem,143.0,Khoe manh,52.4,47.6,52.4
+Nguyen Lan Phuong,62,Nu,26.1,Thua can,140.0,Nguy hiem,268.0,Nguy hiem,160.0,Khoe manh,51.3,48.7,51.3
+Dang Xuan Nghia,68,Nam,30.3,Beo phi,144.0,Nguy hiem,193.0,Binh thuong,141.0,Nguy co benh tim,18.5,81.5,81.5
+Vo Bich Hong,54,Nu,20.3,Binh thuong,108.0,Binh thuong,267.0,Nguy hiem,167.0,Khoe manh,96.3,3.7,96.3
+Dang Huong Bich,62,Nu,23.7,Binh thuong,124.0,Canh bao,209.0,Canh bao,163.0,Khoe manh,90.0,10.0,90.0
+Lam Viet Binh,63,Nam,25.3,Thua can,140.0,Nguy hiem,187.0,Binh thuong,144.0,Nguy co benh tim,25.6,74.4,74.4
+Bui Van Binh,44,Nam,23.3,Binh thuong,120.0,Canh bao,169.0,Binh thuong,144.0,Nguy co benh tim,31.8,68.2,68.2
+Lam Tien Lam,62,Nam,19.7,Binh thuong,128.0,Canh bao,208.0,Canh bao,140.0,Khoe manh,88.5,11.5,88.5
+Truong Bich Bich,45,Nu,24.6,Binh thuong,138.0,Canh bao,236.0,Canh bao,152.0,Khoe manh,87.7,12.3,87.7
+Truong Ngoc Hoa,57,Nu,19.4,Binh thuong,128.0,Canh bao,303.0,Nguy hiem,159.0,Khoe manh,91.2,8.8,91.2
+Le Trong Cuong,53,Nam,24.5,Binh thuong,123.0,Canh bao,282.0,Nguy hiem,95.0,Nguy co benh tim,20.6,79.4,79.4
+Ngo Xuan Dung,65,Nam,23.9,Binh thuong,110.0,Binh thuong,248.0,Nguy hiem,158.0,Khoe manh,78.8,21.2,78.8
+Lam Huong Van,76,Nu,19.6,Binh thuong,140.0,Nguy hiem,197.0,Binh thuong,116.0,Khoe manh,74.7,25.3,74.7
+Thai Thi Yen,43,Nu,23.9,Binh thuong,122.0,Canh bao,213.0,Canh bao,165.0,Khoe manh,97.2,2.8,97.2
+Le Xuan Phuc,57,Nam,26.1,Thua can,150.0,Nguy hiem,126.0,Binh thuong,173.0,Khoe manh,87.1,12.9,87.1
+Lam Viet Son,54,Nam,21.2,Binh thuong,108.0,Binh thuong,309.0,Nguy hiem,156.0,Khoe manh,89.2,10.8,89.2
+Duong Quoc Son,47,Nam,24.8,Binh thuong,138.0,Canh bao,257.0,Nguy hiem,156.0,Khoe manh,96.9,3.1,96.9
+Ngo Thanh Tuan,52,Nam,32.0,Beo phi,118.0,Binh thuong,186.0,Binh thuong,190.0,Nguy co benh tim,47.6,52.4,52.4
+Hoang Thanh Hoang,47,Nam,26.3,Thua can,110.0,Binh thuong,275.0,Nguy hiem,118.0,Khoe manh,52.0,48.0,52.0
+Bui Duc An,51,Nam,25.1,Thua can,140.0,Nguy hiem,299.0,Nguy hiem,173.0,Khoe manh,70.2,29.8,70.2
+Ha Trong Phuc,62,Nam,25.4,Thua can,120.0,Canh bao,281.0,Nguy hiem,103.0,Nguy co benh tim,46.1,53.9,53.9
+Pham Duc Nghia,40,Nam,22.9,Binh thuong,152.0,Nguy hiem,223.0,Canh bao,181.0,Khoe manh,88.1,11.9,88.1
+Do Viet Phong,54,Nam,23.7,Binh thuong,110.0,Binh thuong,206.0,Canh bao,108.0,Khoe manh,57.8,42.2,57.8
+Hoang Huu Cuong,44,Nam,18.8,Binh thuong,110.0,Binh thuong,197.0,Binh thuong,177.0,Khoe manh,86.4,13.6,86.4
+Ngo Huu Quang,53,Nam,19.5,Binh thuong,142.0,Nguy hiem,226.0,Canh bao,111.0,Khoe manh,75.2,24.8,75.2
+Vu Tien Nghia,48,Nam,26.2,Thua can,130.0,Canh bao,256.0,Nguy hiem,150.0,Khoe manh,78.6,21.4,78.6
+Dang Trong Lam,57,Nam,20.8,Binh thuong,110.0,Binh thuong,335.0,Nguy hiem,143.0,Nguy co benh tim,20.6,79.4,79.4
+Nguyen Viet Quang,59,Nam,25.2,Thua can,126.0,Canh bao,218.0,Canh bao,134.0,Nguy co benh tim,21.6,78.4,78.4
+Pham Bich Lan,61,Nu,23.0,Binh thuong,145.0,Nguy hiem,307.0,Nguy hiem,146.0,Khoe manh,69.7,30.3,69.7
+Pham Duc Nghia,63,Nam,21.9,Binh thuong,130.0,Canh bao,254.0,Nguy hiem,147.0,Khoe manh,51.8,48.2,51.8
+Hoang Thanh Quang,43,Nam,25.1,Thua can,120.0,Canh bao,177.0,Binh thuong,120.0,Nguy co benh tim,34.9,65.1,65.1
+Thai Quoc Son,29,Nam,24.0,Binh thuong,130.0,Canh bao,204.0,Canh bao,202.0,Khoe manh,84.5,15.5,84.5
+Do Thanh Lam,42,Nam,25.6,Thua can,120.0,Canh bao,295.0,Nguy hiem,162.0,Khoe manh,94.9,5.1,94.9
+Vo Thanh Binh,54,Nam,23.2,Binh thuong,108.0,Binh thuong,309.0,Nguy hiem,156.0,Khoe manh,89.2,10.8,89.2
+Le Xuan Phong,44,Nam,25.7,Thua can,120.0,Canh bao,169.0,Binh thuong,144.0,Nguy co benh tim,31.8,68.2,68.2
+Tran Van Son,60,Nam,22.7,Binh thuong,145.0,Nguy hiem,282.0,Nguy hiem,142.0,Nguy co benh tim,13.8,86.2,86.2
+Hoang Lan Hoa,65,Nu,20.9,Binh thuong,140.0,Nguy hiem,417.0,Nguy hiem,157.0,Khoe manh,74.9,25.1,74.9
+Ha Viet Vinh,61,Nam,24.5,Binh thuong,120.0,Canh bao,260.0,Nguy hiem,140.0,Nguy co benh tim,17.3,82.7,82.7
+Trinh Thi Dung,60,Nu,24.8,Binh thuong,150.0,Nguy hiem,240.0,Nguy hiem,171.0,Khoe manh,87.8,12.2,87.8
+Le Minh Nghia,66,Nam,26.1,Thua can,120.0,Canh bao,302.0,Nguy hiem,151.0,Khoe manh,59.8,40.2,59.8
+Tran Huu Phuc,53,Nam,22.3,Binh thuong,130.0,Canh bao,197.0,Binh thuong,152.0,Nguy co benh tim,34.5,65.5,65.5
+Trinh Minh Vinh,52,Nam,21.7,Binh thuong,138.0,Canh bao,223.0,Canh bao,169.0,Khoe manh,94.8,5.2,94.8
+Hoang Van Quang,57,Nam,25.4,Thua can,140.0,Nguy hiem,192.0,Binh thuong,148.0,Khoe manh,76.8,23.2,76.8
+Dinh Thi Nga,60,Nu,22.3,Binh thuong,150.0,Nguy hiem,240.0,Nguy hiem,171.0,Khoe manh,87.8,12.2,87.8
+Do Huong Dung,51,Nu,19.9,Binh thuong,130.0,Canh bao,256.0,Nguy hiem,149.0,Khoe manh,99.0,1.0,99.0
+Dinh Viet Vinh,41,Nam,20.4,Binh thuong,135.0,Canh bao,203.0,Canh bao,132.0,Khoe manh,94.1,5.9,94.1
+Thai Minh Nam,50,Nam,19.9,Binh thuong,129.0,Canh bao,196.0,Binh thuong,163.0,Khoe manh,95.0,5.0,95.0
+Vu Minh Vinh,54,Nam,23.8,Binh thuong,108.0,Binh thuong,309.0,Nguy hiem,156.0,Khoe manh,89.2,10.8,89.2
+Nguyen Bich Mai,58,Nu,18.9,Binh thuong,170.0,Nguy hiem,225.0,Canh bao,146.0,Nguy co benh tim,30.5,69.5,69.5
+Ly Huong Lan,55,Nu,22.5,Binh thuong,132.0,Canh bao,342.0,Nguy hiem,166.0,Khoe manh,97.1,2.9,97.1
+Vu Ngoc Nhi,64,Nu,23.7,Binh thuong,180.0,Nguy hiem,325.0,Nguy hiem,154.0,Khoe manh,55.7,44.3,55.7
+Tran Tien Nam,47,Nam,22.0,Binh thuong,138.0,Canh bao,257.0,Nguy hiem,156.0,Khoe manh,96.9,3.1,96.9
+Do Tien Thanh,41,Nam,22.6,Binh thuong,110.0,Binh thuong,235.0,Canh bao,153.0,Khoe manh,93.8,6.2,93.8
+Dang Quoc Nam,57,Nam,25.2,Thua can,152.0,Nguy hiem,274.0,Nguy hiem,88.0,Nguy co benh tim,17.6,82.4,82.4
+Nguyen Huong Nhi,63,Nu,19.4,Binh thuong,124.0,Canh bao,197.0,Binh thuong,136.0,Khoe manh,74.3,25.7,74.3
+Bui Thanh Cuong,61,Nam,18.6,Binh thuong,134.0,Canh bao,234.0,Canh bao,145.0,Nguy co benh tim,6.6,93.4,93.4
+Duong Huu Lam,34,Nam,25.0,Thua can,118.0,Binh thuong,182.0,Binh thuong,174.0,Khoe manh,73.3,26.7,73.3
+Nguyen Viet Son,47,Nam,21.9,Binh thuong,112.0,Binh thuong,204.0,Canh bao,143.0,Khoe manh,88.1,11.9,88.1
+Nguyen Duc Phong,40,Nam,22.3,Binh thuong,110.0,Binh thuong,167.0,Binh thuong,114.0,Nguy co benh tim,43.1,56.9,56.9
+Vu Anh Lan,51,Nu,24.6,Binh thuong,120.0,Canh bao,295.0,Nguy hiem,157.0,Khoe manh,98.7,1.3,98.7
+Tran Duc Trung,41,Nam,21.8,Binh thuong,110.0,Binh thuong,172.0,Binh thuong,158.0,Khoe manh,85.7,14.3,85.7
+Ly Huu Son,52,Nam,24.3,Binh thuong,152.0,Nguy hiem,298.0,Nguy hiem,178.0,Nguy co benh tim,41.6,58.4,58.4
+Ly Trong Lam,39,Nam,25.1,Thua can,140.0,Nguy hiem,321.0,Nguy hiem,182.0,Khoe manh,93.4,6.6,93.4
+Pham Xuan Phuc,58,Nam,22.1,Binh thuong,114.0,Binh thuong,318.0,Nguy hiem,140.0,Nguy co benh tim,32.7,67.3,67.3
+Do Thanh Binh,54,Nam,25.0,Thua can,192.0,Nguy hiem,283.0,Nguy hiem,195.0,Khoe manh,57.5,42.5,57.5
+Ly Van Lam,58,Nam,23.8,Binh thuong,125.0,Canh bao,300.0,Nguy hiem,171.0,Khoe manh,80.8,19.2,80.8
+Trinh Quoc Thanh,54,Nam,22.0,Binh thuong,120.0,Canh bao,258.0,Nguy hiem,147.0,Khoe manh,87.2,12.8,87.2
+Ly Duc Son,63,Nam,23.0,Binh thuong,130.0,Canh bao,330.0,Nguy hiem,132.0,Nguy co benh tim,32.7,67.3,67.3
+Thai Huu Dung,54,Nam,26.3,Thua can,108.0,Binh thuong,309.0,Nguy hiem,156.0,Khoe manh,89.2,10.8,89.2
+Dang Viet Quang,40,Nam,25.5,Thua can,140.0,Nguy hiem,199.0,Binh thuong,178.0,Nguy co benh tim,30.0,70.0,70.0
+Ly Huu Tuan,54,Nam,23.6,Binh thuong,120.0,Canh bao,258.0,Nguy hiem,147.0,Khoe manh,87.2,12.8,87.2
+Dang Phuong Ha,67,Nu,21.7,Binh thuong,115.0,Binh thuong,564.0,Nguy hiem,160.0,Khoe manh,60.2,39.8,60.2
+Do Xuan Tuan,41,Nam,23.2,Binh thuong,120.0,Canh bao,157.0,Binh thuong,182.0,Khoe manh,96.1,3.9,96.1
+Vu Trong Phuc,77,Nam,25.0,Thua can,125.0,Canh bao,304.0,Nguy hiem,162.0,Khoe manh,52.1,47.9,52.1
+Dang Xuan Nghia,51,Nam,28.7,Thua can,100.0,Binh thuong,222.0,Canh bao,143.0,Khoe manh,51.7,48.3,51.7
+Nguyen Thanh Quang,77,Nam,20.4,Binh thuong,125.0,Canh bao,304.0,Nguy hiem,162.0,Khoe manh,52.1,47.9,52.1
+Do Xuan Phuc,48,Nam,25.5,Thua can,124.0,Canh bao,274.0,Nguy hiem,166.0,Khoe manh,74.4,25.6,74.4
+Thai Huu Hoang,56,Nam,25.1,Thua can,125.0,Canh bao,249.0,Nguy hiem,144.0,Nguy co benh tim,47.0,53.0,53.0
+Ha Tien Long,59,Nam,21.3,Binh thuong,170.0,Nguy hiem,326.0,Nguy hiem,140.0,Nguy co benh tim,21.5,78.5,78.5
+Truong Tien Khanh,56,Nam,21.8,Binh thuong,132.0,Canh bao,184.0,Binh thuong,105.0,Nguy co benh tim,22.8,77.2,77.2
+Le Lan Thu,57,Nu,22.2,Binh thuong,120.0,Canh bao,354.0,Nguy hiem,163.0,Khoe manh,85.1,14.9,85.1
+Thai Huu Cuong,43,Nam,22.7,Binh thuong,130.0,Canh bao,315.0,Nguy hiem,162.0,Khoe manh,86.0,14.0,86.0
+Ngo Lan Hue,45,Nu,21.1,Binh thuong,112.0,Binh thuong,160.0,Binh thuong,138.0,Khoe manh,95.5,4.5,95.5
+Do Minh An,43,Nam,24.1,Binh thuong,150.0,Nguy hiem,247.0,Nguy hiem,171.0,Khoe manh,89.2,10.8,89.2
+Tran Quoc Kien,56,Nam,22.2,Binh thuong,130.0,Canh bao,283.0,Nguy hiem,103.0,Nguy co benh tim,21.5,78.5,78.5
+Thai Duc Hoang,56,Nam,24.1,Binh thuong,120.0,Canh bao,240.0,Nguy hiem,169.0,Khoe manh,66.9,33.1,66.9
+Ly Anh Hong,39,Nu,19.0,Binh thuong,94.0,Binh thuong,199.0,Binh thuong,179.0,Khoe manh,87.7,12.3,87.7
+Nguyen Tien Tuan,54,Nam,23.0,Binh thuong,110.0,Binh thuong,239.0,Canh bao,126.0,Nguy co benh tim,26.1,73.9,73.9
+Ngo Bich An,56,Nu,26.2,Thua can,200.0,Nguy hiem,288.0,Nguy hiem,133.0,Nguy co benh tim,26.5,73.5,73.5
+Pham Xuan Nam,56,Nam,23.1,Binh thuong,130.0,Canh bao,283.0,Nguy hiem,103.0,Nguy co benh tim,21.5,78.5,78.5
+Vu Viet Hoang,64,Nam,21.0,Binh thuong,120.0,Canh bao,246.0,Nguy hiem,96.0,Nguy co benh tim,17.2,82.8,82.8
+Tran Viet Nam,44,Nam,22.8,Binh thuong,110.0,Binh thuong,197.0,Binh thuong,177.0,Khoe manh,86.4,13.6,86.4
+Pham Kim Ha,56,Nu,20.4,Binh thuong,134.0,Canh bao,409.0,Nguy hiem,150.0,Khoe manh,54.8,45.2,54.8
+Ha Viet Nghia,63,Nam,27.3,Thua can,140.0,Nguy hiem,187.0,Binh thuong,144.0,Nguy co benh tim,25.6,74.4,74.4
+Thai Huu Hoang,64,Nam,24.5,Binh thuong,110.0,Binh thuong,211.0,Canh bao,144.0,Nguy co benh tim,15.0,85.0,85.0
+Thai Viet Vinh,60,Nam,22.5,Binh thuong,140.0,Nguy hiem,293.0,Nguy hiem,170.0,Khoe manh,53.5,46.5,53.5
+Trinh Tien Khanh,42,Nam,23.5,Binh thuong,130.0,Canh bao,180.0,Binh thuong,150.0,Khoe manh,94.8,5.2,94.8
+Vo Tien Phong,45,Nam,21.5,Binh thuong,128.0,Canh bao,308.0,Nguy hiem,170.0,Khoe manh,94.4,5.6,94.4
+Ngo Thanh Lam,57,Nam,24.7,Binh thuong,165.0,Nguy hiem,289.0,Nguy hiem,124.0,Nguy co benh tim,28.3,71.7,71.7
+Vo Quoc Phong,40,Nam,25.9,Thua can,110.0,Binh thuong,167.0,Binh thuong,114.0,Nguy co benh tim,43.1,56.9,56.9
+Ha Duc Quang,56,Nam,21.6,Binh thuong,125.0,Canh bao,249.0,Nguy hiem,144.0,Nguy co benh tim,47.0,53.0,53.0
+Ngo Thanh Son,63,Nam,24.0,Binh thuong,130.0,Canh bao,254.0,Nguy hiem,147.0,Khoe manh,51.8,48.2,51.8
+Bui Viet Cuong,64,Nam,21.5,Binh thuong,125.0,Canh bao,309.0,Nguy hiem,131.0,Nguy co benh tim,8.1,91.9,91.9
+Hoang Minh Nam,41,Nam,22.0,Binh thuong,112.0,Binh thuong,250.0,Nguy hiem,179.0,Khoe manh,93.8,6.2,93.8
+Nguyen Minh Long,56,Nam,22.2,Binh thuong,130.0,Canh bao,221.0,Canh bao,163.0,Khoe manh,96.4,3.6,96.4
+Le Thu Oanh,67,Nu,22.9,Binh thuong,115.0,Binh thuong,564.0,Nguy hiem,160.0,Khoe manh,60.2,39.8,60.2
+Bui Viet Hoang,69,Nam,28.2,Thua can,160.0,Nguy hiem,234.0,Canh bao,131.0,Nguy co benh tim,9.3,90.7,90.7
+Ly Van Long,67,Nam,22.1,Binh thuong,160.0,Nguy hiem,286.0,Nguy hiem,108.0,Nguy co benh tim,17.2,82.8,82.8
+Ly Xuan Phuc,59,Nam,24.7,Binh thuong,150.0,Nguy hiem,212.0,Canh bao,157.0,Khoe manh,83.9,16.1,83.9
+Nguyen Trong Tuan,58,Nam,28.1,Thua can,100.0,Binh thuong,234.0,Canh bao,156.0,Khoe manh,81.0,19.0,81.0
+Vo Van Thanh,45,Nam,22.3,Binh thuong,115.0,Binh thuong,260.0,Nguy hiem,185.0,Khoe manh,84.1,15.9,84.1
+Dang Thu Oanh,60,Nu,25.9,Thua can,102.0,Binh thuong,318.0,Nguy hiem,160.0,Khoe manh,94.3,5.7,94.3
+Trinh Viet Trung,50,Nam,26.6,Thua can,144.0,Nguy hiem,200.0,Canh bao,126.0,Khoe manh,55.4,44.6,55.4
+Ngo Kim Hue,62,Nu,21.0,Binh thuong,124.0,Canh bao,209.0,Canh bao,163.0,Khoe manh,90.0,10.0,90.0
+Duong Xuan Kien,34,Nam,23.6,Binh thuong,118.0,Binh thuong,182.0,Binh thuong,174.0,Khoe manh,73.3,26.7,73.3
+Nguyen Xuan Son,52,Nam,25.1,Thua can,152.0,Nguy hiem,298.0,Nguy hiem,178.0,Nguy co benh tim,41.6,58.4,58.4
+Nguyen Minh Hoang,64,Nam,23.1,Binh thuong,170.0,Nguy hiem,227.0,Canh bao,155.0,Nguy co benh tim,41.4,58.6,58.6
+Hoang Anh Thuy,66,Nu,23.8,Binh thuong,146.0,Nguy hiem,278.0,Nguy hiem,152.0,Khoe manh,86.5,13.5,86.5
+Nguyen Xuan Phuc,42,Nam,20.7,Binh thuong,148.0,Nguy hiem,244.0,Nguy hiem,178.0,Khoe manh,87.1,12.9,87.1
+Lam Van Cuong,59,Nam,26.7,Thua can,126.0,Canh bao,218.0,Canh bao,134.0,Nguy co benh tim,21.6,78.4,78.4
+Ly Minh Hoang,41,Nam,21.6,Binh thuong,112.0,Binh thuong,250.0,Nguy hiem,179.0,Khoe manh,93.8,6.2,93.8
+Vu Van Phong,38,Nam,23.8,Binh thuong,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Nguyen Huu Long,62,Nam,23.7,Binh thuong,120.0,Canh bao,281.0,Nguy hiem,103.0,Nguy co benh tim,46.1,53.9,53.9
+Ha Huu Son,42,Nam,27.9,Thua can,120.0,Canh bao,240.0,Nguy hiem,194.0,Khoe manh,79.6,20.4,79.6
+Nguyen Thanh Vinh,67,Nam,25.9,Thua can,100.0,Binh thuong,299.0,Nguy hiem,125.0,Nguy co benh tim,29.7,70.3,70.3
+Duong Duc Kien,50,Nam,26.9,Thua can,150.0,Nguy hiem,243.0,Nguy hiem,128.0,Nguy co benh tim,26.4,73.6,73.6
+Nguyen Viet Binh,43,Nam,25.2,Thua can,130.0,Canh bao,315.0,Nguy hiem,162.0,Khoe manh,86.0,14.0,86.0
+Dinh Quoc Cuong,45,Nam,19.1,Binh thuong,128.0,Canh bao,308.0,Nguy hiem,170.0,Khoe manh,94.4,5.6,94.4
+Tran Van Nam,49,Nam,18.4,Thieu can,130.0,Canh bao,266.0,Nguy hiem,171.0,Khoe manh,96.5,3.5,96.5
+Do Van Trung,65,Nam,25.3,Thua can,135.0,Canh bao,254.0,Nguy hiem,127.0,Nguy co benh tim,19.4,80.6,80.6
+Hoang Quoc Hung,41,Nam,23.7,Binh thuong,120.0,Canh bao,157.0,Binh thuong,182.0,Khoe manh,96.1,3.9,96.1
+Vo Duc Phuc,46,Nam,20.0,Binh thuong,140.0,Nguy hiem,311.0,Nguy hiem,120.0,Nguy co benh tim,20.9,79.1,79.1
+Do Tien Phong,54,Nam,23.4,Binh thuong,122.0,Canh bao,286.0,Nguy hiem,116.0,Nguy co benh tim,16.5,83.5,83.5
+Dinh Bich Yen,57,Nu,22.4,Binh thuong,130.0,Canh bao,236.0,Canh bao,174.0,Khoe manh,91.9,8.1,91.9
+Thai Duc Khanh,63,Nam,23.3,Binh thuong,130.0,Canh bao,254.0,Nguy hiem,147.0,Khoe manh,51.8,48.2,51.8
+Dang Duc Phuc,64,Nam,25.2,Thua can,110.0,Binh thuong,211.0,Canh bao,144.0,Nguy co benh tim,15.0,85.0,85.0
+Nguyen Lan Van,39,Nu,20.2,Binh thuong,94.0,Binh thuong,199.0,Binh thuong,179.0,Khoe manh,87.7,12.3,87.7
+Nguyen Xuan Long,51,Nam,20.9,Binh thuong,140.0,Nguy hiem,261.0,Nguy hiem,186.0,Khoe manh,83.3,16.7,83.3
+Le Trong Nam,54,Nam,25.9,Thua can,150.0,Nguy hiem,232.0,Canh bao,165.0,Khoe manh,90.4,9.6,90.4
+Pham Thanh Trung,49,Nam,24.8,Binh thuong,118.0,Binh thuong,149.0,Binh thuong,126.0,Khoe manh,85.6,14.4,85.6
+Pham Anh Bich,44,Nu,20.5,Binh thuong,118.0,Binh thuong,242.0,Nguy hiem,149.0,Khoe manh,98.1,1.9,98.1
+Dinh Viet Vinh,52,Nam,20.9,Binh thuong,128.0,Canh bao,205.0,Canh bao,184.0,Khoe manh,94.0,6.0,94.0
+Dinh Ngoc Thu,66,Nu,19.5,Binh thuong,178.0,Nguy hiem,228.0,Canh bao,165.0,Nguy co benh tim,37.4,62.6,62.6
+Bui Van Vinh,58,Nam,23.6,Binh thuong,125.0,Canh bao,300.0,Nguy hiem,171.0,Khoe manh,80.8,19.2,80.8
+Vo Duc Vinh,56,Nam,24.1,Binh thuong,120.0,Canh bao,236.0,Canh bao,178.0,Khoe manh,93.1,6.9,93.1
+Dinh Tien Hung,60,Nam,22.9,Binh thuong,125.0,Canh bao,258.0,Nguy hiem,141.0,Nguy co benh tim,18.4,81.6,81.6
+Ly Bich Thu,41,Nu,24.4,Binh thuong,126.0,Canh bao,306.0,Nguy hiem,163.0,Khoe manh,96.7,3.3,96.7
+Duong Anh Thuy,49,Nu,21.1,Binh thuong,130.0,Canh bao,269.0,Nguy hiem,163.0,Khoe manh,93.0,7.0,93.0
+Vo Tien Vinh,64,Nam,18.0,Thieu can,170.0,Nguy hiem,227.0,Canh bao,155.0,Nguy co benh tim,41.4,58.6,58.6
+Lam Thanh Son,49,Nam,26.9,Thua can,118.0,Binh thuong,149.0,Binh thuong,126.0,Khoe manh,85.6,14.4,85.6
+Ngo Duc Phong,57,Nam,22.9,Binh thuong,124.0,Canh bao,261.0,Nguy hiem,141.0,Khoe manh,94.6,5.4,94.6
+Ha Quoc Hoang,60,Nam,24.3,Binh thuong,117.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,57.8,42.2,57.8
+Lam Anh Nhi,62,Nu,25.3,Thua can,150.0,Nguy hiem,244.0,Nguy hiem,154.0,Khoe manh,66.5,33.5,66.5
+Bui Thi Quynh,54,Nu,20.1,Binh thuong,132.0,Canh bao,288.0,Nguy hiem,159.0,Khoe manh,88.5,11.5,88.5
+Bui Minh Kien,67,Nam,24.0,Binh thuong,152.0,Nguy hiem,212.0,Canh bao,150.0,Khoe manh,53.4,46.6,53.4
+Do Huu Phong,38,Nam,19.9,Binh thuong,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Bui Thanh Trung,60,Nam,20.8,Binh thuong,140.0,Nguy hiem,185.0,Binh thuong,155.0,Nguy co benh tim,10.2,89.8,89.8
+Duong Viet An,51,Nam,25.7,Thua can,125.0,Canh bao,245.0,Nguy hiem,166.0,Khoe manh,55.5,44.5,55.5
+Truong Quoc Cuong,44,Nam,27.2,Thua can,130.0,Canh bao,219.0,Canh bao,188.0,Khoe manh,94.6,5.4,94.6
+Ngo Xuan Kien,54,Nam,21.3,Binh thuong,192.0,Nguy hiem,283.0,Nguy hiem,195.0,Khoe manh,57.5,42.5,57.5
+Trinh Quoc Kien,46,Nam,24.8,Binh thuong,140.0,Nguy hiem,311.0,Nguy hiem,120.0,Nguy co benh tim,20.9,79.1,79.1
+Vo Kim An,39,Nu,22.0,Binh thuong,138.0,Canh bao,220.0,Canh bao,152.0,Khoe manh,97.9,2.1,97.9
+Le Thanh Nam,42,Nam,20.0,Binh thuong,130.0,Canh bao,180.0,Binh thuong,150.0,Khoe manh,94.8,5.2,94.8
+Nguyen Quoc Quang,47,Nam,28.3,Thua can,110.0,Binh thuong,275.0,Nguy hiem,118.0,Khoe manh,52.0,48.0,52.0
+Lam Mai Quynh,45,Nu,23.9,Binh thuong,112.0,Binh thuong,160.0,Binh thuong,138.0,Khoe manh,95.5,4.5,95.5
+Trinh Viet Thanh,55,Nam,22.3,Binh thuong,132.0,Canh bao,353.0,Nguy hiem,132.0,Nguy co benh tim,16.9,83.1,83.1
+Ly Viet Son,57,Nam,21.3,Binh thuong,165.0,Nguy hiem,289.0,Nguy hiem,124.0,Nguy co benh tim,28.3,71.7,71.7
+Dinh Tien Phong,35,Nam,21.4,Binh thuong,120.0,Canh bao,198.0,Binh thuong,130.0,Khoe manh,56.2,43.8,56.2
+Dang Lan Hue,62,Nu,22.4,Binh thuong,140.0,Nguy hiem,394.0,Nguy hiem,157.0,Khoe manh,77.2,22.8,77.2
+Pham Huong Mai,35,Nu,20.2,Binh thuong,138.0,Canh bao,183.0,Binh thuong,182.0,Khoe manh,87.9,12.1,87.9
+Pham Phuong Hoa,64,Nu,24.4,Binh thuong,180.0,Nguy hiem,325.0,Nguy hiem,154.0,Khoe manh,55.7,44.3,55.7
+Do Quoc Kien,38,Nam,21.0,Binh thuong,120.0,Canh bao,231.0,Canh bao,182.0,Nguy co benh tim,30.3,69.7,69.7
+Duong Trong Lam,66,Nam,25.4,Thua can,120.0,Canh bao,302.0,Nguy hiem,151.0,Khoe manh,59.8,40.2,59.8
+Thai Thanh Dung,44,Nam,24.9,Binh thuong,120.0,Canh bao,226.0,Canh bao,169.0,Khoe manh,95.0,5.0,95.0
+Do Thanh Nam,54,Nam,24.9,Binh thuong,150.0,Nguy hiem,232.0,Canh bao,165.0,Khoe manh,90.4,9.6,90.4
+Dinh Minh Quang,48,Nam,19.0,Binh thuong,122.0,Canh bao,222.0,Canh bao,186.0,Khoe manh,87.0,13.0,87.0
+Nguyen Phuong Ha,55,Nu,22.6,Binh thuong,132.0,Canh bao,342.0,Nguy hiem,166.0,Khoe manh,97.1,2.9,97.1
+Duong Thi Bich,58,Nu,20.2,Binh thuong,170.0,Nguy hiem,225.0,Canh bao,146.0,Nguy co benh tim,30.5,69.5,69.5
+Trinh Thanh Hung,45,Nam,19.3,Binh thuong,104.0,Binh thuong,208.0,Canh bao,148.0,Nguy co benh tim,42.4,57.6,57.6
+Vo Duc An,53,Nam,20.5,Binh thuong,123.0,Canh bao,282.0,Nguy hiem,95.0,Nguy co benh tim,20.6,79.4,79.4
+Lam Thanh Kien,67,Nam,23.6,Binh thuong,120.0,Canh bao,237.0,Canh bao,71.0,Nguy co benh tim,47.3,52.7,52.7
+Vo Tien Son,58,Nam,22.6,Binh thuong,132.0,Canh bao,224.0,Canh bao,173.0,Nguy co benh tim,39.0,61.0,61.0
+Vu Thi Lan,71,Nu,21.1,Binh thuong,110.0,Binh thuong,265.0,Nguy hiem,130.0,Khoe manh,80.6,19.4,80.6
+Vo Duc Cuong,43,Nam,20.7,Binh thuong,110.0,Binh thuong,211.0,Canh bao,161.0,Khoe manh,88.9,11.1,88.9
+Nguyen Tien Cuong,44,Nam,27.1,Thua can,120.0,Canh bao,263.0,Nguy hiem,173.0,Khoe manh,96.2,3.8,96.2
+Lam Thi Ha,39,Nu,20.5,Binh thuong,138.0,Canh bao,220.0,Canh bao,152.0,Khoe manh,97.9,2.1,97.9
+Hoang Trong Quang,54,Nam,23.0,Binh thuong,110.0,Binh thuong,206.0,Canh bao,108.0,Khoe manh,57.8,42.2,57.8
+Le Quoc Dung,66,Nam,22.0,Binh thuong,160.0,Nguy hiem,228.0,Canh bao,138.0,Khoe manh,51.3,48.7,51.3
+Trinh Xuan Trung,56,Nam,23.1,Binh thuong,130.0,Canh bao,283.0,Nguy hiem,103.0,Nguy co benh tim,21.5,78.5,78.5
+Thai Trong Nam,57,Nam,24.1,Binh thuong,132.0,Canh bao,207.0,Canh bao,168.0,Khoe manh,81.5,18.5,81.5
+Truong Xuan Hoang,44,Nam,22.5,Binh thuong,130.0,Canh bao,219.0,Canh bao,188.0,Khoe manh,94.6,5.4,94.6
+Ha Thanh Phuc,55,Nam,22.4,Binh thuong,160.0,Nguy hiem,289.0,Nguy hiem,145.0,Nguy co benh tim,39.7,60.3,60.3
+Ly Lan Van,41,Nu,21.5,Binh thuong,105.0,Binh thuong,198.0,Binh thuong,168.0,Khoe manh,93.9,6.1,93.9
+Thai Thi Yen,45,Nu,27.7,Thua can,130.0,Canh bao,234.0,Canh bao,175.0,Khoe manh,95.1,4.9,95.1
+Pham Quoc Long,35,Nam,22.7,Binh thuong,122.0,Canh bao,192.0,Binh thuong,174.0,Khoe manh,95.7,4.3,95.7
+Duong Ngoc Hoa,41,Nu,21.5,Binh thuong,130.0,Canh bao,204.0,Canh bao,172.0,Khoe manh,96.4,3.6,96.4
+Ngo Minh Nghia,64,Nam,21.0,Binh thuong,110.0,Binh thuong,211.0,Canh bao,144.0,Nguy co benh tim,15.0,85.0,85.0
+Le Minh An,58,Nam,22.6,Binh thuong,132.0,Canh bao,224.0,Canh bao,173.0,Nguy co benh tim,39.0,61.0,61.0
+Ly Kim Yen,71,Nu,26.7,Thua can,110.0,Binh thuong,265.0,Nguy hiem,130.0,Khoe manh,80.6,19.4,80.6
+Vo Lan Bich,64,Nu,21.9,Binh thuong,140.0,Nguy hiem,313.0,Nguy hiem,133.0,Khoe manh,97.8,2.2,97.8
+Ngo Lan Linh,71,Nu,17.5,Thieu can,160.0,Nguy hiem,302.0,Nguy hiem,162.0,Khoe manh,90.1,9.9,90.1
+Ha Ngoc Hue,58,Nu,24.4,Binh thuong,120.0,Canh bao,340.0,Nguy hiem,172.0,Khoe manh,95.6,4.4,95.6
+Duong Trong Long,40,Nam,26.3,Thua can,152.0,Nguy hiem,223.0,Canh bao,181.0,Khoe manh,88.1,11.9,88.1
+Ly Duc Nghia,52,Nam,22.5,Binh thuong,138.0,Canh bao,223.0,Canh bao,169.0,Khoe manh,94.8,5.2,94.8
+Ngo Minh Phong,58,Nam,29.2,Thua can,128.0,Canh bao,259.0,Nguy hiem,130.0,Nguy co benh tim,15.7,84.3,84.3
+Hoang Duc Binh,61,Nam,24.1,Binh thuong,150.0,Nguy hiem,243.0,Nguy hiem,137.0,Nguy co benh tim,9.6,90.4,90.4
+Vu Thanh Trung,59,Nam,21.4,Binh thuong,150.0,Nguy hiem,212.0,Canh bao,157.0,Khoe manh,83.9,16.1,83.9
+Lam Lan Phuong,56,Nu,20.4,Binh thuong,200.0,Nguy hiem,288.0,Nguy hiem,133.0,Nguy co benh tim,26.5,73.5,73.5
+Pham Tien Quang,67,Nam,22.3,Binh thuong,100.0,Binh thuong,299.0,Nguy hiem,125.0,Nguy co benh tim,29.7,70.3,70.3
+Nguyen Thanh Lam,67,Nam,24.3,Binh thuong,120.0,Canh bao,237.0,Canh bao,71.0,Nguy co benh tim,47.3,52.7,52.7
+Trinh Tien Hoang,58,Nam,22.2,Binh thuong,150.0,Nguy hiem,270.0,Nguy hiem,111.0,Khoe manh,58.3,41.7,58.3
+Le Trong Binh,35,Nam,21.0,Binh thuong,122.0,Canh bao,192.0,Binh thuong,174.0,Khoe manh,95.7,4.3,95.7
+Ly Huu Trung,52,Nam,24.4,Binh thuong,120.0,Canh bao,325.0,Nguy hiem,172.0,Khoe manh,91.6,8.4,91.6
+Duong Thi Chi,46,Nu,20.2,Binh thuong,105.0,Binh thuong,204.0,Canh bao,172.0,Khoe manh,94.7,5.3,94.7
+Ngo Trong Phuc,51,Nam,26.9,Thua can,94.0,Binh thuong,227.0,Canh bao,154.0,Khoe manh,53.8,46.2,53.8
+Nguyen Lan Van,55,Nu,27.2,Thua can,132.0,Canh bao,342.0,Nguy hiem,166.0,Khoe manh,97.1,2.9,97.1
+Tran Minh Kien,60,Nam,20.4,Binh thuong,145.0,Nguy hiem,282.0,Nguy hiem,142.0,Nguy co benh tim,13.8,86.2,86.2
+Truong Kim Lan,52,Nu,26.3,Thua can,136.0,Canh bao,196.0,Binh thuong,169.0,Khoe manh,93.6,6.4,93.6
+Vu Trong Vinh,62,Nam,23.4,Binh thuong,120.0,Canh bao,267.0,Nguy hiem,99.0,Nguy co benh tim,19.4,80.6,80.6
+Vo Ngoc Quynh,44,Nu,19.7,Binh thuong,118.0,Binh thuong,242.0,Nguy hiem,149.0,Khoe manh,98.1,1.9,98.1
+Dinh Xuan Son,44,Nam,23.8,Binh thuong,120.0,Canh bao,220.0,Canh bao,170.0,Khoe manh,96.8,3.2,96.8
+Bui Duc Khanh,59,Nam,25.3,Thua can,126.0,Canh bao,218.0,Canh bao,134.0,Nguy co benh tim,21.6,78.4,78.4
+Bui Thu Quynh,56,Nu,23.0,Binh thuong,140.0,Nguy hiem,294.0,Nguy hiem,153.0,Khoe manh,93.8,6.2,93.8
+Dang Xuan Nghia,61,Nam,24.7,Binh thuong,120.0,Canh bao,260.0,Nguy hiem,140.0,Nguy co benh tim,17.3,82.7,82.7
+Tran Tien Cuong,48,Nam,26.9,Thua can,130.0,Canh bao,256.0,Nguy hiem,150.0,Khoe manh,78.6,21.4,78.6
+Bui Thanh Son,70,Nam,22.2,Binh thuong,160.0,Nguy hiem,269.0,Nguy hiem,112.0,Nguy co benh tim,8.4,91.6,91.6
+Pham Thu Thu,74,Nu,22.2,Binh thuong,120.0,Canh bao,269.0,Nguy hiem,121.0,Khoe manh,80.8,19.2,80.8
+Nguyen Viet Hoang,40,Nam,26.2,Thua can,140.0,Nguy hiem,199.0,Binh thuong,178.0,Nguy co benh tim,30.0,70.0,70.0
+Ly Van Long,42,Nam,27.3,Thua can,148.0,Nguy hiem,244.0,Nguy hiem,178.0,Khoe manh,87.1,12.9,87.1
+Truong Mai Yen,64,Nu,21.4,Binh thuong,140.0,Nguy hiem,313.0,Nguy hiem,133.0,Khoe manh,97.8,2.2,97.8
+Vo Kim Bich,63,Nu,18.4,Thieu can,135.0,Canh bao,252.0,Nguy hiem,172.0,Khoe manh,94.9,5.1,94.9
+Do Thanh Nghia,59,Nam,23.7,Binh thuong,140.0,Nguy hiem,177.0,Binh thuong,162.0,Khoe manh,79.6,20.4,79.6
+Hoang Lan Phuong,53,Nu,19.2,Binh thuong,128.0,Canh bao,216.0,Canh bao,115.0,Khoe manh,97.6,2.4,97.6
+Vo Ngoc An,53,Nu,26.7,Thua can,130.0,Canh bao,264.0,Nguy hiem,143.0,Khoe manh,92.9,7.1,92.9
+Thai Huong Hoa,48,Nu,18.7,Binh thuong,130.0,Canh bao,275.0,Nguy hiem,139.0,Khoe manh,98.8,1.2,98.8
+Dang Viet An,45,Nam,22.8,Binh thuong,142.0,Nguy hiem,309.0,Nguy hiem,147.0,Khoe manh,62.3,37.7,62.3
+Trinh Xuan Cuong,66,Nam,23.4,Binh thuong,160.0,Nguy hiem,246.0,Nguy hiem,120.0,Nguy co benh tim,21.7,78.3,78.3
+Ngo Duc Hoang,48,Nam,25.2,Thua can,130.0,Canh bao,245.0,Nguy hiem,180.0,Khoe manh,90.1,9.9,90.1
+Pham Bich Quynh,56,Nu,25.3,Thua can,140.0,Nguy hiem,294.0,Nguy hiem,153.0,Khoe manh,93.8,6.2,93.8
+Dang Viet Phong,54,Nam,20.7,Binh thuong,192.0,Nguy hiem,283.0,Nguy hiem,195.0,Khoe manh,57.5,42.5,57.5
+Ly Tien Kien,57,Nam,23.7,Binh thuong,150.0,Nguy hiem,276.0,Nguy hiem,112.0,Nguy co benh tim,34.3,65.7,65.7
+Ngo Tien Nghia,70,Nam,23.5,Binh thuong,130.0,Canh bao,322.0,Nguy hiem,109.0,Nguy co benh tim,21.5,78.5,78.5
+Hoang Thu Hong,53,Nu,22.1,Binh thuong,128.0,Canh bao,216.0,Canh bao,115.0,Khoe manh,97.6,2.4,97.6
+Thai Phuong Ha,37,Nu,21.1,Binh thuong,120.0,Canh bao,215.0,Canh bao,170.0,Khoe manh,96.2,3.8,96.2
+Le Lan Oanh,63,Nu,21.1,Binh thuong,108.0,Binh thuong,269.0,Nguy hiem,169.0,Khoe manh,62.9,37.1,62.9
+Bui Viet Phong,37,Nam,23.7,Binh thuong,130.0,Canh bao,250.0,Nguy hiem,187.0,Nguy co benh tim,40.5,59.5,59.5
+Nguyen Lan Linh,54,Nu,26.3,Thua can,110.0,Binh thuong,214.0,Canh bao,158.0,Khoe manh,93.0,7.0,93.0
+Lam Trong Kien,60,Nam,26.2,Thua can,130.0,Canh bao,206.0,Canh bao,132.0,Nguy co benh tim,22.4,77.6,77.6
+Hoang Tien Nghia,58,Nam,18.3,Thieu can,150.0,Nguy hiem,270.0,Nguy hiem,111.0,Khoe manh,58.3,41.7,58.3
+Vo Huu Son,57,Nam,22.6,Binh thuong,150.0,Nguy hiem,126.0,Binh thuong,173.0,Khoe manh,87.1,12.9,87.1
+Trinh Viet Tuan,54,Nam,21.6,Binh thuong,125.0,Canh bao,273.0,Nguy hiem,152.0,Khoe manh,52.1,47.9,52.1
+Ha Huu Long,56,Nam,27.9,Thua can,130.0,Canh bao,256.0,Nguy hiem,142.0,Nguy co benh tim,37.8,62.2,62.2
+Ngo Trong Tuan,60,Nam,26.7,Thua can,130.0,Canh bao,253.0,Nguy hiem,144.0,Khoe manh,62.0,38.0,62.0
+Ngo Xuan Binh,38,Nam,20.7,Binh thuong,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Bui Tien Tuan,44,Nam,24.7,Binh thuong,120.0,Canh bao,226.0,Canh bao,169.0,Khoe manh,95.0,5.0,95.0
+Nguyen Bich Quynh,65,Nu,24.3,Binh thuong,155.0,Nguy hiem,269.0,Nguy hiem,148.0,Khoe manh,95.7,4.3,95.7
+Tran Minh Lam,52,Nam,22.6,Binh thuong,172.0,Nguy hiem,199.0,Binh thuong,162.0,Khoe manh,82.6,17.4,82.6
+Lam Huu Dung,41,Nam,24.6,Binh thuong,120.0,Canh bao,157.0,Binh thuong,182.0,Khoe manh,96.1,3.9,96.1
+Ha Duc Lam,66,Nam,26.4,Thua can,160.0,Nguy hiem,246.0,Nguy hiem,120.0,Nguy co benh tim,21.7,78.3,78.3
+Ha Van Hung,50,Nam,25.0,Thua can,150.0,Nguy hiem,243.0,Nguy hiem,128.0,Nguy co benh tim,26.4,73.6,73.6
+Ly Bich Chi,54,Nu,21.7,Binh thuong,108.0,Binh thuong,267.0,Nguy hiem,167.0,Khoe manh,96.3,3.7,96.3
+Vo Thanh Son,43,Nam,20.4,Binh thuong,132.0,Canh bao,247.0,Nguy hiem,143.0,Khoe manh,71.0,29.0,71.0
+Thai Thu Chi,62,Nu,22.0,Binh thuong,130.0,Canh bao,263.0,Nguy hiem,97.0,Khoe manh,91.6,8.4,91.6
+Bui Viet Tuan,66,Nam,26.1,Thua can,120.0,Canh bao,302.0,Nguy hiem,151.0,Khoe manh,59.8,40.2,59.8
+Bui Tien Nghia,50,Nam,20.0,Binh thuong,144.0,Nguy hiem,200.0,Canh bao,126.0,Khoe manh,55.4,44.6,55.4
+Tran Trong Cuong,57,Nam,25.0,Thua can,110.0,Binh thuong,335.0,Nguy hiem,143.0,Nguy co benh tim,20.6,79.4,79.4
+Ngo Thanh Nam,57,Nam,27.9,Thua can,110.0,Binh thuong,201.0,Canh bao,126.0,Nguy co benh tim,36.5,63.5,63.5
+Le Xuan Dung,57,Nam,27.7,Thua can,124.0,Canh bao,261.0,Nguy hiem,141.0,Khoe manh,94.6,5.4,94.6
+Pham Kim Hoa,46,Nu,22.3,Binh thuong,138.0,Canh bao,243.0,Nguy hiem,152.0,Khoe manh,86.8,13.2,86.8
+Dang Van Binh,59,Nam,24.5,Binh thuong,164.0,Nguy hiem,176.0,Binh thuong,90.0,Nguy co benh tim,19.7,80.3,80.3
+Bui Van Quang,67,Nam,26.3,Thua can,160.0,Nguy hiem,286.0,Nguy hiem,108.0,Nguy co benh tim,17.2,82.8,82.8
+Dinh Huu Vinh,59,Nam,23.9,Binh thuong,134.0,Canh bao,204.0,Canh bao,162.0,Khoe manh,58.9,41.1,58.9
+Hoang Huong Thu,53,Nu,22.3,Binh thuong,128.0,Canh bao,216.0,Canh bao,115.0,Khoe manh,97.6,2.4,97.6
+Ly Trong Khanh,48,Nam,19.2,Binh thuong,122.0,Canh bao,222.0,Canh bao,186.0,Khoe manh,87.0,13.0,87.0
+Vu Minh Cuong,62,Nam,25.4,Thua can,130.0,Canh bao,231.0,Canh bao,146.0,Nguy co benh tim,27.5,72.5,72.5
+Thai Thu Yen,43,Nu,22.0,Binh thuong,122.0,Canh bao,213.0,Canh bao,165.0,Khoe manh,97.2,2.8,97.2
+Ngo Tien Phuc,53,Nam,24.4,Binh thuong,130.0,Canh bao,246.0,Nguy hiem,173.0,Khoe manh,91.9,8.1,91.9
+Hoang Huong Phuong,57,Nu,20.5,Binh thuong,130.0,Canh bao,236.0,Canh bao,174.0,Khoe manh,91.9,8.1,91.9
+Duong Tien Phong,53,Nam,21.0,Binh thuong,130.0,Canh bao,246.0,Nguy hiem,173.0,Khoe manh,91.9,8.1,91.9
+Nguyen Tien Quang,58,Nam,19.3,Binh thuong,112.0,Binh thuong,230.0,Canh bao,165.0,Nguy co benh tim,24.0,76.0,76.0
+Trinh Minh Cuong,48,Nam,24.7,Binh thuong,110.0,Binh thuong,229.0,Canh bao,168.0,Khoe manh,67.0,33.0,67.0
+Ha Huu Phuc,58,Nam,26.0,Thua can,105.0,Binh thuong,240.0,Nguy hiem,154.0,Nguy co benh tim,43.6,56.4,56.4
+Dang Xuan Phong,51,Nam,26.0,Thua can,110.0,Binh thuong,175.0,Binh thuong,123.0,Khoe manh,82.2,17.8,82.2
+Ha Lan Hong,43,Nu,19.3,Binh thuong,132.0,Canh bao,341.0,Nguy hiem,136.0,Nguy co benh tim,36.8,63.2,63.2
+Nguyen Tien Dung,55,Nam,23.6,Binh thuong,132.0,Canh bao,353.0,Nguy hiem,132.0,Nguy co benh tim,16.9,83.1,83.1
+Ngo Thu Van,54,Nu,20.7,Binh thuong,110.0,Binh thuong,214.0,Canh bao,158.0,Khoe manh,93.0,7.0,93.0
+Dinh Trong Quang,58,Nam,21.6,Binh thuong,120.0,Canh bao,284.0,Nguy hiem,160.0,Nguy co benh tim,47.5,52.5,52.5
+Dang Thi Nhi,46,Nu,19.0,Binh thuong,142.0,Nguy hiem,177.0,Binh thuong,160.0,Nguy co benh tim,48.2,51.8,51.8
+Duong Van Phuc,66,Nam,20.1,Binh thuong,160.0,Nguy hiem,228.0,Canh bao,138.0,Khoe manh,51.3,48.7,51.3
+Tran Trong Kien,59,Nam,26.1,Thua can,140.0,Nguy hiem,221.0,Canh bao,164.0,Khoe manh,80.1,19.9,80.1
+Dang Huong Yen,64,Nu,29.1,Thua can,130.0,Canh bao,303.0,Nguy hiem,122.0,Khoe manh,84.8,15.2,84.8
+Dinh Quoc Long,67,Nam,23.9,Binh thuong,120.0,Canh bao,237.0,Canh bao,71.0,Nguy co benh tim,47.3,52.7,52.7
+Thai Thanh Hung,52,Nam,25.3,Thua can,118.0,Binh thuong,186.0,Binh thuong,190.0,Nguy co benh tim,47.6,52.4,52.4
+Pham Van Quang,58,Nam,23.8,Binh thuong,146.0,Nguy hiem,218.0,Canh bao,105.0,Nguy co benh tim,36.0,64.0,64.0
+Ha Van Phuc,58,Nam,23.3,Binh thuong,132.0,Canh bao,224.0,Canh bao,173.0,Nguy co benh tim,39.0,61.0,61.0
+Dinh Minh Cuong,59,Nam,21.7,Binh thuong,110.0,Binh thuong,239.0,Canh bao,142.0,Nguy co benh tim,46.0,54.0,54.0
+Dang Huu Vinh,58,Nam,27.9,Thua can,150.0,Nguy hiem,270.0,Nguy hiem,111.0,Khoe manh,58.3,41.7,58.3
+Vu Quoc Hung,35,Nam,28.0,Thua can,126.0,Canh bao,282.0,Nguy hiem,156.0,Khoe manh,80.7,19.3,80.7
+Trinh Huu Lam,51,Nam,22.1,Binh thuong,110.0,Binh thuong,175.0,Binh thuong,123.0,Khoe manh,82.2,17.8,82.2
+Truong Lan Hoa,42,Nu,24.9,Binh thuong,120.0,Canh bao,209.0,Canh bao,173.0,Khoe manh,95.9,4.1,95.9
+Duong Tien Quang,77,Nam,19.6,Binh thuong,125.0,Canh bao,304.0,Nguy hiem,162.0,Khoe manh,52.1,47.9,52.1
+Bui Duc Hoang,64,Nam,22.9,Binh thuong,120.0,Canh bao,246.0,Nguy hiem,96.0,Nguy co benh tim,17.2,82.8,82.8
+Le Minh Nam,63,Nam,25.0,Thua can,145.0,Nguy hiem,233.0,Canh bao,150.0,Nguy co benh tim,12.8,87.2,87.2
+Nguyen Phuong Nga,58,Nu,19.1,Binh thuong,136.0,Canh bao,319.0,Nguy hiem,152.0,Khoe manh,92.4,7.6,92.4
+Le Xuan An,45,Nam,25.0,Thua can,110.0,Binh thuong,264.0,Nguy hiem,132.0,Khoe manh,59.4,40.6,59.4
+Duong Viet Dung,51,Nam,26.2,Thua can,110.0,Binh thuong,175.0,Binh thuong,123.0,Khoe manh,82.2,17.8,82.2
+Ha Mai Lan,62,Nu,23.7,Binh thuong,160.0,Nguy hiem,164.0,Binh thuong,145.0,Nguy co benh tim,34.0,66.0,66.0
+Lam Xuan Thanh,63,Nam,19.3,Binh thuong,130.0,Canh bao,330.0,Nguy hiem,132.0,Nguy co benh tim,32.7,67.3,67.3
+Pham Huong Quynh,66,Nu,23.0,Binh thuong,146.0,Nguy hiem,278.0,Nguy hiem,152.0,Khoe manh,86.5,13.5,86.5
+Nguyen Trong Nghia,68,Nam,20.3,Binh thuong,180.0,Nguy hiem,274.0,Nguy hiem,150.0,Nguy co benh tim,19.3,80.7,80.7
+Bui Trong Nam,40,Nam,26.1,Thua can,110.0,Binh thuong,167.0,Binh thuong,114.0,Nguy co benh tim,43.1,56.9,56.9
+Le Tien Quang,66,Nam,25.2,Thua can,160.0,Nguy hiem,228.0,Canh bao,138.0,Khoe manh,51.3,48.7,51.3
+Ly Duc Hung,63,Nam,23.6,Binh thuong,145.0,Nguy hiem,233.0,Canh bao,150.0,Nguy co benh tim,12.8,87.2,87.2
+Tran Van Quang,49,Nam,22.2,Binh thuong,120.0,Canh bao,188.0,Binh thuong,139.0,Nguy co benh tim,44.2,55.8,55.8
+Vo Ngoc Dung,71,Nu,21.3,Binh thuong,112.0,Binh thuong,149.0,Binh thuong,125.0,Khoe manh,76.2,23.8,76.2
+Ngo Viet Hung,70,Nam,22.7,Binh thuong,156.0,Nguy hiem,245.0,Nguy hiem,143.0,Khoe manh,86.2,13.8,86.2
+Nguyen Kim Nga,46,Nu,21.3,Binh thuong,105.0,Binh thuong,204.0,Canh bao,172.0,Khoe manh,94.7,5.3,94.7
+Trinh Xuan Phuc,61,Nam,21.3,Binh thuong,140.0,Nguy hiem,207.0,Canh bao,138.0,Khoe manh,61.0,39.0,61.0
+Hoang Xuan Dung,56,Nam,22.4,Binh thuong,130.0,Canh bao,256.0,Nguy hiem,142.0,Nguy co benh tim,37.8,62.2,62.2
+Vo Trong Vinh,58,Nam,24.0,Binh thuong,140.0,Nguy hiem,211.0,Canh bao,165.0,Khoe manh,90.8,9.2,90.8
+Duong Van Thanh,58,Nam,19.8,Binh thuong,100.0,Binh thuong,234.0,Canh bao,156.0,Khoe manh,81.0,19.0,81.0
+Do Kim Phuong,46,Nu,24.7,Binh thuong,138.0,Canh bao,243.0,Nguy hiem,152.0,Khoe manh,86.8,13.2,86.8
+Ngo Huu Dung,46,Nam,26.2,Thua can,150.0,Nguy hiem,231.0,Canh bao,147.0,Nguy co benh tim,13.6,86.4,86.4
+Dinh Phuong Nga,41,Nu,26.0,Thua can,105.0,Binh thuong,198.0,Binh thuong,168.0,Khoe manh,93.9,6.1,93.9
+Tran Xuan Phong,56,Nam,22.6,Binh thuong,125.0,Canh bao,249.0,Nguy hiem,144.0,Nguy co benh tim,47.0,53.0,53.0
+Do Duc Hoang,57,Nam,27.1,Thua can,150.0,Nguy hiem,276.0,Nguy hiem,112.0,Nguy co benh tim,34.3,65.7,65.7
+Le Quoc Trung,70,Nam,22.2,Binh thuong,130.0,Canh bao,322.0,Nguy hiem,109.0,Nguy co benh tim,21.5,78.5,78.5
+Nguyen Van Son,59,Nam,22.8,Binh thuong,170.0,Nguy hiem,288.0,Nguy hiem,159.0,Khoe manh,65.7,34.3,65.7
+Ngo Bich Van,41,Nu,20.2,Binh thuong,130.0,Canh bao,204.0,Canh bao,172.0,Khoe manh,96.4,3.6,96.4
+Do Duc Nghia,54,Nam,21.6,Binh thuong,125.0,Canh bao,273.0,Nguy hiem,152.0,Khoe manh,52.1,47.9,52.1
+Do Trong Long,52,Nam,24.1,Binh thuong,138.0,Canh bao,223.0,Canh bao,169.0,Khoe manh,94.8,5.2,94.8
+Ngo Mai Ha,62,Nu,20.0,Binh thuong,124.0,Canh bao,209.0,Canh bao,163.0,Khoe manh,90.0,10.0,90.0
+Thai Thi Lan,65,Nu,22.0,Binh thuong,160.0,Nguy hiem,360.0,Nguy hiem,151.0,Khoe manh,91.4,8.6,91.4
+Hoang Bich Thuy,57,Nu,24.2,Binh thuong,128.0,Canh bao,303.0,Nguy hiem,159.0,Khoe manh,91.2,8.8,91.2
+Duong Bich Dung,42,Nu,23.5,Binh thuong,102.0,Binh thuong,265.0,Nguy hiem,122.0,Khoe manh,84.8,15.2,84.8
+Nguyen Bich An,57,Nu,23.8,Binh thuong,120.0,Canh bao,354.0,Nguy hiem,163.0,Khoe manh,85.1,14.9,85.1
+Dinh Huong Van,58,Nu,28.6,Thua can,136.0,Canh bao,319.0,Nguy hiem,152.0,Khoe manh,92.4,7.6,92.4
+Bui Van Khanh,45,Nam,22.2,Binh thuong,142.0,Nguy hiem,309.0,Nguy hiem,147.0,Khoe manh,62.3,37.7,62.3
+Duong Thi Ha,51,Nu,21.1,Binh thuong,130.0,Canh bao,305.0,Nguy hiem,142.0,Khoe manh,79.5,20.5,79.5
+Ly Phuong Dung,54,Nu,25.5,Thua can,160.0,Nguy hiem,201.0,Canh bao,163.0,Khoe manh,93.9,6.1,93.9
+Le Tien Hoang,57,Nam,22.1,Binh thuong,150.0,Nguy hiem,168.0,Binh thuong,174.0,Khoe manh,83.0,17.0,83.0
+Dinh Viet Phuc,43,Nam,24.7,Binh thuong,132.0,Canh bao,247.0,Nguy hiem,143.0,Khoe manh,71.0,29.0,71.0
+Pham Tien Lam,47,Nam,25.1,Thua can,108.0,Binh thuong,243.0,Nguy hiem,152.0,Khoe manh,90.4,9.6,90.4
+Ngo Trong Binh,67,Nam,19.7,Binh thuong,152.0,Nguy hiem,212.0,Canh bao,150.0,Khoe manh,53.4,46.6,53.4
+Truong Lan Phuong,65,Nu,27.0,Thua can,150.0,Nguy hiem,225.0,Canh bao,114.0,Khoe manh,84.0,16.0,84.0
+Nguyen Thi Quynh,60,Nu,21.5,Binh thuong,102.0,Binh thuong,318.0,Nguy hiem,160.0,Khoe manh,94.3,5.7,94.3
+Nguyen Xuan Dung,37,Nam,24.3,Binh thuong,130.0,Canh bao,250.0,Nguy hiem,187.0,Nguy co benh tim,40.5,59.5,59.5
+Vo Kim Chi,41,Nu,27.5,Thua can,112.0,Binh thuong,268.0,Nguy hiem,172.0,Khoe manh,84.7,15.3,84.7
+Le Mai Yen,57,Nu,20.5,Binh thuong,120.0,Canh bao,354.0,Nguy hiem,163.0,Khoe manh,85.1,14.9,85.1
+Hoang Ngoc Ha,59,Nu,20.7,Binh thuong,174.0,Nguy hiem,249.0,Nguy hiem,143.0,Khoe manh,52.4,47.6,52.4
+Duong Trong Phuc,67,Nam,28.0,Thua can,120.0,Canh bao,229.0,Canh bao,129.0,Nguy co benh tim,18.4,81.6,81.6
+Trinh Huu Tuan,47,Nam,24.1,Binh thuong,130.0,Canh bao,253.0,Nguy hiem,179.0,Khoe manh,95.4,4.6,95.4
+Thai Viet Quang,58,Nam,26.5,Thua can,120.0,Canh bao,284.0,Nguy hiem,160.0,Nguy co benh tim,47.5,52.5,52.5
+Ha Phuong Yen,62,Nu,21.2,Binh thuong,150.0,Nguy hiem,244.0,Nguy hiem,154.0,Khoe manh,66.5,33.5,66.5
+Ly Duc Dung,60,Nam,26.1,Thua can,140.0,Nguy hiem,293.0,Nguy hiem,170.0,Khoe manh,53.5,46.5,53.5
+Trinh Quoc Vinh,57,Nam,28.1,Thua can,152.0,Nguy hiem,274.0,Nguy hiem,88.0,Nguy co benh tim,17.6,82.4,82.4
+Ha Quoc Vinh,57,Nam,22.6,Binh thuong,150.0,Nguy hiem,168.0,Binh thuong,174.0,Khoe manh,83.0,17.0,83.0
+Bui Tien Tuan,47,Nam,26.3,Thua can,130.0,Canh bao,253.0,Nguy hiem,179.0,Khoe manh,95.4,4.6,95.4
+Ly Duc Son,52,Nam,24.8,Binh thuong,128.0,Canh bao,205.0,Canh bao,184.0,Khoe manh,94.0,6.0,94.0
+Ly Huu Phong,53,Nam,26.4,Thua can,130.0,Canh bao,246.0,Nguy hiem,173.0,Khoe manh,91.9,8.1,91.9
+Dinh Minh Kien,55,Nam,25.1,Thua can,160.0,Nguy hiem,289.0,Nguy hiem,145.0,Nguy co benh tim,39.7,60.3,60.3
+Le Ngoc Chi,51,Nu,22.9,Binh thuong,120.0,Canh bao,295.0,Nguy hiem,157.0,Khoe manh,98.7,1.3,98.7
+Le Xuan Dung,52,Nam,21.5,Binh thuong,112.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,88.6,11.4,88.6
+Dinh Bich Thuy,63,Nu,21.5,Binh thuong,150.0,Nguy hiem,407.0,Nguy hiem,154.0,Nguy co benh tim,40.8,59.2,59.2
+Tran Anh Thuy,49,Nu,25.7,Thua can,134.0,Canh bao,271.0,Nguy hiem,162.0,Khoe manh,97.0,3.0,97.0
+Trinh Mai Dung,66,Nu,22.6,Binh thuong,178.0,Nguy hiem,228.0,Canh bao,165.0,Nguy co benh tim,37.4,62.6,62.6
+Ly Mai Oanh,49,Nu,24.4,Binh thuong,134.0,Canh bao,271.0,Nguy hiem,162.0,Khoe manh,97.0,3.0,97.0
+Tran Lan Yen,65,Nu,27.9,Thua can,150.0,Nguy hiem,225.0,Canh bao,114.0,Khoe manh,84.0,16.0,84.0
+Dang Huu Dung,69,Nam,24.1,Binh thuong,160.0,Nguy hiem,234.0,Canh bao,131.0,Nguy co benh tim,9.3,90.7,90.7
+Lam Viet Long,47,Nam,27.5,Thua can,108.0,Binh thuong,243.0,Nguy hiem,152.0,Khoe manh,90.4,9.6,90.4
+Hoang Kim Hue,39,Nu,23.2,Binh thuong,138.0,Canh bao,220.0,Canh bao,152.0,Khoe manh,97.9,2.1,97.9
+Pham Huu Nghia,43,Nam,24.0,Binh thuong,150.0,Nguy hiem,247.0,Nguy hiem,171.0,Khoe manh,89.2,10.8,89.2
+Dinh Duc Phong,51,Nam,24.0,Binh thuong,140.0,Nguy hiem,261.0,Nguy hiem,186.0,Khoe manh,83.3,16.7,83.3
+Lam Quoc Vinh,69,Nam,20.9,Binh thuong,140.0,Nguy hiem,254.0,Nguy hiem,146.0,Nguy co benh tim,16.8,83.2,83.2
+Trinh Trong Trung,48,Nam,21.8,Binh thuong,124.0,Canh bao,255.0,Nguy hiem,175.0,Khoe manh,92.2,7.8,92.2
+Trinh Van Trung,52,Nam,19.7,Binh thuong,118.0,Binh thuong,186.0,Binh thuong,190.0,Nguy co benh tim,47.6,52.4,52.4
+Duong Van Khanh,43,Nam,24.4,Binh thuong,110.0,Binh thuong,211.0,Canh bao,161.0,Khoe manh,88.9,11.1,88.9
+Duong Lan Mai,67,Nu,22.3,Binh thuong,115.0,Binh thuong,564.0,Nguy hiem,160.0,Khoe manh,60.2,39.8,60.2
+Dinh Van Khanh,38,Nam,28.2,Thua can,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Hoang Trong Tuan,44,Nam,18.0,Thieu can,130.0,Canh bao,219.0,Canh bao,188.0,Khoe manh,94.6,5.4,94.6
+Le Minh An,47,Nam,22.2,Binh thuong,110.0,Binh thuong,275.0,Nguy hiem,118.0,Khoe manh,52.0,48.0,52.0
+Le Viet Long,61,Nam,25.3,Thua can,150.0,Nguy hiem,243.0,Nguy hiem,137.0,Nguy co benh tim,9.6,90.4,90.4
+Nguyen Xuan Hoang,67,Nam,22.1,Binh thuong,160.0,Nguy hiem,286.0,Nguy hiem,108.0,Nguy co benh tim,17.2,82.8,82.8
+Bui Bich Nga,60,Nu,24.7,Binh thuong,150.0,Nguy hiem,240.0,Nguy hiem,171.0,Khoe manh,87.8,12.2,87.8
+Dang Mai Van,64,Nu,22.3,Binh thuong,140.0,Nguy hiem,313.0,Nguy hiem,133.0,Khoe manh,97.8,2.2,97.8
+Thai Ngoc Bich,58,Nu,19.8,Binh thuong,130.0,Canh bao,197.0,Binh thuong,131.0,Khoe manh,91.7,8.3,91.7
+Hoang Minh Trung,41,Nam,21.8,Binh thuong,130.0,Canh bao,214.0,Canh bao,168.0,Khoe manh,59.1,40.9,59.1
+Tran Duc Phong,48,Nam,24.1,Binh thuong,110.0,Binh thuong,229.0,Canh bao,168.0,Khoe manh,67.0,33.0,67.0
+Ha Xuan Kien,57,Nam,24.4,Binh thuong,150.0,Nguy hiem,126.0,Binh thuong,173.0,Khoe manh,87.1,12.9,87.1
+Thai Tien Vinh,57,Nam,27.1,Thua can,165.0,Nguy hiem,289.0,Nguy hiem,124.0,Nguy co benh tim,28.3,71.7,71.7
+Duong Quoc Lam,57,Nam,26.3,Thua can,128.0,Canh bao,229.0,Canh bao,150.0,Khoe manh,85.8,14.2,85.8
+Pham Huu Vinh,39,Nam,24.6,Binh thuong,140.0,Nguy hiem,321.0,Nguy hiem,182.0,Khoe manh,93.4,6.6,93.4
+Pham Thanh Phuc,58,Nam,24.6,Binh thuong,128.0,Canh bao,216.0,Canh bao,131.0,Nguy co benh tim,25.7,74.3,74.3
+Vo Phuong Linh,51,Nu,25.8,Thua can,130.0,Canh bao,305.0,Nguy hiem,142.0,Khoe manh,79.5,20.5,79.5
+Tran Huong Nhi,63,Nu,24.3,Binh thuong,150.0,Nguy hiem,407.0,Nguy hiem,154.0,Nguy co benh tim,40.8,59.2,59.2
+Thai Van An,51,Nam,27.1,Thua can,140.0,Nguy hiem,298.0,Nguy hiem,122.0,Nguy co benh tim,16.3,83.7,83.7
+Do Thanh Long,35,Nam,28.0,Thua can,122.0,Canh bao,192.0,Binh thuong,174.0,Khoe manh,95.7,4.3,95.7
+Hoang Thanh Quang,65,Nam,19.9,Binh thuong,110.0,Binh thuong,248.0,Nguy hiem,158.0,Khoe manh,78.8,21.2,78.8
+Bui Duc An,62,Nam,21.8,Binh thuong,120.0,Canh bao,281.0,Nguy hiem,103.0,Nguy co benh tim,46.1,53.9,53.9
+Vo Xuan Khanh,41,Nam,21.9,Binh thuong,110.0,Binh thuong,172.0,Binh thuong,158.0,Khoe manh,85.7,14.3,85.7
+Hoang Xuan Nghia,65,Nam,18.8,Binh thuong,135.0,Canh bao,254.0,Nguy hiem,127.0,Nguy co benh tim,19.4,80.6,80.6
+Ngo Phuong Thuy,54,Nu,17.5,Thieu can,132.0,Canh bao,288.0,Nguy hiem,159.0,Khoe manh,88.5,11.5,88.5
+Dinh Duc Tuan,61,Nam,25.4,Thua can,150.0,Nguy hiem,243.0,Nguy hiem,137.0,Nguy co benh tim,9.6,90.4,90.4
+Tran Thu An,57,Nu,23.6,Binh thuong,128.0,Canh bao,303.0,Nguy hiem,159.0,Khoe manh,91.2,8.8,91.2
+Ha Duc Son,57,Nam,23.4,Binh thuong,150.0,Nguy hiem,168.0,Binh thuong,174.0,Khoe manh,83.0,17.0,83.0
+Lam Xuan Phuc,64,Nam,20.6,Binh thuong,125.0,Canh bao,309.0,Nguy hiem,131.0,Nguy co benh tim,8.1,91.9,91.9
+Nguyen Xuan Quang,55,Nam,25.7,Thua can,132.0,Canh bao,353.0,Nguy hiem,132.0,Nguy co benh tim,16.9,83.1,83.1
+Pham Xuan An,51,Nam,23.6,Binh thuong,125.0,Canh bao,245.0,Nguy hiem,166.0,Khoe manh,55.5,44.5,55.5
+Bui Minh Trung,59,Nam,18.4,Thieu can,135.0,Canh bao,234.0,Canh bao,161.0,Khoe manh,71.6,28.4,71.6
+Ha Huu Cuong,68,Nam,21.8,Binh thuong,180.0,Nguy hiem,274.0,Nguy hiem,150.0,Nguy co benh tim,19.3,80.7,80.7
+Ly Duc Nam,57,Nam,22.8,Binh thuong,154.0,Nguy hiem,232.0,Canh bao,164.0,Khoe manh,94.9,5.1,94.9
+Ly Trong Tuan,54,Nam,25.1,Thua can,140.0,Nguy hiem,239.0,Canh bao,160.0,Khoe manh,87.9,12.1,87.9
+Truong Ngoc Nhi,46,Nu,23.9,Binh thuong,142.0,Nguy hiem,177.0,Binh thuong,160.0,Nguy co benh tim,48.2,51.8,51.8
+Dang Mai Hue,71,Nu,24.8,Binh thuong,112.0,Binh thuong,149.0,Binh thuong,125.0,Khoe manh,76.2,23.8,76.2
+Bui Bich Chi,35,Nu,20.9,Binh thuong,138.0,Canh bao,183.0,Binh thuong,182.0,Khoe manh,87.9,12.1,87.9
+Truong Ngoc Thu,46,Nu,23.5,Binh thuong,142.0,Nguy hiem,177.0,Binh thuong,160.0,Nguy co benh tim,48.2,51.8,51.8
+Truong Huong Nga,45,Nu,24.1,Binh thuong,130.0,Canh bao,234.0,Canh bao,175.0,Khoe manh,95.1,4.9,95.1
+Dinh Minh Nam,47,Nam,22.2,Binh thuong,108.0,Binh thuong,243.0,Nguy hiem,152.0,Khoe manh,90.4,9.6,90.4
+Pham Bich Lan,44,Nu,23.0,Binh thuong,118.0,Binh thuong,242.0,Nguy hiem,149.0,Khoe manh,98.1,1.9,98.1
+Do Minh Trung,61,Nam,21.8,Binh thuong,120.0,Canh bao,260.0,Nguy hiem,140.0,Nguy co benh tim,17.3,82.7,82.7
+Hoang Ngoc Hoa,41,Nu,23.0,Binh thuong,130.0,Canh bao,204.0,Canh bao,172.0,Khoe manh,96.4,3.6,96.4
+Vo Kim Van,56,Nu,21.3,Binh thuong,200.0,Nguy hiem,288.0,Nguy hiem,133.0,Nguy co benh tim,26.5,73.5,73.5
+Lam Kim Van,55,Nu,23.6,Binh thuong,180.0,Nguy hiem,327.0,Nguy hiem,117.0,Nguy co benh tim,29.6,70.4,70.4
+Thai Mai Mai,54,Nu,21.1,Binh thuong,132.0,Canh bao,288.0,Nguy hiem,159.0,Khoe manh,88.5,11.5,88.5
+Hoang Tien Cuong,43,Nam,28.9,Thua can,120.0,Canh bao,177.0,Binh thuong,120.0,Nguy co benh tim,34.9,65.1,65.1
+Vo Tien Quang,44,Nam,24.6,Binh thuong,112.0,Binh thuong,290.0,Nguy hiem,153.0,Khoe manh,82.6,17.4,82.6
+Duong Trong Binh,54,Nam,23.8,Binh thuong,110.0,Binh thuong,206.0,Canh bao,108.0,Khoe manh,57.8,42.2,57.8
+Dinh Viet Cuong,44,Nam,20.9,Binh thuong,120.0,Canh bao,220.0,Canh bao,170.0,Khoe manh,96.8,3.2,96.8
+Dang Tien Hoang,49,Nam,19.3,Binh thuong,120.0,Canh bao,188.0,Binh thuong,139.0,Nguy co benh tim,44.2,55.8,55.8
+Tran Van Thanh,60,Nam,25.1,Thua can,130.0,Canh bao,206.0,Canh bao,132.0,Nguy co benh tim,22.4,77.6,77.6
+Dang Ngoc Chi,41,Nu,26.4,Thua can,105.0,Binh thuong,198.0,Binh thuong,168.0,Khoe manh,93.9,6.1,93.9
+Thai Trong Lam,49,Nam,19.8,Binh thuong,120.0,Canh bao,188.0,Binh thuong,139.0,Nguy co benh tim,44.2,55.8,55.8
+Nguyen Tien Phuc,61,Nam,26.1,Thua can,148.0,Nguy hiem,203.0,Canh bao,161.0,Khoe manh,82.6,17.4,82.6
+Trinh Van Hoang,59,Nam,22.4,Binh thuong,140.0,Nguy hiem,177.0,Binh thuong,162.0,Khoe manh,79.6,20.4,79.6
+Lam Quoc Son,58,Nam,23.4,Binh thuong,125.0,Canh bao,220.0,Canh bao,144.0,Khoe manh,89.8,10.2,89.8
+Thai Kim Thu,67,Nu,24.7,Binh thuong,152.0,Nguy hiem,277.0,Nguy hiem,172.0,Khoe manh,90.2,9.8,90.2
+Hoang Van Hoang,61,Nam,19.6,Binh thuong,148.0,Nguy hiem,203.0,Canh bao,161.0,Khoe manh,82.6,17.4,82.6
+Pham Huu Cuong,58,Nam,27.0,Thua can,112.0,Binh thuong,230.0,Canh bao,165.0,Nguy co benh tim,24.0,76.0,76.0
+Truong Bich Bich,51,Nu,23.5,Binh thuong,130.0,Canh bao,256.0,Nguy hiem,149.0,Khoe manh,99.0,1.0,99.0
+Ngo Kim Phuong,62,Nu,23.2,Binh thuong,160.0,Nguy hiem,164.0,Binh thuong,145.0,Nguy co benh tim,34.0,66.0,66.0
+Truong Phuong Yen,62,Nu,20.8,Binh thuong,124.0,Canh bao,209.0,Canh bao,163.0,Khoe manh,90.0,10.0,90.0
+Vu Huu Thanh,59,Nam,26.4,Thua can,178.0,Nguy hiem,270.0,Nguy hiem,145.0,Nguy co benh tim,15.1,84.9,84.9
+Dang Xuan Vinh,69,Nam,22.6,Binh thuong,160.0,Nguy hiem,234.0,Canh bao,131.0,Nguy co benh tim,9.3,90.7,90.7
+Bui Anh Bich,60,Nu,17.5,Thieu can,150.0,Nguy hiem,258.0,Nguy hiem,157.0,Khoe manh,72.0,28.0,72.0
+Bui Ngoc Mai,65,Nu,18.2,Thieu can,155.0,Nguy hiem,269.0,Nguy hiem,148.0,Khoe manh,95.7,4.3,95.7
+Pham Phuong Nhi,63,Nu,19.7,Binh thuong,124.0,Canh bao,197.0,Binh thuong,136.0,Khoe manh,74.3,25.7,74.3
+Dang Lan Yen,53,Nu,25.4,Thua can,138.0,Canh bao,234.0,Canh bao,160.0,Khoe manh,92.7,7.3,92.7
+Hoang Mai Chi,54,Nu,23.4,Binh thuong,108.0,Binh thuong,267.0,Nguy hiem,167.0,Khoe manh,96.3,3.7,96.3
+Lam Bich Nga,76,Nu,23.7,Binh thuong,140.0,Nguy hiem,197.0,Binh thuong,116.0,Khoe manh,74.7,25.3,74.7
+Dang Thu Ha,50,Nu,19.3,Binh thuong,120.0,Canh bao,219.0,Canh bao,158.0,Khoe manh,94.4,5.6,94.4
+Thai Duc Quang,52,Nam,22.3,Binh thuong,120.0,Canh bao,325.0,Nguy hiem,172.0,Khoe manh,91.6,8.4,91.6
+Trinh Xuan Son,46,Nam,22.4,Binh thuong,120.0,Canh bao,249.0,Nguy hiem,144.0,Khoe manh,88.7,11.3,88.7
+Hoang Viet Cuong,64,Nam,25.6,Thua can,170.0,Nguy hiem,227.0,Canh bao,155.0,Nguy co benh tim,41.4,58.6,58.6
+Ly Viet Thanh,58,Nam,22.6,Binh thuong,128.0,Canh bao,259.0,Nguy hiem,130.0,Nguy co benh tim,15.7,84.3,84.3
+Nguyen Huu Quang,44,Nam,28.7,Thua can,140.0,Nguy hiem,235.0,Canh bao,180.0,Khoe manh,94.9,5.1,94.9
+Vu Huong Mai,62,Nu,23.6,Binh thuong,140.0,Nguy hiem,394.0,Nguy hiem,157.0,Khoe manh,77.2,22.8,77.2
+Vo Quoc Nam,59,Nam,24.1,Binh thuong,134.0,Canh bao,204.0,Canh bao,162.0,Khoe manh,58.9,41.1,58.9
+Hoang Minh Cuong,54,Nam,23.0,Binh thuong,125.0,Canh bao,273.0,Nguy hiem,152.0,Khoe manh,52.1,47.9,52.1
+Dang Duc Lam,48,Nam,23.4,Binh thuong,110.0,Binh thuong,229.0,Canh bao,168.0,Khoe manh,67.0,33.0,67.0
+Trinh Viet Binh,70,Nam,23.6,Binh thuong,130.0,Canh bao,322.0,Nguy hiem,109.0,Nguy co benh tim,21.5,78.5,78.5
+Bui Anh Ha,67,Nu,22.3,Binh thuong,106.0,Binh thuong,223.0,Canh bao,142.0,Khoe manh,88.3,11.7,88.3
+Thai Thu Ha,51,Nu,17.5,Thieu can,120.0,Canh bao,295.0,Nguy hiem,157.0,Khoe manh,98.7,1.3,98.7
+Vu Minh Trung,68,Nam,24.3,Binh thuong,118.0,Binh thuong,277.0,Nguy hiem,151.0,Khoe manh,66.1,33.9,66.1
+Vu Tien Binh,69,Nam,18.0,Thieu can,140.0,Nguy hiem,254.0,Nguy hiem,146.0,Nguy co benh tim,16.8,83.2,83.2
+Ly Huu Nam,54,Nam,23.1,Binh thuong,122.0,Canh bao,286.0,Nguy hiem,116.0,Nguy co benh tim,16.5,83.5,83.5
+Ha Anh Linh,43,Nu,19.9,Binh thuong,132.0,Canh bao,341.0,Nguy hiem,136.0,Nguy co benh tim,36.8,63.2,63.2
+Ha Quoc Nghia,53,Nam,20.9,Binh thuong,130.0,Canh bao,197.0,Binh thuong,152.0,Nguy co benh tim,34.5,65.5,65.5
+Ngo Thanh Kien,58,Nam,28.3,Thua can,100.0,Binh thuong,234.0,Canh bao,156.0,Khoe manh,81.0,19.0,81.0
+Do Huu Phuc,67,Nam,24.1,Binh thuong,125.0,Canh bao,254.0,Nguy hiem,163.0,Nguy co benh tim,32.2,67.8,67.8
+Ha Tien Quang,59,Nam,24.7,Binh thuong,140.0,Nguy hiem,177.0,Binh thuong,162.0,Khoe manh,79.6,20.4,79.6
+Nguyen Viet Lam,48,Nam,24.4,Binh thuong,122.0,Canh bao,222.0,Canh bao,186.0,Khoe manh,87.0,13.0,87.0
+Ly Bich Hong,39,Nu,22.4,Binh thuong,94.0,Binh thuong,199.0,Binh thuong,179.0,Khoe manh,87.7,12.3,87.7
+Thai Minh Phong,67,Nam,26.1,Thua can,120.0,Canh bao,237.0,Canh bao,71.0,Nguy co benh tim,47.3,52.7,52.7
+Tran Kim Nga,58,Nu,25.5,Thua can,130.0,Canh bao,197.0,Binh thuong,131.0,Khoe manh,91.7,8.3,91.7
+Trinh Ngoc Thu,65,Nu,19.6,Binh thuong,155.0,Nguy hiem,269.0,Nguy hiem,148.0,Khoe manh,95.7,4.3,95.7
+Pham Lan Chi,42,Nu,19.6,Binh thuong,120.0,Canh bao,209.0,Canh bao,173.0,Khoe manh,95.9,4.1,95.9
+Vu Thanh Hoang,44,Nam,21.6,Binh thuong,112.0,Binh thuong,290.0,Nguy hiem,153.0,Khoe manh,82.6,17.4,82.6
+Truong Minh Vinh,56,Nam,24.3,Binh thuong,132.0,Canh bao,184.0,Binh thuong,105.0,Nguy co benh tim,22.8,77.2,77.2
+Le Huong Phuong,53,Nu,23.6,Binh thuong,138.0,Canh bao,234.0,Canh bao,160.0,Khoe manh,92.7,7.3,92.7
+Dinh Thi Oanh,50,Nu,23.6,Binh thuong,110.0,Binh thuong,254.0,Nguy hiem,159.0,Khoe manh,90.4,9.6,90.4
+Tran Xuan Lam,41,Nam,25.9,Thua can,130.0,Canh bao,214.0,Canh bao,168.0,Khoe manh,59.1,40.9,59.1
+Dinh Huong Nhi,54,Nu,19.4,Binh thuong,160.0,Nguy hiem,201.0,Canh bao,163.0,Khoe manh,93.9,6.1,93.9
+Le Huu Nam,42,Nam,25.2,Thua can,120.0,Canh bao,240.0,Nguy hiem,194.0,Khoe manh,79.6,20.4,79.6
+Nguyen Mai Dung,54,Nu,25.9,Thua can,135.0,Canh bao,304.0,Nguy hiem,170.0,Khoe manh,90.5,9.5,90.5
+Bui Minh Hung,60,Nam,23.8,Binh thuong,145.0,Nguy hiem,282.0,Nguy hiem,142.0,Nguy co benh tim,13.8,86.2,86.2
+Tran Thanh Kien,34,Nam,23.6,Binh thuong,118.0,Binh thuong,182.0,Binh thuong,174.0,Khoe manh,73.3,26.7,73.3
+Hoang Tien Hoang,44,Nam,19.9,Binh thuong,112.0,Binh thuong,290.0,Nguy hiem,153.0,Khoe manh,82.6,17.4,82.6
+Thai Van Cuong,60,Nam,21.4,Binh thuong,125.0,Canh bao,258.0,Nguy hiem,141.0,Nguy co benh tim,18.4,81.6,81.6
+Nguyen Thanh Long,43,Nam,18.1,Thieu can,150.0,Nguy hiem,247.0,Nguy hiem,171.0,Khoe manh,89.2,10.8,89.2
+Hoang Viet Trung,52,Nam,20.2,Binh thuong,152.0,Nguy hiem,298.0,Nguy hiem,178.0,Nguy co benh tim,41.6,58.4,58.4
+Truong Xuan Dung,70,Nam,26.0,Thua can,130.0,Canh bao,322.0,Nguy hiem,109.0,Nguy co benh tim,21.5,78.5,78.5
+Dang Huong Linh,62,Nu,28.2,Thua can,140.0,Nguy hiem,394.0,Nguy hiem,157.0,Khoe manh,77.2,22.8,77.2
+Pham Van Nam,58,Nam,22.7,Binh thuong,146.0,Nguy hiem,218.0,Canh bao,105.0,Nguy co benh tim,36.0,64.0,64.0
+Ly Trong Hoang,46,Nam,29.2,Thua can,101.0,Binh thuong,197.0,Binh thuong,156.0,Khoe manh,89.9,10.1,89.9
+Le Duc Kien,44,Nam,19.4,Binh thuong,140.0,Nguy hiem,235.0,Canh bao,180.0,Khoe manh,94.9,5.1,94.9
+Thai Viet An,55,Nam,29.6,Thua can,130.0,Canh bao,262.0,Nguy hiem,155.0,Khoe manh,95.4,4.6,95.4
+Truong Trong Nam,43,Nam,24.9,Binh thuong,120.0,Canh bao,177.0,Binh thuong,120.0,Nguy co benh tim,34.9,65.1,65.1
+Hoang Thanh Vinh,55,Nam,25.6,Thua can,132.0,Canh bao,353.0,Nguy hiem,132.0,Nguy co benh tim,16.9,83.1,83.1
+Nguyen Trong Thanh,40,Nam,24.2,Binh thuong,140.0,Nguy hiem,199.0,Binh thuong,178.0,Nguy co benh tim,30.0,70.0,70.0
+Ngo Trong Vinh,64,Nam,23.3,Binh thuong,125.0,Canh bao,309.0,Nguy hiem,131.0,Nguy co benh tim,8.1,91.9,91.9
+Vu Duc Lam,59,Nam,22.8,Binh thuong,164.0,Nguy hiem,176.0,Binh thuong,90.0,Nguy co benh tim,19.7,80.3,80.3
+Dinh Ngoc Thu,61,Nu,22.3,Binh thuong,145.0,Nguy hiem,307.0,Nguy hiem,146.0,Khoe manh,69.7,30.3,69.7
+Trinh Viet Lam,54,Nam,20.7,Binh thuong,122.0,Canh bao,286.0,Nguy hiem,116.0,Nguy co benh tim,16.5,83.5,83.5
+Trinh Thi Nhi,74,Nu,26.0,Thua can,120.0,Canh bao,269.0,Nguy hiem,121.0,Khoe manh,80.8,19.2,80.8
+Vo Thi Nhi,63,Nu,18.6,Binh thuong,108.0,Binh thuong,269.0,Nguy hiem,169.0,Khoe manh,62.9,37.1,62.9
+Dinh Thanh An,70,Nam,25.8,Thua can,160.0,Nguy hiem,269.0,Nguy hiem,112.0,Nguy co benh tim,8.4,91.6,91.6
+Dinh Ngoc Nga,63,Nu,21.9,Binh thuong,108.0,Binh thuong,269.0,Nguy hiem,169.0,Khoe manh,62.9,37.1,62.9
+Ngo Duc Phuc,64,Nam,21.1,Binh thuong,145.0,Nguy hiem,212.0,Canh bao,132.0,Nguy co benh tim,38.1,61.9,61.9
+Bui Minh Binh,61,Nam,20.2,Binh thuong,148.0,Nguy hiem,203.0,Canh bao,161.0,Khoe manh,82.6,17.4,82.6
+Dinh Viet Son,59,Nam,24.3,Binh thuong,140.0,Nguy hiem,221.0,Canh bao,164.0,Khoe manh,80.1,19.9,80.1
+Vu Tien Kien,38,Nam,24.6,Binh thuong,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Vu Minh Cuong,58,Nam,24.9,Binh thuong,120.0,Canh bao,284.0,Nguy hiem,160.0,Nguy co benh tim,47.5,52.5,52.5
+Ha Thi Linh,63,Nu,25.9,Thua can,140.0,Nguy hiem,195.0,Binh thuong,179.0,Khoe manh,92.2,7.8,92.2
+Do Thi Hong,62,Nu,21.4,Binh thuong,130.0,Canh bao,263.0,Nguy hiem,97.0,Khoe manh,91.6,8.4,91.6
+Tran Huu Quang,46,Nam,24.8,Binh thuong,140.0,Nguy hiem,311.0,Nguy hiem,120.0,Nguy co benh tim,20.9,79.1,79.1
+Truong Thu Thuy,58,Nu,22.6,Binh thuong,120.0,Canh bao,340.0,Nguy hiem,172.0,Khoe manh,95.6,4.4,95.6
+Vo Lan Bich,63,Nu,20.8,Binh thuong,140.0,Nguy hiem,195.0,Binh thuong,179.0,Khoe manh,92.2,7.8,92.2
+Do Thanh Thanh,47,Nam,27.9,Thua can,130.0,Canh bao,253.0,Nguy hiem,179.0,Khoe manh,95.4,4.6,95.4
+Tran Mai Lan,71,Nu,20.8,Binh thuong,110.0,Binh thuong,265.0,Nguy hiem,130.0,Khoe manh,80.6,19.4,80.6
+Pham Huu Vinh,66,Nam,25.7,Thua can,112.0,Binh thuong,212.0,Canh bao,132.0,Khoe manh,70.1,29.9,70.1
+Nguyen Tien Tuan,42,Nam,26.6,Thua can,136.0,Canh bao,315.0,Nguy hiem,125.0,Nguy co benh tim,27.6,72.4,72.4
+Bui Minh Kien,64,Nam,24.2,Binh thuong,145.0,Nguy hiem,212.0,Canh bao,132.0,Nguy co benh tim,38.1,61.9,61.9
+Vo Mai Thu,55,Nu,27.9,Thua can,180.0,Nguy hiem,327.0,Nguy hiem,117.0,Nguy co benh tim,29.6,70.4,70.4
+Duong Ngoc Oanh,43,Nu,23.3,Binh thuong,132.0,Canh bao,341.0,Nguy hiem,136.0,Nguy co benh tim,36.8,63.2,63.2
+Le Thu Yen,55,Nu,23.6,Binh thuong,128.0,Canh bao,205.0,Canh bao,130.0,Khoe manh,61.7,38.3,61.7
+Vu Phuong Linh,58,Nu,22.2,Binh thuong,170.0,Nguy hiem,225.0,Canh bao,146.0,Nguy co benh tim,30.5,69.5,69.5
+Bui Duc Cuong,55,Nam,23.1,Binh thuong,140.0,Nguy hiem,217.0,Canh bao,111.0,Nguy co benh tim,26.1,73.9,73.9
+Bui Lan Linh,51,Nu,28.0,Thua can,130.0,Canh bao,305.0,Nguy hiem,142.0,Khoe manh,79.5,20.5,79.5
+Ha Anh Oanh,50,Nu,19.1,Binh thuong,120.0,Canh bao,219.0,Canh bao,158.0,Khoe manh,94.4,5.6,94.4
+Vu Tien Thanh,43,Nam,29.9,Thua can,115.0,Binh thuong,303.0,Nguy hiem,181.0,Khoe manh,79.2,20.8,79.2
+Ha Thi Nga,41,Nu,26.6,Thua can,126.0,Canh bao,306.0,Nguy hiem,163.0,Khoe manh,96.7,3.3,96.7
+Thai Xuan Phong,49,Nam,22.1,Binh thuong,130.0,Canh bao,266.0,Nguy hiem,171.0,Khoe manh,96.5,3.5,96.5
+Tran Duc Tuan,65,Nam,27.6,Thua can,110.0,Binh thuong,248.0,Nguy hiem,158.0,Khoe manh,78.8,21.2,78.8
+Dinh Viet Khanh,57,Nam,23.0,Binh thuong,152.0,Nguy hiem,274.0,Nguy hiem,88.0,Nguy co benh tim,17.6,82.4,82.4
+Nguyen Minh Trung,48,Nam,21.0,Binh thuong,130.0,Canh bao,256.0,Nguy hiem,150.0,Khoe manh,78.6,21.4,78.6
+Ha Thi Ha,62,Nu,19.4,Binh thuong,138.0,Canh bao,294.0,Nguy hiem,106.0,Nguy co benh tim,50.0,50.0,50.0
+Le Quoc Thanh,61,Nam,21.6,Binh thuong,134.0,Canh bao,234.0,Canh bao,145.0,Nguy co benh tim,6.6,93.4,93.4
+Dinh Xuan Phuc,59,Nam,19.6,Binh thuong,178.0,Nguy hiem,270.0,Nguy hiem,145.0,Nguy co benh tim,15.1,84.9,84.9
+Tran Trong Hung,69,Nam,25.6,Thua can,140.0,Nguy hiem,254.0,Nguy hiem,146.0,Nguy co benh tim,16.8,83.2,83.2
+Ha Huu Thanh,58,Nam,24.4,Binh thuong,132.0,Canh bao,224.0,Canh bao,173.0,Nguy co benh tim,39.0,61.0,61.0
+Ha Duc Phuc,38,Nam,20.5,Binh thuong,120.0,Canh bao,231.0,Canh bao,182.0,Nguy co benh tim,30.3,69.7,69.7
+Hoang Phuong Nga,69,Nu,23.5,Binh thuong,140.0,Nguy hiem,239.0,Canh bao,151.0,Khoe manh,82.0,18.0,82.0
+Nguyen Huu Phong,65,Nam,23.4,Binh thuong,138.0,Canh bao,282.0,Nguy hiem,174.0,Nguy co benh tim,19.7,80.3,80.3
+Ngo Duc An,45,Nam,23.7,Binh thuong,110.0,Binh thuong,264.0,Nguy hiem,132.0,Khoe manh,59.4,40.6,59.4
+Vu Tien Lam,49,Nam,21.2,Binh thuong,130.0,Canh bao,266.0,Nguy hiem,171.0,Khoe manh,96.5,3.5,96.5
+Nguyen Phuong Dung,45,Nu,19.0,Binh thuong,130.0,Canh bao,234.0,Canh bao,175.0,Khoe manh,95.1,4.9,95.1
+Duong Thanh Hoang,61,Nam,21.2,Binh thuong,138.0,Canh bao,166.0,Binh thuong,125.0,Nguy co benh tim,15.0,85.0,85.0
+Do Trong Quang,52,Nam,26.6,Thua can,125.0,Canh bao,212.0,Canh bao,168.0,Khoe manh,91.9,8.1,91.9
+Vo Huong Dung,53,Nu,24.0,Binh thuong,130.0,Canh bao,264.0,Nguy hiem,143.0,Khoe manh,92.9,7.1,92.9
+Hoang Ngoc Phuong,59,Nu,21.7,Binh thuong,174.0,Nguy hiem,249.0,Nguy hiem,143.0,Khoe manh,52.4,47.6,52.4
+Vu Kim Chi,58,Nu,22.9,Binh thuong,120.0,Canh bao,340.0,Nguy hiem,172.0,Khoe manh,95.6,4.4,95.6
+Bui Huu Cuong,65,Nam,24.5,Binh thuong,138.0,Canh bao,282.0,Nguy hiem,174.0,Nguy co benh tim,19.7,80.3,80.3
+Trinh Phuong Linh,58,Nu,21.7,Binh thuong,130.0,Canh bao,197.0,Binh thuong,131.0,Khoe manh,91.7,8.3,91.7
+Dang Bich Hoa,46,Nu,22.1,Binh thuong,138.0,Canh bao,243.0,Nguy hiem,152.0,Khoe manh,86.8,13.2,86.8
+Dinh Phuong Hue,56,Nu,24.9,Binh thuong,134.0,Canh bao,409.0,Nguy hiem,150.0,Khoe manh,54.8,45.2,54.8
+Pham Quoc Hung,64,Nam,20.2,Binh thuong,128.0,Canh bao,263.0,Nguy hiem,105.0,Nguy co benh tim,28.1,71.9,71.9
+Ngo Tien An,65,Nam,24.8,Binh thuong,120.0,Canh bao,177.0,Binh thuong,140.0,Khoe manh,85.9,14.1,85.9
+Dinh Viet Phuc,44,Nam,18.1,Thieu can,120.0,Canh bao,226.0,Canh bao,169.0,Khoe manh,95.0,5.0,95.0
+Dinh Tien Nghia,50,Nam,29.7,Thua can,150.0,Nguy hiem,243.0,Nguy hiem,128.0,Nguy co benh tim,26.4,73.6,73.6
+Hoang Trong Cuong,47,Nam,25.6,Thua can,108.0,Binh thuong,243.0,Nguy hiem,152.0,Khoe manh,90.4,9.6,90.4
+Le Lan Nhi,64,Nu,22.3,Binh thuong,130.0,Canh bao,303.0,Nguy hiem,122.0,Khoe manh,84.8,15.2,84.8
+Vo Phuong Oanh,71,Nu,21.8,Binh thuong,112.0,Binh thuong,149.0,Binh thuong,125.0,Khoe manh,76.2,23.8,76.2
+Ly Anh Chi,45,Nu,23.3,Binh thuong,130.0,Canh bao,234.0,Canh bao,175.0,Khoe manh,95.1,4.9,95.1
+Hoang Huu Cuong,62,Nam,26.0,Thua can,120.0,Canh bao,267.0,Nguy hiem,99.0,Nguy co benh tim,19.4,80.6,80.6
+Ha Tien Lam,41,Nam,21.6,Binh thuong,120.0,Canh bao,157.0,Binh thuong,182.0,Khoe manh,96.1,3.9,96.1
+Dinh Bich Thuy,66,Nu,20.3,Binh thuong,150.0,Nguy hiem,226.0,Canh bao,114.0,Nguy co benh tim,22.1,77.9,77.9
+Lam Minh Hung,56,Nam,23.5,Binh thuong,130.0,Canh bao,283.0,Nguy hiem,103.0,Nguy co benh tim,21.5,78.5,78.5
+Ly Phuong Bich,41,Nu,23.7,Binh thuong,126.0,Canh bao,306.0,Nguy hiem,163.0,Khoe manh,96.7,3.3,96.7
+Pham Viet Hung,41,Nam,25.5,Thua can,110.0,Binh thuong,235.0,Canh bao,153.0,Khoe manh,93.8,6.2,93.8
+Dang Bich Hoa,57,Nu,23.9,Binh thuong,130.0,Canh bao,236.0,Canh bao,174.0,Khoe manh,91.9,8.1,91.9
+Bui Huong Nga,39,Nu,19.2,Binh thuong,138.0,Canh bao,220.0,Canh bao,152.0,Khoe manh,97.9,2.1,97.9
+Truong Thanh Cuong,64,Nam,22.7,Binh thuong,125.0,Canh bao,309.0,Nguy hiem,131.0,Nguy co benh tim,8.1,91.9,91.9
+Duong Quoc Nghia,59,Nam,23.0,Binh thuong,138.0,Canh bao,271.0,Nguy hiem,182.0,Khoe manh,80.9,19.1,80.9
+Duong Minh Quang,61,Nam,24.8,Binh thuong,138.0,Canh bao,166.0,Binh thuong,125.0,Nguy co benh tim,15.0,85.0,85.0
+Thai Viet Cuong,58,Nam,24.7,Binh thuong,114.0,Binh thuong,318.0,Nguy hiem,140.0,Nguy co benh tim,32.7,67.3,67.3
+Truong Minh Phuc,47,Nam,18.6,Binh thuong,112.0,Binh thuong,204.0,Canh bao,143.0,Khoe manh,88.1,11.9,88.1
+Lam Bich Hoa,58,Nu,22.2,Binh thuong,100.0,Binh thuong,248.0,Nguy hiem,122.0,Khoe manh,86.5,13.5,86.5
+Thai Anh Mai,66,Nu,24.0,Binh thuong,150.0,Nguy hiem,226.0,Canh bao,114.0,Nguy co benh tim,22.1,77.9,77.9
+Lam Thi An,65,Nu,25.5,Thua can,140.0,Nguy hiem,417.0,Nguy hiem,157.0,Khoe manh,74.9,25.1,74.9
+Le Van Phuc,35,Nam,27.2,Thua can,122.0,Canh bao,192.0,Binh thuong,174.0,Khoe manh,95.7,4.3,95.7
+Duong Quoc Phuc,57,Nam,22.7,Binh thuong,124.0,Canh bao,261.0,Nguy hiem,141.0,Khoe manh,94.6,5.4,94.6
+Ly Trong An,29,Nam,22.7,Binh thuong,130.0,Canh bao,204.0,Canh bao,202.0,Khoe manh,84.5,15.5,84.5
+Vo Viet Quang,66,Nam,23.9,Binh thuong,160.0,Nguy hiem,246.0,Nguy hiem,120.0,Nguy co benh tim,21.7,78.3,78.3
+Dang Kim Hue,61,Nu,22.5,Binh thuong,130.0,Canh bao,330.0,Nguy hiem,169.0,Khoe manh,86.5,13.5,86.5
+Nguyen Thanh Hoang,52,Nam,26.5,Thua can,125.0,Canh bao,212.0,Canh bao,168.0,Khoe manh,91.9,8.1,91.9
+Le Van Khanh,68,Nam,19.8,Binh thuong,118.0,Binh thuong,277.0,Nguy hiem,151.0,Khoe manh,66.1,33.9,66.1
+Ha Xuan Kien,54,Nam,25.8,Thua can,120.0,Canh bao,258.0,Nguy hiem,147.0,Khoe manh,87.2,12.8,87.2
+Ha Quoc Son,63,Nam,22.9,Binh thuong,130.0,Canh bao,330.0,Nguy hiem,132.0,Nguy co benh tim,32.7,67.3,67.3
+Thai Minh Son,58,Nam,19.0,Binh thuong,100.0,Binh thuong,234.0,Canh bao,156.0,Khoe manh,81.0,19.0,81.0
+Bui Huu Tuan,60,Nam,25.4,Thua can,130.0,Canh bao,253.0,Nguy hiem,144.0,Khoe manh,62.0,38.0,62.0
+Hoang Huu Lam,63,Nam,18.0,Thieu can,130.0,Canh bao,254.0,Nguy hiem,147.0,Khoe manh,51.8,48.2,51.8
+Trinh Ngoc Mai,41,Nu,23.5,Binh thuong,112.0,Binh thuong,268.0,Nguy hiem,172.0,Khoe manh,84.7,15.3,84.7
+Ngo Tien Dung,68,Nam,24.0,Binh thuong,180.0,Nguy hiem,274.0,Nguy hiem,150.0,Nguy co benh tim,19.3,80.7,80.7
+Duong Tien Nam,42,Nam,24.9,Binh thuong,120.0,Canh bao,295.0,Nguy hiem,162.0,Khoe manh,94.9,5.1,94.9
+Hoang Duc Binh,59,Nam,21.1,Binh thuong,170.0,Nguy hiem,326.0,Nguy hiem,140.0,Nguy co benh tim,21.5,78.5,78.5
+Dang Xuan Trung,59,Nam,23.1,Binh thuong,164.0,Nguy hiem,176.0,Binh thuong,90.0,Nguy co benh tim,19.7,80.3,80.3
+Ly Quoc Khanh,43,Nam,21.2,Binh thuong,120.0,Canh bao,177.0,Binh thuong,120.0,Nguy co benh tim,34.9,65.1,65.1
+Bui Trong Son,60,Nam,21.3,Binh thuong,140.0,Nguy hiem,185.0,Binh thuong,155.0,Nguy co benh tim,10.2,89.8,89.8
+Do Bich Quynh,63,Nu,26.8,Thua can,150.0,Nguy hiem,407.0,Nguy hiem,154.0,Nguy co benh tim,40.8,59.2,59.2
+Truong Tien Kien,52,Nam,19.5,Binh thuong,128.0,Canh bao,204.0,Canh bao,156.0,Nguy co benh tim,49.1,50.9,50.9
+Dang Tien An,58,Nam,23.0,Binh thuong,125.0,Canh bao,300.0,Nguy hiem,171.0,Khoe manh,80.8,19.2,80.8
+Le Thu Thu,56,Nu,25.1,Thua can,200.0,Nguy hiem,288.0,Nguy hiem,133.0,Nguy co benh tim,26.5,73.5,73.5
+Ha Huong Hong,54,Nu,27.1,Thua can,135.0,Canh bao,304.0,Nguy hiem,170.0,Khoe manh,90.5,9.5,90.5
+Lam Huu Binh,58,Nam,22.3,Binh thuong,105.0,Binh thuong,240.0,Nguy hiem,154.0,Nguy co benh tim,43.6,56.4,56.4
+Tran Lan Quynh,55,Nu,21.0,Binh thuong,135.0,Canh bao,250.0,Nguy hiem,161.0,Khoe manh,93.9,6.1,93.9
+Thai Tien Quang,53,Nam,24.3,Binh thuong,140.0,Nguy hiem,203.0,Canh bao,155.0,Nguy co benh tim,23.1,76.9,76.9
+Trinh Thi Dung,63,Nu,26.4,Thua can,140.0,Nguy hiem,195.0,Binh thuong,179.0,Khoe manh,92.2,7.8,92.2
+Ly Minh Phong,39,Nam,21.6,Binh thuong,118.0,Binh thuong,219.0,Canh bao,140.0,Khoe manh,76.4,23.6,76.4
+Dinh Xuan Thanh,35,Nam,21.8,Binh thuong,126.0,Canh bao,282.0,Nguy hiem,156.0,Khoe manh,80.7,19.3,80.7
+Tran Thu Bich,50,Nu,22.8,Binh thuong,120.0,Canh bao,219.0,Canh bao,158.0,Khoe manh,94.4,5.6,94.4
+Lam Viet Long,67,Nam,23.9,Binh thuong,152.0,Nguy hiem,212.0,Canh bao,150.0,Khoe manh,53.4,46.6,53.4
+Dinh Viet Quang,66,Nam,21.1,Binh thuong,112.0,Binh thuong,212.0,Canh bao,132.0,Khoe manh,70.1,29.9,70.1
+Le Xuan Lam,35,Nam,21.9,Binh thuong,126.0,Canh bao,282.0,Nguy hiem,156.0,Khoe manh,80.7,19.3,80.7
+Ha Viet Phong,41,Nam,24.8,Binh thuong,130.0,Canh bao,214.0,Canh bao,168.0,Khoe manh,59.1,40.9,59.1
+Thai Trong Dung,35,Nam,25.3,Thua can,120.0,Canh bao,198.0,Binh thuong,130.0,Khoe manh,56.2,43.8,56.2
+Hoang Ngoc Nhi,71,Nu,20.6,Binh thuong,160.0,Nguy hiem,302.0,Nguy hiem,162.0,Khoe manh,90.1,9.9,90.1
+Dinh Huu Nghia,57,Nam,27.3,Thua can,110.0,Binh thuong,201.0,Canh bao,126.0,Nguy co benh tim,36.5,63.5,63.5
+Dinh Minh Long,51,Nam,22.9,Binh thuong,94.0,Binh thuong,227.0,Canh bao,154.0,Khoe manh,53.8,46.2,53.8
+Thai Viet Tuan,58,Nam,24.9,Binh thuong,128.0,Canh bao,216.0,Canh bao,131.0,Nguy co benh tim,25.7,74.3,74.3
+Truong Van Binh,57,Nam,28.9,Thua can,128.0,Canh bao,229.0,Canh bao,150.0,Khoe manh,85.8,14.2,85.8
+Tran Bich Mai,56,Nu,24.8,Binh thuong,140.0,Nguy hiem,294.0,Nguy hiem,153.0,Khoe manh,93.8,6.2,93.8
+Vo Phuong Phuong,60,Nu,23.2,Binh thuong,120.0,Canh bao,178.0,Binh thuong,96.0,Khoe manh,90.1,9.9,90.1
+Hoang Trong Lam,45,Nam,24.8,Binh thuong,110.0,Binh thuong,264.0,Nguy hiem,132.0,Khoe manh,59.4,40.6,59.4
+Hoang Huu Trung,56,Nam,26.2,Thua can,130.0,Canh bao,221.0,Canh bao,163.0,Khoe manh,96.4,3.6,96.4
+Bui Minh Tuan,35,Nam,21.4,Binh thuong,120.0,Canh bao,198.0,Binh thuong,130.0,Khoe manh,56.2,43.8,56.2
+Thai Lan Van,45,Nu,17.6,Thieu can,112.0,Binh thuong,160.0,Binh thuong,138.0,Khoe manh,95.5,4.5,95.5
+Bui Phuong Thu,66,Nu,19.7,Binh thuong,150.0,Nguy hiem,226.0,Canh bao,114.0,Nguy co benh tim,22.1,77.9,77.9
+Trinh Tien Phuc,51,Nam,22.8,Binh thuong,125.0,Canh bao,213.0,Canh bao,125.0,Nguy co benh tim,15.4,84.6,84.6
+Dang Tien An,70,Nam,25.5,Thua can,156.0,Nguy hiem,245.0,Nguy hiem,143.0,Khoe manh,86.2,13.8,86.2
+Dinh Mai Dung,55,Nu,21.0,Binh thuong,128.0,Canh bao,205.0,Canh bao,130.0,Khoe manh,61.7,38.3,61.7
+Ly Trong Quang,56,Nam,24.2,Binh thuong,130.0,Canh bao,256.0,Nguy hiem,142.0,Nguy co benh tim,37.8,62.2,62.2
+Nguyen Anh Quynh,55,Nu,26.5,Thua can,135.0,Canh bao,250.0,Nguy hiem,161.0,Khoe manh,93.9,6.1,93.9
+Duong Trong Phuc,52,Nam,25.3,Thua can,108.0,Binh thuong,233.0,Canh bao,147.0,Khoe manh,85.7,14.3,85.7
+Ngo Van Phuc,64,Nam,26.4,Thua can,140.0,Nguy hiem,335.0,Nguy hiem,158.0,Khoe manh,78.7,21.3,78.7
+Vo Minh Lam,45,Nam,20.3,Binh thuong,115.0,Binh thuong,260.0,Nguy hiem,185.0,Khoe manh,84.1,15.9,84.1
+Thai Thu Ha,67,Nu,20.9,Binh thuong,152.0,Nguy hiem,277.0,Nguy hiem,172.0,Khoe manh,90.2,9.8,90.2
+Ngo Thi Van,68,Nu,24.0,Binh thuong,120.0,Canh bao,211.0,Canh bao,115.0,Khoe manh,84.9,15.1,84.9
+Pham Huong An,74,Nu,22.5,Binh thuong,120.0,Canh bao,269.0,Nguy hiem,121.0,Khoe manh,80.8,19.2,80.8
+Ha Mai Oanh,60,Nu,26.7,Thua can,150.0,Nguy hiem,258.0,Nguy hiem,157.0,Khoe manh,72.0,28.0,72.0
+Hoang Xuan Long,48,Nam,30.0,Beo phi,124.0,Canh bao,274.0,Nguy hiem,166.0,Khoe manh,74.4,25.6,74.4
+Ly Viet Trung,56,Nam,19.1,Binh thuong,130.0,Canh bao,221.0,Canh bao,163.0,Khoe manh,96.4,3.6,96.4
+Vo Van Hung,46,Nam,24.5,Binh thuong,140.0,Nguy hiem,311.0,Nguy hiem,120.0,Nguy co benh tim,20.9,79.1,79.1
+Truong Huong Thuy,55,Nu,24.2,Binh thuong,135.0,Canh bao,250.0,Nguy hiem,161.0,Khoe manh,93.9,6.1,93.9
+Bui Tien Lam,44,Nam,20.4,Binh thuong,120.0,Canh bao,220.0,Canh bao,170.0,Khoe manh,96.8,3.2,96.8
+Nguyen Huu Khanh,52,Nam,21.4,Binh thuong,112.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,88.6,11.4,88.6
+Ha Viet Son,51,Nam,25.0,Thua can,94.0,Binh thuong,227.0,Canh bao,154.0,Khoe manh,53.8,46.2,53.8
+Trinh Mai Lan,44,Nu,23.5,Binh thuong,108.0,Binh thuong,141.0,Binh thuong,175.0,Khoe manh,89.4,10.6,89.4
+Thai Tien Long,52,Nam,24.6,Binh thuong,128.0,Canh bao,204.0,Canh bao,156.0,Nguy co benh tim,49.1,50.9,50.9
+Ngo Thanh Nghia,50,Nam,22.0,Binh thuong,129.0,Canh bao,196.0,Binh thuong,163.0,Khoe manh,95.0,5.0,95.0
+Dang Quoc Quang,59,Nam,23.6,Binh thuong,110.0,Binh thuong,239.0,Canh bao,142.0,Nguy co benh tim,46.0,54.0,54.0
+Dang Quoc Kien,67,Nam,25.1,Thua can,120.0,Canh bao,229.0,Canh bao,129.0,Nguy co benh tim,18.4,81.6,81.6
+Bui Tien Thanh,58,Nam,24.5,Binh thuong,125.0,Canh bao,300.0,Nguy hiem,171.0,Khoe manh,80.8,19.2,80.8
+Trinh Thanh Quang,52,Nam,22.4,Binh thuong,128.0,Canh bao,255.0,Nguy hiem,161.0,Khoe manh,82.1,17.9,82.1
+Pham Trong Nghia,44,Nam,22.6,Binh thuong,140.0,Nguy hiem,235.0,Canh bao,180.0,Khoe manh,94.9,5.1,94.9
+Nguyen Thu Nga,41,Nu,21.5,Binh thuong,112.0,Binh thuong,268.0,Nguy hiem,172.0,Khoe manh,84.7,15.3,84.7
+Hoang Thanh Binh,63,Nam,25.8,Thua can,130.0,Canh bao,330.0,Nguy hiem,132.0,Nguy co benh tim,32.7,67.3,67.3
+Dang Duc Thanh,58,Nam,19.1,Binh thuong,125.0,Canh bao,220.0,Canh bao,144.0,Khoe manh,89.8,10.2,89.8
+Ha Lan Quynh,60,Nu,25.7,Thua can,102.0,Binh thuong,318.0,Nguy hiem,160.0,Khoe manh,94.3,5.7,94.3
+Do Quoc Nghia,51,Nam,29.9,Thua can,100.0,Binh thuong,222.0,Canh bao,143.0,Khoe manh,51.7,48.3,51.7
+Duong Viet Phong,64,Nam,23.9,Binh thuong,140.0,Nguy hiem,335.0,Nguy hiem,158.0,Khoe manh,78.7,21.3,78.7
+Hoang Duc Trung,60,Nam,28.5,Thua can,117.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,57.8,42.2,57.8
+Lam Quoc Nam,44,Nam,26.5,Thua can,120.0,Canh bao,226.0,Canh bao,169.0,Khoe manh,95.0,5.0,95.0
+Tran Viet Nam,58,Nam,25.0,Thua can,125.0,Canh bao,220.0,Canh bao,144.0,Khoe manh,89.8,10.2,89.8
+Ngo Van Dung,55,Nam,22.1,Binh thuong,130.0,Canh bao,262.0,Nguy hiem,155.0,Khoe manh,95.4,4.6,95.4
+Ly Mai Quynh,65,Nu,22.5,Binh thuong,160.0,Nguy hiem,360.0,Nguy hiem,151.0,Khoe manh,91.4,8.6,91.4
+Pham Minh An,48,Nam,22.4,Binh thuong,130.0,Canh bao,245.0,Nguy hiem,180.0,Khoe manh,90.1,9.9,90.1
+Trinh Minh Vinh,65,Nam,25.9,Thua can,120.0,Canh bao,177.0,Binh thuong,140.0,Khoe manh,85.9,14.1,85.9
+Vo Kim Hong,51,Nu,26.2,Thua can,130.0,Canh bao,256.0,Nguy hiem,149.0,Khoe manh,99.0,1.0,99.0
+Dang Huu Quang,48,Nam,23.0,Binh thuong,124.0,Canh bao,255.0,Nguy hiem,175.0,Khoe manh,92.2,7.8,92.2
+Tran Duc Phuc,64,Nam,18.8,Binh thuong,120.0,Canh bao,246.0,Nguy hiem,96.0,Nguy co benh tim,17.2,82.8,82.8
+Ngo Viet Binh,66,Nam,23.2,Binh thuong,160.0,Nguy hiem,228.0,Canh bao,138.0,Khoe manh,51.3,48.7,51.3
+Vu Thu Hoa,46,Nu,24.1,Binh thuong,105.0,Binh thuong,204.0,Canh bao,172.0,Khoe manh,94.7,5.3,94.7
+Tran Thu Quynh,61,Nu,27.1,Thua can,130.0,Canh bao,330.0,Nguy hiem,169.0,Khoe manh,86.5,13.5,86.5
+Vu Thanh Binh,57,Nam,25.0,Thua can,150.0,Nguy hiem,276.0,Nguy hiem,112.0,Nguy co benh tim,34.3,65.7,65.7
+Nguyen Lan Van,49,Nu,20.1,Binh thuong,130.0,Canh bao,269.0,Nguy hiem,163.0,Khoe manh,93.0,7.0,93.0
+Thai Duc Son,56,Nam,26.2,Thua can,130.0,Canh bao,221.0,Canh bao,163.0,Khoe manh,96.4,3.6,96.4
+Dang Kim Thuy,58,Nu,26.3,Thua can,150.0,Nguy hiem,283.0,Nguy hiem,162.0,Khoe manh,68.0,32.0,68.0
+Truong Tien Hung,63,Nam,20.7,Binh thuong,140.0,Nguy hiem,187.0,Binh thuong,144.0,Nguy co benh tim,25.6,74.4,74.4
+Truong Tien Phong,57,Nam,19.1,Binh thuong,110.0,Binh thuong,335.0,Nguy hiem,143.0,Nguy co benh tim,20.6,79.4,79.4
+Do Duc Son,57,Nam,23.1,Binh thuong,110.0,Binh thuong,335.0,Nguy hiem,143.0,Nguy co benh tim,20.6,79.4,79.4
+Vu Tien Phong,68,Nam,19.5,Binh thuong,144.0,Nguy hiem,193.0,Binh thuong,141.0,Nguy co benh tim,18.5,81.5,81.5
+Vu Van Son,46,Nam,22.2,Binh thuong,101.0,Binh thuong,197.0,Binh thuong,156.0,Khoe manh,89.9,10.1,89.9
+Dang Anh Hong,71,Nu,17.5,Thieu can,110.0,Binh thuong,265.0,Nguy hiem,130.0,Khoe manh,80.6,19.4,80.6
+Vu Trong Tuan,41,Nam,27.9,Thua can,135.0,Canh bao,203.0,Canh bao,132.0,Khoe manh,94.1,5.9,94.1
+Ly Phuong Mai,45,Nu,21.3,Binh thuong,138.0,Canh bao,236.0,Canh bao,152.0,Khoe manh,87.7,12.3,87.7
+Le Thu Dung,62,Nu,23.7,Binh thuong,150.0,Nguy hiem,244.0,Nguy hiem,154.0,Khoe manh,66.5,33.5,66.5
+Vu Bich Quynh,65,Nu,23.2,Binh thuong,150.0,Nguy hiem,225.0,Canh bao,114.0,Khoe manh,84.0,16.0,84.0
+Bui Huong An,48,Nu,25.6,Thua can,130.0,Canh bao,275.0,Nguy hiem,139.0,Khoe manh,98.8,1.2,98.8
+Duong Xuan Nam,51,Nam,23.0,Binh thuong,100.0,Binh thuong,222.0,Canh bao,143.0,Khoe manh,51.7,48.3,51.7
+Ha Lan Mai,61,Nu,20.4,Binh thuong,145.0,Nguy hiem,307.0,Nguy hiem,146.0,Khoe manh,69.7,30.3,69.7
+Dang Trong Phuc,53,Nam,24.4,Binh thuong,123.0,Canh bao,282.0,Nguy hiem,95.0,Nguy co benh tim,20.6,79.4,79.4
+Nguyen Thanh Thanh,59,Nam,21.5,Binh thuong,134.0,Canh bao,204.0,Canh bao,162.0,Khoe manh,58.9,41.1,58.9
+Ngo Thi Dung,34,Nu,21.8,Binh thuong,118.0,Binh thuong,210.0,Canh bao,192.0,Khoe manh,92.8,7.2,92.8
+Ha Thanh Khanh,44,Nam,21.6,Binh thuong,120.0,Canh bao,169.0,Binh thuong,144.0,Nguy co benh tim,31.8,68.2,68.2
+Nguyen Viet Quang,58,Nam,25.7,Thua can,146.0,Nguy hiem,218.0,Canh bao,105.0,Nguy co benh tim,36.0,64.0,64.0
+Pham Lan Nga,64,Nu,21.8,Binh thuong,130.0,Canh bao,303.0,Nguy hiem,122.0,Khoe manh,84.8,15.2,84.8
+Thai Quoc Nam,56,Nam,24.8,Binh thuong,120.0,Canh bao,240.0,Nguy hiem,169.0,Khoe manh,66.9,33.1,66.9
+Hoang Tien Hung,54,Nam,22.2,Binh thuong,150.0,Nguy hiem,232.0,Canh bao,165.0,Khoe manh,90.4,9.6,90.4
+Ha Trong Thanh,55,Nam,20.4,Binh thuong,160.0,Nguy hiem,289.0,Nguy hiem,145.0,Nguy co benh tim,39.7,60.3,60.3
+Ly Viet Kien,67,Nam,20.1,Binh thuong,125.0,Canh bao,254.0,Nguy hiem,163.0,Nguy co benh tim,32.2,67.8,67.8
+Trinh Quoc Nam,51,Nam,23.4,Binh thuong,140.0,Nguy hiem,298.0,Nguy hiem,122.0,Nguy co benh tim,16.3,83.7,83.7
+Thai Ngoc Thu,62,Nu,25.4,Thua can,138.0,Canh bao,294.0,Nguy hiem,106.0,Nguy co benh tim,50.0,50.0,50.0
+Ha Viet Thanh,62,Nam,21.5,Binh thuong,120.0,Canh bao,281.0,Nguy hiem,103.0,Nguy co benh tim,46.1,53.9,53.9
+Le Trong Dung,54,Nam,26.4,Thua can,110.0,Binh thuong,239.0,Canh bao,126.0,Nguy co benh tim,26.1,73.9,73.9
+Tran Viet Lam,54,Nam,23.6,Binh thuong,110.0,Binh thuong,239.0,Canh bao,126.0,Nguy co benh tim,26.1,73.9,73.9
+Do Trong Nghia,68,Nam,25.2,Thua can,144.0,Nguy hiem,193.0,Binh thuong,141.0,Nguy co benh tim,18.5,81.5,81.5
+Hoang Bich Mai,60,Nu,21.6,Binh thuong,120.0,Canh bao,178.0,Binh thuong,96.0,Khoe manh,90.1,9.9,90.1
+Truong Tien Dung,61,Nam,23.7,Binh thuong,134.0,Canh bao,234.0,Canh bao,145.0,Nguy co benh tim,6.6,93.4,93.4
+Do Trong Kien,62,Nam,18.0,Thieu can,128.0,Canh bao,208.0,Canh bao,140.0,Khoe manh,88.5,11.5,88.5
+Le Viet Hoang,41,Nam,25.8,Thua can,135.0,Canh bao,203.0,Canh bao,132.0,Khoe manh,94.1,5.9,94.1
+Tran Kim Ha,65,Nu,20.0,Binh thuong,150.0,Nguy hiem,225.0,Canh bao,114.0,Khoe manh,84.0,16.0,84.0
+Truong Xuan Hoang,59,Nam,28.7,Thua can,170.0,Nguy hiem,288.0,Nguy hiem,159.0,Khoe manh,65.7,34.3,65.7
+Lam Van Nghia,43,Nam,21.7,Binh thuong,115.0,Binh thuong,303.0,Nguy hiem,181.0,Khoe manh,79.2,20.8,79.2
+Ha Thanh An,67,Nam,26.9,Thua can,120.0,Canh bao,229.0,Canh bao,129.0,Nguy co benh tim,18.4,81.6,81.6
+Nguyen Thanh An,63,Nam,21.5,Binh thuong,145.0,Nguy hiem,233.0,Canh bao,150.0,Nguy co benh tim,12.8,87.2,87.2
+Do Anh Chi,63,Nu,20.1,Binh thuong,124.0,Canh bao,197.0,Binh thuong,136.0,Khoe manh,74.3,25.7,74.3
+Tran Xuan Thanh,52,Nam,27.6,Thua can,112.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,88.6,11.4,88.6
+Le Phuong Bich,58,Nu,21.9,Binh thuong,130.0,Canh bao,197.0,Binh thuong,131.0,Khoe manh,91.7,8.3,91.7
+Le Tien Binh,53,Nam,19.6,Binh thuong,142.0,Nguy hiem,226.0,Canh bao,111.0,Khoe manh,75.2,24.8,75.2
+Dang Xuan Khanh,57,Nam,23.3,Binh thuong,150.0,Nguy hiem,276.0,Nguy hiem,112.0,Nguy co benh tim,34.3,65.7,65.7
+Hoang Xuan Thanh,44,Nam,31.5,Beo phi,130.0,Canh bao,233.0,Canh bao,179.0,Khoe manh,74.2,25.8,74.2
+Nguyen Tien Tuan,51,Nam,21.6,Binh thuong,94.0,Binh thuong,227.0,Canh bao,154.0,Khoe manh,53.8,46.2,53.8
+Nguyen Ngoc Thuy,54,Nu,25.4,Thua can,110.0,Binh thuong,214.0,Canh bao,158.0,Khoe manh,93.0,7.0,93.0
+Hoang Huu Dung,40,Nam,19.9,Binh thuong,110.0,Binh thuong,167.0,Binh thuong,114.0,Nguy co benh tim,43.1,56.9,56.9
+Vu Viet Tuan,57,Nam,21.8,Binh thuong,124.0,Canh bao,261.0,Nguy hiem,141.0,Khoe manh,94.6,5.4,94.6
+Truong Bich Hue,62,Nu,25.2,Thua can,140.0,Nguy hiem,268.0,Nguy hiem,160.0,Khoe manh,51.3,48.7,51.3
+Nguyen Van Quang,53,Nam,26.7,Thua can,140.0,Nguy hiem,203.0,Canh bao,155.0,Nguy co benh tim,23.1,76.9,76.9
+Ha Viet Vinh,62,Nam,25.6,Thua can,128.0,Canh bao,208.0,Canh bao,140.0,Khoe manh,88.5,11.5,88.5
+Trinh Xuan Nam,58,Nam,21.4,Binh thuong,105.0,Binh thuong,240.0,Nguy hiem,154.0,Nguy co benh tim,43.6,56.4,56.4
+Ngo Tien Thanh,70,Nam,26.1,Thua can,156.0,Nguy hiem,245.0,Nguy hiem,143.0,Khoe manh,86.2,13.8,86.2
+Hoang Thanh Long,45,Nam,22.5,Binh thuong,115.0,Binh thuong,260.0,Nguy hiem,185.0,Khoe manh,84.1,15.9,84.1
+Pham Van Vinh,42,Nam,24.6,Binh thuong,148.0,Nguy hiem,244.0,Nguy hiem,178.0,Khoe manh,87.1,12.9,87.1
+Thai Thi Hue,58,Nu,19.8,Binh thuong,170.0,Nguy hiem,225.0,Canh bao,146.0,Nguy co benh tim,30.5,69.5,69.5
+Do Duc Dung,61,Nam,27.0,Thua can,140.0,Nguy hiem,207.0,Canh bao,138.0,Khoe manh,61.0,39.0,61.0
+Thai Thi Phuong,62,Nu,23.6,Binh thuong,140.0,Nguy hiem,268.0,Nguy hiem,160.0,Khoe manh,51.3,48.7,51.3
+Thai Van Nam,60,Nam,24.6,Binh thuong,130.0,Canh bao,253.0,Nguy hiem,144.0,Khoe manh,62.0,38.0,62.0
+Tran Xuan Hoang,54,Nam,25.9,Thua can,140.0,Nguy hiem,239.0,Canh bao,160.0,Khoe manh,87.9,12.1,87.9
+Ngo Viet Long,61,Nam,30.0,Beo phi,138.0,Canh bao,166.0,Binh thuong,125.0,Nguy co benh tim,15.0,85.0,85.0
+Tran Bich Thu,63,Nu,23.3,Binh thuong,135.0,Canh bao,252.0,Nguy hiem,172.0,Khoe manh,94.9,5.1,94.9
+Dang Quoc Phuc,42,Nam,22.6,Binh thuong,130.0,Canh bao,180.0,Binh thuong,150.0,Khoe manh,94.8,5.2,94.8
+Bui Trong Trung,57,Nam,22.7,Binh thuong,128.0,Canh bao,229.0,Canh bao,150.0,Khoe manh,85.8,14.2,85.8
+Bui Quoc Quang,44,Nam,26.8,Thua can,130.0,Canh bao,233.0,Canh bao,179.0,Khoe manh,74.2,25.8,74.2
+Hoang Viet Nam,54,Nam,26.3,Thua can,124.0,Canh bao,266.0,Nguy hiem,109.0,Nguy co benh tim,21.7,78.3,78.3
+Ly Thanh Phong,51,Nam,23.2,Binh thuong,100.0,Binh thuong,222.0,Canh bao,143.0,Khoe manh,51.7,48.3,51.7
+Tran Viet Phuc,58,Nam,22.0,Binh thuong,125.0,Canh bao,220.0,Canh bao,144.0,Khoe manh,89.8,10.2,89.8
+Vu Xuan Nghia,68,Nam,23.5,Binh thuong,118.0,Binh thuong,277.0,Nguy hiem,151.0,Khoe manh,66.1,33.9,66.1
+Vo Van Thanh,55,Nam,22.3,Binh thuong,140.0,Nguy hiem,217.0,Canh bao,111.0,Nguy co benh tim,26.1,73.9,73.9
+Nguyen Viet Son,42,Nam,24.9,Binh thuong,136.0,Canh bao,315.0,Nguy hiem,125.0,Nguy co benh tim,27.6,72.4,72.4
+Ly Xuan Hung,49,Nam,22.6,Binh thuong,118.0,Binh thuong,149.0,Binh thuong,126.0,Khoe manh,85.6,14.4,85.6
+Dang Thu Hoa,53,Nu,20.2,Binh thuong,138.0,Canh bao,234.0,Canh bao,160.0,Khoe manh,92.7,7.3,92.7
+Trinh Tien Nam,52,Nam,22.7,Binh thuong,172.0,Nguy hiem,199.0,Binh thuong,162.0,Khoe manh,82.6,17.4,82.6
+Ngo Thanh Hung,51,Nam,27.3,Thua can,125.0,Canh bao,213.0,Canh bao,125.0,Nguy co benh tim,15.4,84.6,84.6
+Ha Van Nghia,51,Nam,22.4,Binh thuong,140.0,Nguy hiem,261.0,Nguy hiem,186.0,Khoe manh,83.3,16.7,83.3
+Ly Xuan Nghia,70,Nam,23.4,Binh thuong,145.0,Nguy hiem,174.0,Binh thuong,125.0,Nguy co benh tim,20.3,79.7,79.7
+Truong Bich Nhi,35,Nu,23.3,Binh thuong,138.0,Canh bao,183.0,Binh thuong,182.0,Khoe manh,87.9,12.1,87.9
+Ngo Thanh Long,58,Nam,26.5,Thua can,112.0,Binh thuong,230.0,Canh bao,165.0,Nguy co benh tim,24.0,76.0,76.0
+Bui Duc Hoang,59,Nam,24.0,Binh thuong,160.0,Nguy hiem,273.0,Nguy hiem,125.0,Khoe manh,79.6,20.4,79.6
+Dinh Duc Nghia,60,Nam,22.9,Binh thuong,140.0,Nguy hiem,293.0,Nguy hiem,170.0,Khoe manh,53.5,46.5,53.5
+Do Van Phong,56,Nam,22.3,Binh thuong,132.0,Canh bao,184.0,Binh thuong,105.0,Nguy co benh tim,22.8,77.2,77.2
+Nguyen Anh Yen,35,Nu,19.1,Binh thuong,138.0,Canh bao,183.0,Binh thuong,182.0,Khoe manh,87.9,12.1,87.9
+Tran Duc Long,61,Nam,28.4,Thua can,138.0,Canh bao,166.0,Binh thuong,125.0,Nguy co benh tim,15.0,85.0,85.0
+Lam Phuong Hong,58,Nu,20.8,Binh thuong,150.0,Nguy hiem,283.0,Nguy hiem,162.0,Khoe manh,68.0,32.0,68.0
+Vo Quoc Son,52,Nam,23.9,Binh thuong,128.0,Canh bao,255.0,Nguy hiem,161.0,Khoe manh,82.1,17.9,82.1
+Dang Van Long,58,Nam,24.7,Binh thuong,120.0,Canh bao,284.0,Nguy hiem,160.0,Nguy co benh tim,47.5,52.5,52.5
+Do Duc Kien,37,Nam,26.3,Thua can,130.0,Canh bao,250.0,Nguy hiem,187.0,Nguy co benh tim,40.5,59.5,59.5
+Ngo Trong Long,52,Nam,22.9,Binh thuong,128.0,Canh bao,255.0,Nguy hiem,161.0,Khoe manh,82.1,17.9,82.1
+Nguyen Quoc Nghia,67,Nam,28.2,Thua can,120.0,Canh bao,229.0,Canh bao,129.0,Nguy co benh tim,18.4,81.6,81.6
+Bui Thanh Tuan,65,Nam,21.0,Binh thuong,138.0,Canh bao,282.0,Nguy hiem,174.0,Nguy co benh tim,19.7,80.3,80.3
+Ha Viet Thanh,46,Nam,23.2,Binh thuong,101.0,Binh thuong,197.0,Binh thuong,156.0,Khoe manh,89.9,10.1,89.9
+Dang Lan Nga,68,Nu,24.6,Binh thuong,120.0,Canh bao,211.0,Canh bao,115.0,Khoe manh,84.9,15.1,84.9
+Truong Tien Hoang,43,Nam,23.3,Binh thuong,115.0,Binh thuong,303.0,Nguy hiem,181.0,Khoe manh,79.2,20.8,79.2
+Pham Kim Mai,68,Nu,23.0,Binh thuong,120.0,Canh bao,211.0,Canh bao,115.0,Khoe manh,84.9,15.1,84.9
+Do Huu Son,51,Nam,22.4,Binh thuong,140.0,Nguy hiem,299.0,Nguy hiem,173.0,Khoe manh,70.2,29.8,70.2
+Ly Van Phuc,52,Nam,22.9,Binh thuong,112.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,88.6,11.4,88.6
+Ngo Minh An,64,Nam,25.1,Thua can,140.0,Nguy hiem,335.0,Nguy hiem,158.0,Khoe manh,78.7,21.3,78.7
+Duong Viet Phuc,59,Nam,26.2,Thua can,170.0,Nguy hiem,288.0,Nguy hiem,159.0,Khoe manh,65.7,34.3,65.7
+Lam Xuan Quang,52,Nam,25.5,Thua can,125.0,Canh bao,212.0,Canh bao,168.0,Khoe manh,91.9,8.1,91.9
+Hoang Quoc Son,59,Nam,28.1,Thua can,160.0,Nguy hiem,273.0,Nguy hiem,125.0,Khoe manh,79.6,20.4,79.6
+Ngo Thu Van,60,Nu,21.6,Binh thuong,150.0,Nguy hiem,240.0,Nguy hiem,171.0,Khoe manh,87.8,12.2,87.8
+Ngo Tien Nghia,41,Nam,22.8,Binh thuong,112.0,Binh thuong,250.0,Nguy hiem,179.0,Khoe manh,93.8,6.2,93.8
+Bui Thanh Kien,41,Nam,19.4,Binh thuong,110.0,Binh thuong,235.0,Canh bao,153.0,Khoe manh,93.8,6.2,93.8
+Vo Tien Khanh,56,Nam,20.8,Binh thuong,120.0,Canh bao,240.0,Nguy hiem,169.0,Khoe manh,66.9,33.1,66.9
+Dinh Minh Hung,56,Nam,27.8,Thua can,120.0,Canh bao,236.0,Canh bao,178.0,Khoe manh,93.1,6.9,93.1
+Trinh Kim Hoa,48,Nu,22.1,Binh thuong,130.0,Canh bao,275.0,Nguy hiem,139.0,Khoe manh,98.8,1.2,98.8
+Trinh Van Lam,39,Nam,26.4,Thua can,140.0,Nguy hiem,321.0,Nguy hiem,182.0,Khoe manh,93.4,6.6,93.4
+Tran Duc Binh,64,Nam,24.1,Binh thuong,170.0,Nguy hiem,227.0,Canh bao,155.0,Nguy co benh tim,41.4,58.6,58.6
+Nguyen Xuan Hung,57,Nam,24.8,Binh thuong,140.0,Nguy hiem,192.0,Binh thuong,148.0,Khoe manh,76.8,23.2,76.8
+Ngo Duc Hung,59,Nam,26.0,Thua can,160.0,Nguy hiem,273.0,Nguy hiem,125.0,Khoe manh,79.6,20.4,79.6
+Nguyen Quoc Lam,60,Nam,25.2,Thua can,130.0,Canh bao,206.0,Canh bao,132.0,Nguy co benh tim,22.4,77.6,77.6
+Ha Huu Binh,61,Nam,18.9,Binh thuong,140.0,Nguy hiem,207.0,Canh bao,138.0,Khoe manh,61.0,39.0,61.0
+Thai Anh Quynh,43,Nu,25.9,Thua can,122.0,Canh bao,213.0,Canh bao,165.0,Khoe manh,97.2,2.8,97.2
+Vo Van An,54,Nam,25.9,Thua can,120.0,Canh bao,188.0,Binh thuong,113.0,Khoe manh,62.0,38.0,62.0
+Trinh Viet Vinh,59,Nam,26.8,Thua can,138.0,Canh bao,271.0,Nguy hiem,182.0,Khoe manh,80.9,19.1,80.9
+Nguyen Van Lam,57,Nam,25.4,Thua can,132.0,Canh bao,207.0,Canh bao,168.0,Khoe manh,81.5,18.5,81.5
+Duong Viet Quang,57,Nam,19.5,Binh thuong,154.0,Nguy hiem,232.0,Canh bao,164.0,Khoe manh,94.9,5.1,94.9
+Nguyen Viet Vinh,57,Nam,21.4,Binh thuong,130.0,Canh bao,131.0,Binh thuong,115.0,Nguy co benh tim,31.7,68.3,68.3
+Vu Duc Dung,48,Nam,23.0,Binh thuong,124.0,Canh bao,274.0,Nguy hiem,166.0,Khoe manh,74.4,25.6,74.4
+Truong Minh Nam,70,Nam,24.9,Binh thuong,145.0,Nguy hiem,174.0,Binh thuong,125.0,Nguy co benh tim,20.3,79.7,79.7
+Do Trong Lam,57,Nam,27.8,Thua can,165.0,Nguy hiem,289.0,Nguy hiem,124.0,Nguy co benh tim,28.3,71.7,71.7
+Duong Huu Phong,61,Nam,24.0,Binh thuong,120.0,Canh bao,260.0,Nguy hiem,140.0,Nguy co benh tim,17.3,82.7,82.7
+Nguyen Duc Thanh,57,Nam,20.2,Binh thuong,110.0,Binh thuong,201.0,Canh bao,126.0,Nguy co benh tim,36.5,63.5,63.5
+Nguyen Kim Van,60,Nu,22.4,Binh thuong,150.0,Nguy hiem,258.0,Nguy hiem,157.0,Khoe manh,72.0,28.0,72.0
+Ngo Huong Linh,63,Nu,20.8,Binh thuong,150.0,Nguy hiem,407.0,Nguy hiem,154.0,Nguy co benh tim,40.8,59.2,59.2
+Le Thi Chi,55,Nu,22.3,Binh thuong,128.0,Canh bao,205.0,Canh bao,130.0,Khoe manh,61.7,38.3,61.7
+Nguyen Thu Nhi,64,Nu,24.4,Binh thuong,180.0,Nguy hiem,325.0,Nguy hiem,154.0,Khoe manh,55.7,44.3,55.7
+Trinh Tien Binh,54,Nam,19.9,Binh thuong,110.0,Binh thuong,239.0,Canh bao,126.0,Nguy co benh tim,26.1,73.9,73.9
+Nguyen Minh Cuong,52,Nam,21.6,Binh thuong,128.0,Canh bao,204.0,Canh bao,156.0,Nguy co benh tim,49.1,50.9,50.9
+Vo Xuan Son,51,Nam,26.9,Thua can,140.0,Nguy hiem,299.0,Nguy hiem,173.0,Khoe manh,70.2,29.8,70.2
+Lam Ngoc Thu,62,Nu,22.8,Binh thuong,130.0,Canh bao,263.0,Nguy hiem,97.0,Khoe manh,91.6,8.4,91.6
+Tran Quoc Long,59,Nam,25.2,Thua can,178.0,Nguy hiem,270.0,Nguy hiem,145.0,Nguy co benh tim,15.1,84.9,84.9
+Lam Tien Phong,52,Nam,21.6,Binh thuong,134.0,Canh bao,201.0,Canh bao,158.0,Khoe manh,96.8,3.2,96.8
+Tran Ngoc Lan,42,Nu,20.5,Binh thuong,102.0,Binh thuong,265.0,Nguy hiem,122.0,Khoe manh,84.8,15.2,84.8
+Trinh Trong Binh,59,Nam,23.6,Binh thuong,135.0,Canh bao,234.0,Canh bao,161.0,Khoe manh,71.6,28.4,71.6
+Vu Huu An,61,Nam,23.3,Binh thuong,134.0,Canh bao,234.0,Canh bao,145.0,Nguy co benh tim,6.6,93.4,93.4
+Do Anh Ha,42,Nu,18.7,Binh thuong,102.0,Binh thuong,265.0,Nguy hiem,122.0,Khoe manh,84.8,15.2,84.8
+Nguyen Ngoc Linh,62,Nu,18.5,Binh thuong,140.0,Nguy hiem,268.0,Nguy hiem,160.0,Khoe manh,51.3,48.7,51.3
+Vu Trong Nam,59,Nam,24.8,Binh thuong,126.0,Canh bao,218.0,Canh bao,134.0,Nguy co benh tim,21.6,78.4,78.4
+Lam Xuan Nghia,55,Nam,25.8,Thua can,130.0,Canh bao,262.0,Nguy hiem,155.0,Khoe manh,95.4,4.6,95.4
+Bui Xuan Hung,64,Nam,23.9,Binh thuong,120.0,Canh bao,246.0,Nguy hiem,96.0,Nguy co benh tim,17.2,82.8,82.8
+Le Viet Thanh,42,Nam,25.7,Thua can,140.0,Nguy hiem,226.0,Canh bao,178.0,Khoe manh,91.6,8.4,91.6
+Tran Ngoc Oanh,50,Nu,20.3,Binh thuong,120.0,Canh bao,244.0,Nguy hiem,162.0,Khoe manh,98.3,1.7,98.3
+Ngo Duc Son,62,Nam,21.7,Binh thuong,120.0,Canh bao,267.0,Nguy hiem,99.0,Nguy co benh tim,19.4,80.6,80.6
+Thai Trong Trung,50,Nam,21.0,Binh thuong,144.0,Nguy hiem,200.0,Canh bao,126.0,Khoe manh,55.4,44.6,55.4
+Nguyen Huu An,50,Nam,23.7,Binh thuong,140.0,Nguy hiem,233.0,Canh bao,163.0,Khoe manh,88.7,11.3,88.7
+Duong Kim Quynh,58,Nu,20.9,Binh thuong,136.0,Canh bao,319.0,Nguy hiem,152.0,Khoe manh,92.4,7.6,92.4
+Ngo Huu Nghia,35,Nam,24.6,Binh thuong,120.0,Canh bao,198.0,Binh thuong,130.0,Khoe manh,56.2,43.8,56.2
+Nguyen Xuan Khanh,45,Nam,27.0,Thua can,104.0,Binh thuong,208.0,Canh bao,148.0,Nguy co benh tim,42.4,57.6,57.6
+Lam Xuan Cuong,66,Nam,23.6,Binh thuong,112.0,Binh thuong,212.0,Canh bao,132.0,Khoe manh,70.1,29.9,70.1
+Thai Thanh Nam,46,Nam,24.1,Binh thuong,120.0,Canh bao,249.0,Nguy hiem,144.0,Khoe manh,88.7,11.3,88.7
+Le Duc Phong,65,Nam,24.2,Binh thuong,135.0,Canh bao,254.0,Nguy hiem,127.0,Nguy co benh tim,19.4,80.6,80.6
+Hoang Xuan Hung,47,Nam,24.4,Binh thuong,130.0,Canh bao,253.0,Nguy hiem,179.0,Khoe manh,95.4,4.6,95.4
+Nguyen Huu Thanh,59,Nam,23.8,Binh thuong,134.0,Canh bao,204.0,Canh bao,162.0,Khoe manh,58.9,41.1,58.9
+Pham Duc An,38,Nam,23.0,Binh thuong,120.0,Canh bao,231.0,Canh bao,182.0,Nguy co benh tim,30.3,69.7,69.7
+Dang Tien Thanh,39,Nam,18.8,Binh thuong,118.0,Binh thuong,219.0,Canh bao,140.0,Khoe manh,76.4,23.6,76.4
+Duong Duc Hung,58,Nam,23.7,Binh thuong,146.0,Nguy hiem,218.0,Canh bao,105.0,Nguy co benh tim,36.0,64.0,64.0
+Le Minh Vinh,44,Nam,20.9,Binh thuong,120.0,Canh bao,263.0,Nguy hiem,173.0,Khoe manh,96.2,3.8,96.2
+Ha Viet Nghia,54,Nam,21.4,Binh thuong,140.0,Nguy hiem,239.0,Canh bao,160.0,Khoe manh,87.9,12.1,87.9
+Truong Thu Dung,61,Nu,23.6,Binh thuong,130.0,Canh bao,330.0,Nguy hiem,169.0,Khoe manh,86.5,13.5,86.5
+Nguyen Duc Thanh,57,Nam,27.9,Thua can,130.0,Canh bao,131.0,Binh thuong,115.0,Nguy co benh tim,31.7,68.3,68.3
+Trinh Duc Trung,54,Nam,25.8,Thua can,110.0,Binh thuong,206.0,Canh bao,108.0,Khoe manh,57.8,42.2,57.8
+Thai Huu Tuan,42,Nam,21.8,Binh thuong,120.0,Canh bao,240.0,Nguy hiem,194.0,Khoe manh,79.6,20.4,79.6
+Nguyen Thanh Vinh,54,Nam,22.9,Binh thuong,124.0,Canh bao,266.0,Nguy hiem,109.0,Nguy co benh tim,21.7,78.3,78.3
+Nguyen Duc Nghia,60,Nam,24.2,Binh thuong,130.0,Canh bao,206.0,Canh bao,132.0,Nguy co benh tim,22.4,77.6,77.6
+Ngo Trong Lam,65,Nam,25.5,Thua can,135.0,Canh bao,254.0,Nguy hiem,127.0,Nguy co benh tim,19.4,80.6,80.6
+Vu Xuan Khanh,40,Nam,19.1,Binh thuong,152.0,Nguy hiem,223.0,Canh bao,181.0,Khoe manh,88.1,11.9,88.1
+Hoang Lan Linh,51,Nu,18.3,Thieu can,140.0,Nguy hiem,308.0,Nguy hiem,142.0,Khoe manh,97.2,2.8,97.2
+Duong Tien Hung,38,Nam,26.3,Thua can,120.0,Canh bao,231.0,Canh bao,182.0,Nguy co benh tim,30.3,69.7,69.7
+Le Minh Vinh,42,Nam,22.5,Binh thuong,130.0,Canh bao,180.0,Binh thuong,150.0,Khoe manh,94.8,5.2,94.8
+Duong Xuan Quang,56,Nam,23.0,Binh thuong,120.0,Canh bao,240.0,Nguy hiem,169.0,Khoe manh,66.9,33.1,66.9
+Vo Duc Thanh,43,Nam,25.5,Thua can,130.0,Canh bao,315.0,Nguy hiem,162.0,Khoe manh,86.0,14.0,86.0
+Duong Quoc Kien,64,Nam,27.0,Thua can,140.0,Nguy hiem,335.0,Nguy hiem,158.0,Khoe manh,78.7,21.3,78.7
+Thai Trong Long,53,Nam,23.0,Binh thuong,142.0,Nguy hiem,226.0,Canh bao,111.0,Khoe manh,75.2,24.8,75.2
+Ha Ngoc Ha,49,Nu,20.5,Binh thuong,134.0,Canh bao,271.0,Nguy hiem,162.0,Khoe manh,97.0,3.0,97.0
+Dang Thi Nhi,57,Nu,26.5,Thua can,140.0,Nguy hiem,241.0,Nguy hiem,123.0,Khoe manh,76.2,23.8,76.2
+Bui Anh Nhi,52,Nu,21.0,Binh thuong,136.0,Canh bao,196.0,Binh thuong,169.0,Khoe manh,93.6,6.4,93.6
+Bui Kim Mai,69,Nu,23.2,Binh thuong,140.0,Nguy hiem,239.0,Canh bao,151.0,Khoe manh,82.0,18.0,82.0
+Ly Trong Hung,65,Nam,24.6,Binh thuong,120.0,Canh bao,177.0,Binh thuong,140.0,Khoe manh,85.9,14.1,85.9
+Dang Mai Yen,66,Nu,22.5,Binh thuong,178.0,Nguy hiem,228.0,Canh bao,165.0,Nguy co benh tim,37.4,62.6,62.6
+Do Tien Son,56,Nam,23.5,Binh thuong,120.0,Canh bao,193.0,Binh thuong,162.0,Nguy co benh tim,20.1,79.9,79.9
+Vu Thu Mai,67,Nu,22.2,Binh thuong,152.0,Nguy hiem,277.0,Nguy hiem,172.0,Khoe manh,90.2,9.8,90.2
+Dang Kim Van,54,Nu,21.6,Binh thuong,160.0,Nguy hiem,201.0,Canh bao,163.0,Khoe manh,93.9,6.1,93.9
+Ngo Huu Tuan,70,Nam,27.5,Thua can,145.0,Nguy hiem,174.0,Binh thuong,125.0,Nguy co benh tim,20.3,79.7,79.7
+Duong Xuan Thanh,57,Nam,22.8,Binh thuong,132.0,Canh bao,207.0,Canh bao,168.0,Khoe manh,81.5,18.5,81.5
+Pham Trong Long,67,Nam,22.7,Binh thuong,160.0,Nguy hiem,286.0,Nguy hiem,108.0,Nguy co benh tim,17.2,82.8,82.8
+Lam Phuong Hoa,62,Nu,23.4,Binh thuong,130.0,Canh bao,263.0,Nguy hiem,97.0,Khoe manh,91.6,8.4,91.6
+Trinh Thi Phuong,54,Nu,23.6,Binh thuong,135.0,Canh bao,304.0,Nguy hiem,170.0,Khoe manh,90.5,9.5,90.5
+Do Kim Linh,45,Nu,19.7,Binh thuong,138.0,Canh bao,236.0,Canh bao,152.0,Khoe manh,87.7,12.3,87.7
+Le Thu Quynh,53,Nu,22.8,Binh thuong,130.0,Canh bao,264.0,Nguy hiem,143.0,Khoe manh,92.9,7.1,92.9
+Hoang Thanh Nam,62,Nam,29.1,Thua can,130.0,Canh bao,231.0,Canh bao,146.0,Nguy co benh tim,27.5,72.5,72.5
+Duong Bich Oanh,49,Nu,23.8,Binh thuong,130.0,Canh bao,269.0,Nguy hiem,163.0,Khoe manh,93.0,7.0,93.0
+Nguyen Duc Hoang,50,Nam,22.2,Binh thuong,140.0,Nguy hiem,233.0,Canh bao,163.0,Khoe manh,88.7,11.3,88.7
+Thai Kim Van,65,Nu,20.9,Binh thuong,140.0,Nguy hiem,417.0,Nguy hiem,157.0,Khoe manh,74.9,25.1,74.9
+Nguyen Phuong Thu,69,Nu,21.3,Binh thuong,140.0,Nguy hiem,239.0,Canh bao,151.0,Khoe manh,82.0,18.0,82.0
+Ly Phuong Bich,52,Nu,24.4,Binh thuong,136.0,Canh bao,196.0,Binh thuong,169.0,Khoe manh,93.6,6.4,93.6
+Dinh Phuong Yen,58,Nu,23.1,Binh thuong,100.0,Binh thuong,248.0,Nguy hiem,122.0,Khoe manh,86.5,13.5,86.5
+Le Duc Nam,52,Nam,21.2,Binh thuong,108.0,Binh thuong,233.0,Canh bao,147.0,Khoe manh,85.7,14.3,85.7
+Dinh Bich Yen,57,Nu,21.8,Binh thuong,140.0,Nguy hiem,241.0,Nguy hiem,123.0,Khoe manh,76.2,23.8,76.2
+Tran Anh Nhi,44,Nu,27.4,Thua can,108.0,Binh thuong,141.0,Binh thuong,175.0,Khoe manh,89.4,10.6,89.4
+Bui Thu Dung,76,Nu,23.7,Binh thuong,140.0,Nguy hiem,197.0,Binh thuong,116.0,Khoe manh,74.7,25.3,74.7
+Nguyen Duc Phong,58,Nam,23.2,Binh thuong,128.0,Canh bao,259.0,Nguy hiem,130.0,Nguy co benh tim,15.7,84.3,84.3
+Ngo Phuong Thu,60,Nu,18.7,Binh thuong,120.0,Canh bao,178.0,Binh thuong,96.0,Khoe manh,90.1,9.9,90.1
+Trinh Trong Phuc,53,Nam,24.7,Binh thuong,140.0,Nguy hiem,203.0,Canh bao,155.0,Nguy co benh tim,23.1,76.9,76.9
+Ngo Tien Thanh,52,Nam,23.7,Binh thuong,120.0,Canh bao,325.0,Nguy hiem,172.0,Khoe manh,91.6,8.4,91.6
+Nguyen Tien Phuc,38,Nam,22.5,Binh thuong,138.0,Canh bao,175.0,Binh thuong,173.0,Khoe manh,95.2,4.8,95.2
+Truong Minh Thanh,52,Nam,22.6,Binh thuong,172.0,Nguy hiem,199.0,Binh thuong,162.0,Khoe manh,82.6,17.4,82.6
+Nguyen Tien Dung,52,Nam,22.6,Binh thuong,118.0,Binh thuong,186.0,Binh thuong,190.0,Nguy co benh tim,47.6,52.4,52.4
+Dang Xuan Cuong,51,Nam,23.4,Binh thuong,125.0,Canh bao,245.0,Nguy hiem,166.0,Khoe manh,55.5,44.5,55.5
+Pham Minh Thanh,43,Nam,23.4,Binh thuong,110.0,Binh thuong,211.0,Canh bao,161.0,Khoe manh,88.9,11.1,88.9
+Dang Huu Hoang,39,Nam,26.6,Thua can,118.0,Binh thuong,219.0,Canh bao,140.0,Khoe manh,76.4,23.6,76.4
+Do Phuong Quynh,63,Nu,20.9,Binh thuong,108.0,Binh thuong,269.0,Nguy hiem,169.0,Khoe manh,62.9,37.1,62.9
+Dinh Tien Dung,52,Nam,26.9,Thua can,128.0,Canh bao,205.0,Canh bao,184.0,Khoe manh,94.0,6.0,94.0
+Ha Tien Son,44,Nam,31.4,Beo phi,110.0,Binh thuong,197.0,Binh thuong,177.0,Khoe manh,86.4,13.6,86.4
+Le Thanh Binh,45,Nam,24.1,Binh thuong,142.0,Nguy hiem,309.0,Nguy hiem,147.0,Khoe manh,62.3,37.7,62.3
+Pham Van Son,57,Nam,24.2,Binh thuong,140.0,Nguy hiem,192.0,Binh thuong,148.0,Khoe manh,76.8,23.2,76.8
+Pham Minh Nam,39,Nam,25.1,Thua can,118.0,Binh thuong,219.0,Canh bao,140.0,Khoe manh,76.4,23.6,76.4
+Truong Bich Thuy,67,Nu,22.7,Binh thuong,106.0,Binh thuong,223.0,Canh bao,142.0,Khoe manh,88.3,11.7,88.3
+Vu Huu Nghia,64,Nam,23.1,Binh thuong,128.0,Canh bao,263.0,Nguy hiem,105.0,Nguy co benh tim,28.1,71.9,71.9
+Ly Tien Nam,59,Nam,26.3,Thua can,135.0,Canh bao,234.0,Canh bao,161.0,Khoe manh,71.6,28.4,71.6
+Nguyen Minh Khanh,62,Nam,18.0,Thieu can,130.0,Canh bao,231.0,Canh bao,146.0,Nguy co benh tim,27.5,72.5,72.5
+Ly Thu An,55,Nu,23.0,Binh thuong,180.0,Nguy hiem,327.0,Nguy hiem,117.0,Nguy co benh tim,29.6,70.4,70.4
+Thai Quoc Hoang,57,Nam,22.5,Binh thuong,154.0,Nguy hiem,232.0,Canh bao,164.0,Khoe manh,94.9,5.1,94.9
+Lam Xuan Tuan,60,Nam,25.9,Thua can,140.0,Nguy hiem,293.0,Nguy hiem,170.0,Khoe manh,53.5,46.5,53.5
+Nguyen Huong Hong,71,Nu,23.5,Binh thuong,160.0,Nguy hiem,302.0,Nguy hiem,162.0,Khoe manh,90.1,9.9,90.1
+Duong Duc Phuc,56,Nam,20.0,Binh thuong,120.0,Canh bao,236.0,Canh bao,178.0,Khoe manh,93.1,6.9,93.1
+Pham Viet Khanh,60,Nam,25.7,Thua can,117.0,Binh thuong,230.0,Canh bao,160.0,Khoe manh,57.8,42.2,57.8
+Dinh Mai Hong,50,Nu,23.8,Binh thuong,110.0,Binh thuong,254.0,Nguy hiem,159.0,Khoe manh,90.4,9.6,90.4
+Ha Duc Phong,43,Nam,24.8,Binh thuong,132.0,Canh bao,247.0,Nguy hiem,143.0,Khoe manh,71.0,29.0,71.0
+Vo Viet Son,59,Nam,24.6,Binh thuong,110.0,Binh thuong,239.0,Canh bao,142.0,Nguy co benh tim,46.0,54.0,54.0
+Thai Xuan Trung,44,Nam,25.4,Thua can,120.0,Canh bao,263.0,Nguy hiem,173.0,Khoe manh,96.2,3.8,96.2
+Nguyen Anh Dung,56,Nu,24.3,Binh thuong,134.0,Canh bao,409.0,Nguy hiem,150.0,Khoe manh,54.8,45.2,54.8
+Dinh Huu Hoang,54,Nam,26.2,Thua can,120.0,Canh bao,188.0,Binh thuong,113.0,Khoe manh,62.0,38.0,62.0
+Thai Minh Quang,42,Nam,21.3,Binh thuong,136.0,Canh bao,315.0,Nguy hiem,125.0,Nguy co benh tim,27.6,72.4,72.4
+Thai Trong Cuong,67,Nam,21.6,Binh thuong,125.0,Canh bao,254.0,Nguy hiem,163.0,Nguy co benh tim,32.2,67.8,67.8
+Hoang Huu Dung,64,Nam,23.1,Binh thuong,145.0,Nguy hiem,212.0,Canh bao,132.0,Nguy co benh tim,38.1,61.9,61.9
+Ngo Thanh Dung,42,Nam,22.7,Binh thuong,140.0,Nguy hiem,226.0,Canh bao,178.0,Khoe manh,91.6,8.4,91.6
+Vu Huu Hung,66,Nam,24.0,Binh thuong,112.0,Binh thuong,212.0,Canh bao,132.0,Khoe manh,70.1,29.9,70.1
+Truong Xuan Vinh,52,Nam,21.4,Binh thuong,108.0,Binh thuong,233.0,Canh bao,147.0,Khoe manh,85.7,14.3,85.7
+Thai Bich Van,51,Nu,24.8,Binh thuong,140.0,Nguy hiem,308.0,Nguy hiem,142.0,Khoe manh,97.2,2.8,97.2
+Nguyen Thu Hoa,55,Nu,20.6,Binh thuong,128.0,Canh bao,205.0,Canh bao,130.0,Khoe manh,61.7,38.3,61.7
+Vo Viet Khanh,58,Nam,21.2,Binh thuong,140.0,Nguy hiem,211.0,Canh bao,165.0,Khoe manh,90.8,9.2,90.8
+Trinh Minh Kien,56,Nam,23.0,Binh thuong,120.0,Canh bao,193.0,Binh thuong,162.0,Nguy co benh tim,20.1,79.9,79.9
+Dang Minh Khanh,42,Nam,18.5,Binh thuong,120.0,Canh bao,295.0,Nguy hiem,162.0,Khoe manh,94.9,5.1,94.9
+Bui Tien Trung,40,Nam,20.4,Binh thuong,152.0,Nguy hiem,223.0,Canh bao,181.0,Khoe manh,88.1,11.9,88.1
+Tran Huu An,51,Nam,24.2,Binh thuong,140.0,Nguy hiem,299.0,Nguy hiem,173.0,Khoe manh,70.2,29.8,70.2
+Vo Minh Long,45,Nam,20.2,Binh thuong,128.0,Canh bao,308.0,Nguy hiem,170.0,Khoe manh,94.4,5.6,94.4
+Nguyen Viet Lam,48,Nam,24.0,Binh thuong,110.0,Binh thuong,229.0,Canh bao,168.0,Khoe manh,67.0,33.0,67.0
+Vo Xuan Kien,58,Nam,26.6,Thua can,114.0,Binh thuong,318.0,Nguy hiem,140.0,Nguy co benh tim,32.7,67.3,67.3
+Ly Kim Quynh,44,Nu,21.3,Binh thuong,108.0,Binh thuong,141.0,Binh thuong,175.0,Khoe manh,89.4,10.6,89.4
+Vu Duc Phuc,58,Nam,21.1,Binh thuong,128.0,Canh bao,216.0,Canh bao,131.0,Nguy co benh tim,25.7,74.3,74.3
+Nguyen Quoc Quang,65,Nam,24.8,Binh thuong,138.0,Canh bao,282.0,Nguy hiem,174.0,Nguy co benh tim,19.7,80.3,80.3
+Tran Thanh Nam,53,Nam,30.4,Beo phi,123.0,Canh bao,282.0,Nguy hiem,95.0,Nguy co benh tim,20.6,79.4,79.4
+Trinh Thanh Khanh,41,Nam,22.2,Binh thuong,110.0,Binh thuong,172.0,Binh thuong,158.0,Khoe manh,85.7,14.3,85.7
+Ha Trong Kien,47,Nam,19.1,Binh thuong,112.0,Binh thuong,204.0,Canh bao,143.0,Khoe manh,88.1,11.9,88.1
+Trinh Viet Dung,59,Nam,22.5,Binh thuong,140.0,Nguy hiem,221.0,Canh bao,164.0,Khoe manh,80.1,19.9,80.1
+Lam Duc Phong,60,Nam,23.9,Binh thuong,125.0,Canh bao,258.0,Nguy hiem,141.0,Nguy co benh tim,18.4,81.6,81.6
+Trinh Huu Nghia,47,Nam,26.3,Thua can,110.0,Binh thuong,275.0,Nguy hiem,118.0,Khoe manh,52.0,48.0,52.0
+Tran Kim Thuy,50,Nu,22.5,Binh thuong,110.0,Binh thuong,254.0,Nguy hiem,159.0,Khoe manh,90.4,9.6,90.4
+Do Xuan Dung,54,Nam,23.9,Binh thuong,120.0,Canh bao,188.0,Binh thuong,113.0,Khoe manh,62.0,38.0,62.0

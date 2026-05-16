@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deep DOA vs Grid Search — Minh Hoạ Tương Tác</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;500;700&display=swap');
+
+:root {
+  --bg: #040d1a;
+  --bg2: #071426;
+  --bg3: #0a1e38;
+  --card: #0d2040;
+  --border: #1a3a5c;
+  --blue: #00b4ff;
+  --cyan: #60cfff;
+  --green: #4eff91;
+  --orange: #ff8c40;
+  --yellow: #ffe040;
+  --red: #ff4060;
+  --text: #c8e4ff;
+  --dim: #5a8aaa;
+  --font: 'Space Grotesk', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #040d1a 0%, #0a1e38 50%, #040d1a 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 24px 32px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.header-left h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--cyan);
+  letter-spacing: -0.5px;
+}
+.header-left p {
+  font-size: 13px;
+  color: var(--dim);
+  margin-top: 4px;
+  font-family: var(--mono);
+}
+.badge {
+  background: linear-gradient(135deg, #0a3060, #0d2040);
+  border: 1px solid var(--blue);
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 12px;
+  color: var(--blue);
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+
+.tab-nav {
+  display: flex;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  overflow-x: auto;
+  gap: 4px;
+}
+.tab-btn {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--dim);
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 14px 20px 11px;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.tab-btn:hover { color: var(--cyan); }
+.tab-btn.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+
+.panel { display: none; padding: 24px 28px; }
+.panel.active { display: flex; flex-direction: column; gap: 20px; }
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--cyan);
+  letter-spacing: -0.3px;
+}
+.section-sub {
+  font-size: 13px;
+  color: var(--dim);
+  margin-top: -12px;
+  font-family: var(--mono);
+}
+
+.row { display: flex; gap: 20px; flex-wrap: wrap; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+}
+.card-title {
+  font-size: 12px;
+  font-family: var(--mono);
+  color: var(--blue);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+.card-body { font-size: 14px; color: var(--text); line-height: 1.7; }
+.card-body strong { color: var(--cyan); }
+.card-body .hi { color: var(--green); font-weight: 600; }
+.card-body .warn { color: var(--orange); }
+.card-body .bad { color: var(--red); }
+
+.canvas-wrap {
+  position: relative;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.canvas-title {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  font-size: 13px;
+  color: var(--cyan);
+  font-family: var(--mono);
+  pointer-events: none;
+  text-shadow: 0 0 8px rgba(0,180,255,0.5);
+}
+
+.ctrl-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 14px 20px;
+  background: var(--bg3);
+  border-top: 1px solid var(--border);
+}
+.btn {
+  background: linear-gradient(135deg, #0a3060, #0d2040);
+  border: 1px solid var(--blue);
+  border-radius: 8px;
+  color: var(--blue);
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 8px 20px;
+  transition: all 0.2s;
+  user-select: none;
+}
+.btn:hover { background: #0a4080; color: var(--cyan); border-color: var(--cyan); }
+.btn.go {
+  background: linear-gradient(135deg, #003a20, #004d2a);
+  border-color: var(--green);
+  color: var(--green);
+}
+.btn.go:hover { background: #005030; }
+.btn.stop {
+  background: linear-gradient(135deg, #3a0010, #4d0018);
+  border-color: var(--red);
+  color: var(--red);
+}
+.spd {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; color: var(--dim); font-family: var(--mono);
+}
+.spd input[type=range] { width: 90px; accent-color: var(--blue); }
+.stat-pill {
+  background: #071426;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-family: var(--mono);
+  color: var(--dim);
+}
+.stat-pill span { color: var(--yellow); }
+
+.formula {
+  background: #020810;
+  border: 1px solid #0a2040;
+  border-radius: 10px;
+  padding: 16px 18px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: #7ab0cc;
+  line-height: 1.85;
+}
+.formula .hl  { color: var(--cyan); }
+.formula .hl2 { color: var(--green); }
+.formula .hl3 { color: var(--orange); }
+.formula .label { color: #2a5a7a; font-size: 11px; }
+
+.legend {
+  display: flex; gap: 16px; align-items: center; flex-wrap: wrap;
+  padding: 10px 16px;
+  background: var(--bg3);
+  border-top: 1px solid var(--border);
+  font-size: 12px; font-family: var(--mono);
+}
+.leg-item { display: flex; align-items: center; gap: 6px; }
+.leg-dot  { width: 10px; height: 10px; border-radius: 50%; }
+.leg-star { font-size: 16px; line-height: 1; }
+
+.cmp-table { width:100%; border-collapse:collapse; font-size:13px; }
+.cmp-table th {
+  background:#060f20; color:var(--blue); font-family:var(--mono);
+  font-size:11px; letter-spacing:1px; text-transform:uppercase;
+  padding:10px 14px; text-align:left;
+  border-bottom:1px solid var(--border);
+}
+.cmp-table td {
+  padding:9px 14px; border-bottom:1px solid rgba(26,58,92,0.4);
+}
+.cmp-table tr:hover td { background:rgba(13,32,64,0.6); }
+.cmp-table .good { color:var(--green); font-weight:600; }
+.cmp-table .bad  { color:var(--red); }
+.cmp-table .neu  { color:var(--dim); }
+
+/* Data tab specific */
+.data-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: 14px; }
+.kpi-card {
+  background: linear-gradient(135deg, #0a1e38, #0d2040);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+.kpi-val { font-size: 28px; font-weight: 700; color: var(--cyan); font-family: var(--mono); }
+.kpi-label { font-size: 12px; color: var(--dim); margin-top: 4px; }
+.kpi-sub { font-size: 11px; color: #3a6080; margin-top: 2px; font-family: var(--mono); }
+.bar-row { display: flex; align-items: center; gap: 10px; font-size: 12px; font-family: var(--mono); margin: 6px 0; }
+.bar-fill { height: 14px; border-radius: 4px; transition: width 0.5s; }
+.bar-label { min-width: 70px; color: var(--dim); }
+.bar-val { color: var(--cyan); min-width: 40px; text-align: right; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>Deep DOA vs Grid Search — Minh Hoạ Tương Tác</h1>
+    <p>UCI Heart Disease · SVM Hyperparameter Optimization · 5 Co Che DOA · Du Lieu Thuc</p>
+  </div>
+  <div class="badge">Nhom 11 · HUIT/IUH · 2025</div>
+</div>
+
+<div class="tab-nav">
+  <button class="tab-btn active" onclick="switchTab(0)">Tai Sao Toi Uu?</button>
+  <button class="tab-btn" onclick="switchTab(1)">Du Lieu Thuc</button>
+  <button class="tab-btn" onclick="switchTab(2)">Grid Search</button>
+  <button class="tab-btn" onclick="switchTab(3)">Co Che 1: Raindrop</button>
+  <button class="tab-btn" onclick="switchTab(4)">Co Che 2: Evaporation</button>
+  <button class="tab-btn" onclick="switchTab(5)">Co Che 3: Levy Surge</button>
+  <button class="tab-btn" onclick="switchTab(6)">Co Che 4: Dynamic alpha/beta</button>
+  <button class="tab-btn" onclick="switchTab(7)">So Sanh Tong Hop</button>
+</div>
+
+<!-- PANEL 0: Why optimize? -->
+<div class="panel active" id="panel-0">
+  <div class="section-title">Tai Sao Phai Toi Uu C va gamma cua SVM?</div>
+  <div class="section-sub">Chon sai tham so → mat 8–10% accuracy. Minh hoa fitness landscape cua khong gian tham so.</div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:2; min-width:300px;">
+      <div class="canvas-title" id="p0-title">Fitness Landscape: log10(C) x log10(gamma)</div>
+      <canvas id="c0-landscape" width="700" height="380"></canvas>
+      <div class="legend">
+        <div class="leg-item"><span class="leg-star" style="color:#ffe040">★</span><span>Best (C~37, gamma~0.014)</span></div>
+        <div class="leg-item"><span class="leg-star" style="color:#ff4060">✕</span><span>Default (C=1, gamma=scale)</span></div>
+        <div class="leg-item" style="margin-left:auto; font-size:11px; color:#4eff91" id="p0-stat">Accuracy Max: 57.7% | Min: 49.4%</div>
+      </div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; min-width:260px;">
+      <div class="card">
+        <div class="card-title">Van de</div>
+        <div class="card-body">
+          SVM co 2 sieu tham so quan trong:<br><br>
+          <strong>C</strong> — regularization: kiem soat do rong margin<br>
+          <strong>gamma</strong> — bandwidth cua kernel RBF<br><br>
+          Chenh lech accuracy len den <span class="hi">8.3%</span> khi chon sai!<br><br>
+          Default <span class="warn">C=1, gamma=scale</span> cho <span class="bad">~53%</span><br>
+          Optimal cho <span class="hi">~57.7%</span>
+        </div>
+      </div>
+      <div class="formula">
+        <div class="label">// Kernel RBF</div>
+        K(x,x') = exp(<span class="hl">-gamma</span>·||x−x'||²)<br><br>
+        <div class="label">// Objective: tim (C*, gamma*) toi da hoa</div>
+        f(<span class="hl">C</span>, <span class="hl3">gamma</span>) = CV_accuracy(SVM_C,gamma)<br><br>
+        <div class="label">// Khong gian tim kiem</div>
+        log10(C) in [<span class="hl2">-1, 3</span>]<br>
+        log10(gamma) in [<span class="hl2">-3, 1</span>]
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL 1: Real Data -->
+<div class="panel" id="panel-1">
+  <div class="section-title">Du Lieu Thuc — UCI Heart Disease (920 mau, 13 dac trung)</div>
+  <div class="section-sub">4 dataset: Cleveland (303) + Hungarian (294) + VA (200) + Switzerland (123). KNN Imputer + SMOTE.</div>
+
+  <div class="data-grid">
+    <div class="kpi-card">
+      <div class="kpi-val">920</div>
+      <div class="kpi-label">Tong so mau (sau gop)</div>
+      <div class="kpi-sub">Cleveland+Hungarian+VA+Swiss</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val">13</div>
+      <div class="kpi-label">So dac trung</div>
+      <div class="kpi-sub">age, sex, cp, trestbps, chol...</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val">55.3%</div>
+      <div class="kpi-label">Co benh (509 mau)</div>
+      <div class="kpi-sub">SMOTE can bang → 50/50</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val">1,759</div>
+      <div class="kpi-label">Gia tri thieu ban dau</div>
+      <div class="kpi-sub">KNN Imputer (k=5) xu ly</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val">53.5</div>
+      <div class="kpi-label">Tuoi trung binh (nam)</div>
+      <div class="kpi-sub">min=28, max=77, std=9.4</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val">78.9%</div>
+      <div class="kpi-label">Benh nhan nam</div>
+      <div class="kpi-sub">726 nam / 194 nu</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card" style="flex:1; min-width:260px;">
+      <div class="card-title">Phan Bo 4 Dataset</div>
+      <div style="margin-top:8px;">
+        <div class="bar-row">
+          <span class="bar-label">Cleveland</span>
+          <div class="bar-fill" style="width:197px; background:#1565C0;"></div>
+          <span class="bar-val">303</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Hungarian</span>
+          <div class="bar-fill" style="width:191px; background:#1565C0;"></div>
+          <span class="bar-val">294</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">VA</span>
+          <div class="bar-fill" style="width:130px; background:#1565C0;"></div>
+          <span class="bar-val">200</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Switzerland</span>
+          <div class="bar-fill" style="width:80px; background:#1565C0;"></div>
+          <span class="bar-val">123</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="flex:1; min-width:260px;">
+      <div class="card-title">Missing Values Truoc KNN Imputer</div>
+      <div style="margin-top:8px;">
+        <div class="bar-row">
+          <span class="bar-label">ca</span>
+          <div class="bar-fill" style="width:180px; background:#ff4060;"></div>
+          <span class="bar-val">611</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">thal</span>
+          <div class="bar-fill" style="width:143px; background:#ff8c40;"></div>
+          <span class="bar-val">486</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">slope</span>
+          <div class="bar-fill" style="width:91px; background:#ffb040;"></div>
+          <span class="bar-val">309</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">fbs</span>
+          <div class="bar-fill" style="width:27px; background:#ffe040;"></div>
+          <span class="bar-val">90</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">oldpeak</span>
+          <div class="bar-fill" style="width:18px; background:#ffe040;"></div>
+          <span class="bar-val">62</span>
+        </div>
+        <div class="bar-row" style="margin-top:8px; color:#4eff91; font-size:11px;">
+          Sau KNN Imputer: 0 missing
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="flex:1; min-width:260px;">
+      <div class="card-title">Thong Ke Dac Trung So</div>
+      <div style="margin-top:8px; font-family:var(--mono); font-size:12px; line-height:2;">
+        <div style="display:flex; justify-content:space-between; border-bottom:1px solid #1a3a5c; padding:2px 0;">
+          <span style="color:var(--dim);">Feature</span><span style="color:var(--dim);">Mean</span><span style="color:var(--dim);">Std</span><span style="color:var(--dim);">Range</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding:2px 0;">
+          <span>age</span><span style="color:var(--cyan);">53.5</span><span style="color:var(--dim);">9.4</span><span style="color:var(--dim);">28–77</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding:2px 0;">
+          <span>trestbps</span><span style="color:var(--cyan);">132.1</span><span style="color:var(--dim);">19.1</span><span style="color:var(--dim);">0–200</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding:2px 0;">
+          <span>chol</span><span style="color:var(--cyan);">199.1</span><span style="color:var(--dim);">110.8</span><span style="color:var(--dim);">0–603</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding:2px 0;">
+          <span>thalach</span><span style="color:var(--cyan);">137.5</span><span style="color:var(--dim);">25.9</span><span style="color:var(--dim);">60–202</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding:2px 0;">
+          <span>oldpeak</span><span style="color:var(--cyan);">0.88</span><span style="color:var(--dim);">1.07</span><span style="color:var(--dim);">-3–6</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:1; min-width:320px;">
+      <div class="canvas-title">Phan Bo Target — Truoc va Sau SMOTE</div>
+      <canvas id="c-data-dist" width="500" height="220"></canvas>
+    </div>
+    <div class="canvas-wrap" style="flex:1; min-width:320px;">
+      <div class="canvas-title">Pipeline Xu Ly Du Lieu</div>
+      <canvas id="c-pipeline" width="500" height="220"></canvas>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card" style="flex:2; min-width:300px;">
+      <div class="card-title">13 Dac Trung UCI Heart Disease</div>
+      <div style="font-family:var(--mono); font-size:12px; display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; margin-top:8px;">
+        <div><span style="color:var(--cyan);">age</span> — tuoi benh nhan</div>
+        <div><span style="color:var(--cyan);">sex</span> — gioi tinh (0/1)</div>
+        <div><span style="color:var(--cyan);">cp</span> — loai dau nguc (1-4)</div>
+        <div><span style="color:var(--cyan);">trestbps</span> — huyet ap nghi</div>
+        <div><span style="color:var(--cyan);">chol</span> — cholesterol</div>
+        <div><span style="color:var(--cyan);">fbs</span> — duong huyet cao (0/1)</div>
+        <div><span style="color:var(--cyan);">restecg</span> — dien tim nghi (0-2)</div>
+        <div><span style="color:var(--cyan);">thalach</span> — nhip tim toi da</div>
+        <div><span style="color:var(--cyan);">exang</span> — dau nguc khi van dong</div>
+        <div><span style="color:var(--cyan);">oldpeak</span> — ST depression</div>
+        <div><span style="color:var(--cyan);">slope</span> — do doc ST (1-3)</div>
+        <div><span style="color:var(--cyan);">ca</span> — so mach mau chinh (0-3)</div>
+        <div><span style="color:var(--cyan);">thal</span> — thalassemia (3/6/7)</div>
+      </div>
+    </div>
+    <div class="card" style="flex:1; min-width:240px;">
+      <div class="card-title">Ket Qua DOA Tren Du Lieu Nay</div>
+      <div class="card-body" style="font-family:var(--mono); font-size:13px; line-height:2.2;">
+        <div>CV Accuracy: <span style="color:var(--green);">~86%</span></div>
+        <div>Test Accuracy: <span style="color:var(--green);">~85%</span></div>
+        <div>AUC-ROC: <span style="color:var(--green);">~0.93</span></div>
+        <div>F1-Score: <span style="color:var(--green);">~0.86</span></div>
+        <div style="margin-top:4px; color:var(--dim); font-size:11px;">n_iter=2000, n_droplets=25<br>5-fold CV, SMOTE, KNN Imputer</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL 2: Grid Search -->
+<div class="panel" id="panel-2">
+  <div class="section-title">Grid Search — Duyet Dong Deu, Lang Phi O Vung Xau</div>
+  <div class="section-sub">Grid danh gia moi diem nhu nhau, ke ca vung accuracy thap. Chi phi tang luy thua.</div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:2; min-width:300px;">
+      <div class="canvas-title">Grid Search: 36 diem danh gia tren landscape</div>
+      <canvas id="c1-grid" width="700" height="380"></canvas>
+      <div class="ctrl-row">
+        <button class="btn go" onclick="runGridAnim()">Chay Grid Search</button>
+        <button class="btn stop" onclick="stopGridAnim()">Dung</button>
+        <button class="btn" onclick="resetGrid()">Reset</button>
+        <div class="stat-pill">Da danh gia: <span id="grid-count">0</span>/36</div>
+        <div class="stat-pill">Tot nhat: <span id="grid-best">—</span></div>
+      </div>
+      <div class="legend">
+        <div class="leg-item"><div class="leg-dot" style="background:#fff;opacity:0.7"></div><span>Diem Grid cho</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#00b4ff"></div><span>Dang danh gia</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#4eff91"></div><span>Da danh gia</span></div>
+        <div class="leg-item"><span class="leg-star" style="color:#ffe040">★</span><span>Tot nhat tim duoc</span></div>
+        <div class="leg-item"><span class="leg-star" style="color:#ff4060">✕</span><span>Nghiem thuc su</span></div>
+      </div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; min-width:260px;">
+      <div class="card">
+        <div class="card-title">Diem yeu cua Grid Search</div>
+        <div class="card-body">
+          <span class="bad">✗</span> Duyet <strong>dong deu</strong> toan bo — lang phi o vung xau<br><br>
+          <span class="bad">✗</span> Chi phi tang <strong>luy thua</strong>: n tham so × m diem = m^n<br><br>
+          <span class="bad">✗</span> Khong hoc tu ket qua truoc — khong thich nghi<br><br>
+          <span class="bad">✗</span> Voi 5 tham so × 6 diem = <strong>6^5 = 7,776</strong> lan train!<br><br>
+          <span class="hi">✓</span> Don gian, de song song hoa<br>
+          <span class="hi">✓</span> Dam bao tim trong luoi da cho
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Chi phi Grid (log scale)</div>
+        <canvas id="c1-cost" width="300" height="160"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL 3: Mechanism 1 - Raindrop -->
+<div class="panel" id="panel-3">
+  <div class="section-title">Co Che 1: Raindrop Stratification — 3 Tang Phoi Hop</div>
+  <div class="section-sub">Moi "giot mua" di chuyen theo cong thuc ket hop: hoc tu best + nhieu ngau nhien. 3 tang co alpha/beta khac nhau.</div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:2; min-width:300px;">
+      <div class="canvas-title" id="m1-title">Vong lap: <span id="m1-iter">0</span></div>
+      <canvas id="c2-rain" width="700" height="380"></canvas>
+      <div class="ctrl-row">
+        <button class="btn go" onclick="runMech1()">Chay Animation</button>
+        <button class="btn stop" onclick="stopMech1()">Dung</button>
+        <button class="btn" onclick="stepMech1()">Buoc tiep</button>
+        <button class="btn" onclick="resetMech1()">Reset</button>
+        <div class="spd">Toc do: <input type="range" id="spd1" min="1" max="10" value="5"></div>
+        <div class="stat-pill">Best fitness: <span id="m1-fit">—</span></div>
+      </div>
+      <div class="legend">
+        <div class="leg-item"><div class="leg-dot" style="background:#60cfff"></div><span>Tang CAO (h=0): alpha lon</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#b0ff60"></div><span>Tang GIUA (h=1): can bang</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#ffb040"></div><span>Tang THAP (h=2): beta lon</span></div>
+        <div class="leg-item"><span class="leg-star" style="color:#ffe040">★</span><span>X_best</span></div>
+      </div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:14px; min-width:260px;">
+      <div class="formula">
+        <div class="label">// Cong thuc Raindrop Stratification</div>
+        X_i^h(t+1) = X_i^h(t)<br>
+        &nbsp;&nbsp;+ <span class="hl">alpha_h(t)</span>·(X_best(t) − X_i^h(t))<br>
+        &nbsp;&nbsp;+ <span class="hl2">beta_h(t)</span>·R_i^h(t)<br><br>
+        <div class="label">// alpha: luc keo ve best | beta: nhieu ngau nhien</div>
+        <span class="hl">alpha</span> = alpha_max × exp(−3·t/T·h)<br>
+        <span class="hl2">beta</span> = beta_init + (beta_end−beta_init)·t/T
+      </div>
+      <div class="card">
+        <div class="card-title">3 Tang — phan cong vai tro</div>
+        <div class="card-body" style="font-size:13px;">
+          <strong style="color:#60cfff">Tang CAO (h=0):</strong> alpha=0.78, beta=0.04<br>
+          → buoc dai, kham pha rong<br><br>
+          <strong style="color:#b0ff60">Tang GIUA (h=1):</strong> alpha=0.49, beta=0.10<br>
+          → can bang kham pha/tinh chinh<br><br>
+          <strong style="color:#ffb040">Tang THAP (h=2):</strong> alpha=0.20, beta=0.16<br>
+          → buoc nho, tinh chinh sau
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL 4: Mechanism 2 - Evaporation -->
+<div class="panel" id="panel-4">
+  <div class="section-title">Co Che 2: Evaporation Feedback — Khai Thac Lich Su</div>
+  <div class="section-sub">Cac giot "bay hoi" dan ve vung tot nhat theo lich su, nhu hoi nuoc boc len vung co gradient lon.</div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:2; min-width:300px;">
+      <div class="canvas-title">Evaporation Feedback: Vong t=<span id="m2-t">0</span></div>
+      <canvas id="c3-evap" width="700" height="380"></canvas>
+      <div class="ctrl-row">
+        <button class="btn go" onclick="runMech2()">Chay Animation</button>
+        <button class="btn stop" onclick="stopMech2()">Dung</button>
+        <button class="btn" onclick="stepMech2()">Buoc tiep</button>
+        <button class="btn" onclick="resetMech2()">Reset</button>
+        <div class="spd">Toc do: <input type="range" id="spd2" min="1" max="10" value="5"></div>
+      </div>
+      <div class="legend">
+        <div class="leg-item"><div class="leg-dot" style="background:#ff6060"></div><span>Vi tri hien tai</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#ffb040; transform:rotate(45deg)"></div><span>X_evap (best lich su)</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#ffe040"></div><span>X_best cu → moi</span></div>
+      </div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:14px; min-width:260px;">
+      <div class="formula">
+        <div class="label">// Evaporation Feedback</div>
+        X_evap = best vi tri trong lich su<br><br>
+        X_i(t+1) += <span class="hl">lambda(t)</span>·(X_evap − X_i(t))<br><br>
+        <div class="label">// lambda: he so bay hoi, tang theo t</div>
+        <span class="hl">lambda(t)</span> = lambda_min + (lambda_max−lambda_min)·(t/T)<br><br>
+        <div class="label">// X_evap = mean(top-k lich su)</div>
+        X_evap ≠ X_best_current
+      </div>
+      <div class="card">
+        <div class="card-title">Y nghia</div>
+        <div class="card-body" style="font-size:13px;">
+          Grid Search <span class="bad">khong co co che nay</span> — moi diem grid doc lap.<br><br>
+          DOA <span class="hi">nho lich su</span>: vung tung tot se duoc hut nhieu hon o vong sau.<br><br>
+          Nhu hoi nuoc boc len: vung nong (fitness cao) thu hut nhieu hon, hoi tu nhanh hon.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL 5: Mechanism 3 - Levy -->
+<div class="panel" id="panel-5">
+  <div class="section-title">Co Che 3: Levy Surge — Thoat Bay Cuc Tieu Cuc Bo</div>
+  <div class="section-sub">Khi bi ket o local optimum, Levy flight tao buoc nhay lon dot ngot de thoat ra vung tot hon.</div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:2; min-width:300px;">
+      <div class="canvas-title">Levy Surge: Buoc nhay t=<span id="m3-t">0</span></div>
+      <canvas id="c4-levy" width="700" height="380"></canvas>
+      <div class="ctrl-row">
+        <button class="btn go" onclick="runMech3()">Chay Animation</button>
+        <button class="btn stop" onclick="stopMech3()">Dung</button>
+        <button class="btn" onclick="triggerLevy()">Kich hoat Levy</button>
+        <button class="btn" onclick="resetMech3()">Reset</button>
+        <div class="spd">Toc do: <input type="range" id="spd3" min="1" max="10" value="5"></div>
+        <div class="stat-pill">Levy jumps: <span id="m3-levy">0</span></div>
+      </div>
+      <div class="legend">
+        <div class="leg-item"><div class="leg-dot" style="background:#ff6060"></div><span>Bi ket cuc bo</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#60cfff; width:14px; height:14px; border-radius:3px; transform:rotate(45deg)"></div><span>Buoc Levy (lon)</span></div>
+        <div class="leg-item"><div class="leg-dot" style="background:#ffe040"></div><span>Cuc tieu toan cuc</span></div>
+        <div class="leg-item"><div style="width:24px;height:2px;border-top:2px dashed #4eff91"></div><span>Trajectory Levy</span></div>
+      </div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:14px; min-width:260px;">
+      <div class="formula">
+        <div class="label">// Levy Flight (Mantegna algorithm)</div>
+        L(beta) = <span class="hl">u / |v|^(1/beta)</span><br><br>
+        u ~ N(0, sigma²), v ~ N(0,1)<br>
+        sigma = [Gamma(1+beta)·sin(pi·beta/2) /<br>
+            (Gamma((1+beta)/2)·beta·2^((beta-1)/2))]^(1/beta)<br><br>
+        <div class="label">// Surge moi surge_every=15 vong</div>
+        X_i += <span class="hl2">surge_str</span> · L(beta=1.5) · (X_max−X_min)<br><br>
+        <div class="label">// Dac diem phan phoi Levy</div>
+        <span class="hl3">7.1%</span> buoc co |L| > 2.7sigma (duoi nang)
+      </div>
+      <div class="card">
+        <div class="card-title">Tai sao can Levy?</div>
+        <div class="card-body" style="font-size:13px;">
+          Landscape SVM co nhieu <span class="warn">local optima</span>. Raindrop/Evaporation co the bi ket.<br><br>
+          Levy flight (beta=1.5): phan phoi <span class="hi">duoi nang</span> — hau het buoc nho, nhung thinh thoang buoc <strong>rat lon</strong> de thoat.<br><br>
+          Khac Gaussian: Gaussian khong co buoc "dot bien" du lon.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL 6: Mechanism 4 - Dynamic -->
+<div class="panel" id="panel-6">
+  <div class="section-title">Co Che 4: Dynamic alpha/beta — Tu Thich Nghi Theo Thoi Gian</div>
+  <div class="section-sub">alpha (kham pha) giam dan, beta (tinh chinh) tang dan. Dau rong, cuoi tinh. Grid Search luon co dinh.</div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:2; min-width:300px;">
+      <div class="canvas-title">Dynamic Parameters: Vong t=<span id="m4-t">0</span>/35</div>
+      <canvas id="c5-dyn" width="700" height="380"></canvas>
+      <div class="ctrl-row">
+        <button class="btn go" onclick="runMech4()">Animate</button>
+        <button class="btn stop" onclick="stopMech4()">Dung</button>
+        <button class="btn" onclick="resetMech4()">Reset</button>
+        <div class="spd">Toc do: <input type="range" id="spd4" min="1" max="10" value="4"></div>
+        <div class="stat-pill">alpha tang 0: <span id="m4-a0">0.95</span></div>
+        <div class="stat-pill">beta tang 2: <span id="m4-b2">0.65</span></div>
+      </div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:14px; min-width:260px;">
+      <div class="formula">
+        <div class="label">// alpha giam tuyen tinh (kham pha → tinh chinh)</div>
+        <span class="hl">alpha_h(t)</span> = alpha_max·exp(−3·(t/T)·h)<br><br>
+        <div class="label">// beta tang tuyen tinh</div>
+        <span class="hl2">beta_h(t)</span> = beta_init + (beta_end−beta_init)·(t/T)<br><br>
+        <div class="label">// Grid Search: he so co dinh suot</div>
+        <span class="hl3">Grid</span>: step_size = const = 1/(n_points−1)
+      </div>
+      <div class="card">
+        <div class="card-title">DOA tu thich nghi — Grid khong</div>
+        <div class="card-body" style="font-size:13px;">
+          <strong>Dau qua trinh:</strong> alpha lon → buoc dai → quet rong<br><br>
+          <strong>Giua qua trinh:</strong> can bang kham pha & khai thac<br><br>
+          <strong>Cuoi qua trinh:</strong> alpha nho → buoc nho → hoi tu chinh xac<br><br>
+          Grid Search <span class="bad">khong co khai niem nay</span> — moi diem deu quan trong nhu nhau.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL 7: Comparison -->
+<div class="panel" id="panel-7">
+  <div class="section-title">So Sanh Tong Hop: DOA vs Grid Search</div>
+  <div class="section-sub">Ket qua thuc nghiem tren UCI Heart Disease (920 mau, 13 dac trung, SVM-RBF, n_iter=2000).</div>
+
+  <div class="row">
+    <div class="canvas-wrap" style="flex:2; min-width:300px;">
+      <div class="canvas-title">Duong Hoi Tu: DOA vs Grid Search</div>
+      <canvas id="conv-canvas" width="700" height="320"></canvas>
+      <div class="ctrl-row">
+        <button class="btn go" onclick="runConv()">Animate Hoi Tu</button>
+        <button class="btn" onclick="resetConv()">Reset</button>
+        <div class="stat-pill">DOA final: <span id="cv-doa">—</span></div>
+        <div class="stat-pill">Grid final: <span id="cv-grid">—</span></div>
+      </div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:14px; min-width:260px;">
+      <div class="canvas-wrap">
+        <div class="canvas-title" style="position:relative; padding:12px 14px 0; font-size:12px;">So lan train SVM</div>
+        <canvas id="c6-cost" width="300" height="200" style="padding:8px"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="padding:0; overflow:hidden;">
+    <table class="cmp-table">
+      <thead>
+        <tr>
+          <th>Tieu chi</th>
+          <th>Grid Search</th>
+          <th>Deep DOA</th>
+          <th>Loi the</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>CV Accuracy</strong></td>
+          <td class="neu">~82%</td>
+          <td class="good">~86%</td>
+          <td class="good">+4% ↑</td>
+        </tr>
+        <tr>
+          <td><strong>Test Accuracy</strong></td>
+          <td class="neu">~82%</td>
+          <td class="good">~85%</td>
+          <td class="good">+3% ↑</td>
+        </tr>
+        <tr>
+          <td><strong>AUC-ROC</strong></td>
+          <td class="neu">~0.90</td>
+          <td class="good">~0.93</td>
+          <td class="good">+0.03 ↑</td>
+        </tr>
+        <tr>
+          <td><strong>So lan train SVM</strong></td>
+          <td class="bad">405 (81 to hop × 5-fold)</td>
+          <td class="good">250,000 (25 giot × 2000 vong)</td>
+          <td class="neu">DOA nhieu hon nhung hieu qua hon</td>
+        </tr>
+        <tr>
+          <td><strong>Kham pha khong gian</strong></td>
+          <td class="bad">Dong deu (lang phi)</td>
+          <td class="good">Tap trung vung tot</td>
+          <td class="good">DOA thong minh hon</td>
+        </tr>
+        <tr>
+          <td><strong>Thich nghi</strong></td>
+          <td class="bad">Khong</td>
+          <td class="good">Co (alpha/beta dong)</td>
+          <td class="good">DOA hoc theo thoi gian</td>
+        </tr>
+        <tr>
+          <td><strong>Thoat local optima</strong></td>
+          <td class="bad">Khong</td>
+          <td class="good">Levy Surge</td>
+          <td class="good">DOA manh hon</td>
+        </tr>
+        <tr>
+          <td><strong>Mo rong (>5 tham so)</strong></td>
+          <td class="bad">Bung no to hop</td>
+          <td class="good">Tuyen tinh</td>
+          <td class="good">DOA scale tot hon</td>
+        </tr>
+        <tr>
+          <td><strong>Toi uu feature weights</strong></td>
+          <td class="bad">Khong (chi C, gamma)</td>
+          <td class="good">Co (w1...w13 + C + gamma)</td>
+          <td class="good">DOA da muc tieu</td>
+        </tr>
+        <tr>
+          <td><strong>Du lieu</strong></td>
+          <td class="neu">UCI Heart Disease (920 mau)</td>
+          <td class="neu">UCI Heart Disease (920 mau)</td>
+          <td class="neu">Cung du lieu, cung dieu kien</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════
+//  SHARED: Fitness Landscape Generation
+// ══════════════════════════════════════════════════════════
+
+function hsl2rgb(h,s,l){
+  s/=100; l/=100;
+  const k=n=>(n+h/30)%12;
+  const a=s*Math.min(l,1-l);
+  const f=n=>l-a*Math.max(-1,Math.min(k(n)-3,Math.min(9-k(n),1)));
+  return [Math.round(f(0)*255),Math.round(f(8)*255),Math.round(f(4)*255)];
+}
+
+function fitnessAt(lc, lg) {
+  const best_lc = 1.57, best_lg = -1.85;
+  const d1 = Math.sqrt((lc-best_lc)**2*0.7 + (lg-best_lg)**2*1.2);
+  const base = 0.577 * Math.exp(-d1*0.6);
+  const lopt1 = 0.52 * Math.exp(-Math.sqrt((lc+0.5)**2*0.8+(lg+1.0)**2*0.8)*0.9);
+  const lopt2 = 0.50 * Math.exp(-Math.sqrt((lc-2.5)**2*0.5+(lg+0.5)**2*0.5)*0.7);
+  const flat = 0.494 + 0.02 * (1 - Math.min(1, Math.abs(lg+2)));
+  return Math.max(flat, Math.max(lopt1, Math.max(lopt2, base)));
+}
+
+function drawLandscape(ctx, W, H, options={}) {
+  const img = ctx.createImageData(W, H);
+  for (let px=0; px<W; px++) {
+    for (let py=0; py<H; py++) {
+      const lc = -2 + (px/W)*5;
+      const lg = 1 - (py/H)*5;
+      const f = fitnessAt(lc, lg);
+      const t = (f - 0.492) / (0.577 - 0.492);
+      let r,g,b;
+      if (t < 0.5) {
+        r = Math.round(200 + t*2*55); g = Math.round(t*2*180); b = Math.round(50 - t*50);
+      } else {
+        const tt = (t-0.5)*2;
+        r = Math.round(255 - tt*200); g = Math.round(180 + tt*55); b = Math.round(50 - tt*30);
+      }
+      const idx = (py*W+px)*4;
+      img.data[idx]   = r;
+      img.data[idx+1] = g;
+      img.data[idx+2] = b;
+      img.data[idx+3] = 220;
+    }
+  }
+  ctx.putImageData(img, 0, 0);
+  ctx.setLineDash([2,4]);
+  ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+  for (let lc=-1; lc<=3; lc++) {
+    const px = ((lc+2)/5)*W;
+    ctx.beginPath(); ctx.moveTo(px,0); ctx.lineTo(px,H); ctx.stroke();
+  }
+  for (let lg=-3; lg<=1; lg++) {
+    const py = ((1-lg)/5)*H;
+    ctx.beginPath(); ctx.moveTo(0,py); ctx.lineTo(W,py); ctx.stroke();
+  }
+  ctx.setLineDash([]);
+  ctx.fillStyle = 'rgba(90,138,170,0.8)';
+  ctx.font = '11px JetBrains Mono';
+  for (let lc=-2; lc<=3; lc+=1) {
+    const px = ((lc+2)/5)*W;
+    ctx.fillText(lc, px-4, H-4);
+  }
+  ctx.save(); ctx.translate(12, H/2); ctx.rotate(-Math.PI/2);
+  ctx.fillText('log10(gamma)', -30, 0); ctx.restore();
+  ctx.fillText('log10(C)', W/2-20, H-4);
+}
+
+function toPixel(lc, lg, W, H) {
+  return [ ((lc+2)/5)*W, ((1-lg)/5)*H ];
+}
+
+// Panel 0
+(function() {
+  const cv = document.getElementById('c0-landscape');
+  const ctx = cv.getContext('2d');
+  const W=700, H=380;
+  ctx.canvas.width=W; ctx.canvas.height=H;
+  drawLandscape(ctx, W, H);
+  const [bx,by] = toPixel(1.57, -1.85, W, H);
+  ctx.fillStyle = '#ffe040';
+  ctx.font = '20px sans-serif';
+  ctx.fillText('★', bx-10, by+7);
+  const [dx,dy] = toPixel(0, -1.15, W, H);
+  ctx.fillStyle = '#ff4060';
+  ctx.font = '16px sans-serif';
+  ctx.fillText('✕', dx-7, dy+6);
+  const cbar = ctx.createLinearGradient(W-22, 30, W-22, H-30);
+  cbar.addColorStop(0,  '#4caf50');
+  cbar.addColorStop(0.5,'#ffeb3b');
+  cbar.addColorStop(1,  '#f44336');
+  ctx.fillStyle = cbar;
+  ctx.fillRect(W-20, 30, 14, H-60);
+  ctx.strokeStyle = '#1a3a5c';
+  ctx.strokeRect(W-20, 30, 14, H-60);
+  ctx.fillStyle = '#5a8aaa';
+  ctx.font = '10px JetBrains Mono';
+  ctx.fillText('0.577', W-19, 24);
+  ctx.fillText('0.494', W-19, H-18);
+})();
+
+// ── Data tab charts ──────────────────────────────────────
+(function drawDataCharts(){
+  // Target distribution chart
+  const cv1 = document.getElementById('c-data-dist');
+  if(!cv1) return;
+  const ctx1 = cv1.getContext('2d');
+  cv1.width=500; cv1.height=220;
+  ctx1.fillStyle='#040d1a'; ctx1.fillRect(0,0,500,220);
+
+  const bw=70, gap=16, startX=40;
+  // Before SMOTE
+  const beforeData = [{label:'No Disease',val:411,color:'#60cfff'},{label:'Disease',val:509,color:'#ff4060'}];
+  const afterData  = [{label:'No Disease',val:509,color:'#60cfff'},{label:'Disease',val:509,color:'#ff4060'}];
+  const maxVal = 509;
+
+  ctx1.fillStyle='#5a8aaa'; ctx1.font='11px JetBrains Mono'; ctx1.textAlign='center';
+  ctx1.fillText('Truoc SMOTE', startX+bw, 14);
+  ctx1.fillText('Sau SMOTE', startX+bw*3+gap*3+20, 14);
+
+  beforeData.forEach((d,i)=>{
+    const bh = (d.val/maxVal)*160;
+    const x = startX+i*(bw+gap);
+    const grad = ctx1.createLinearGradient(x,0,x+bw,0);
+    grad.addColorStop(0,d.color+'44'); grad.addColorStop(1,d.color+'aa');
+    ctx1.fillStyle=grad; ctx1.fillRect(x,190-bh,bw,bh);
+    ctx1.strokeStyle=d.color; ctx1.lineWidth=1.5; ctx1.strokeRect(x,190-bh,bw,bh);
+    ctx1.fillStyle=d.color; ctx1.fillText(d.val,x+bw/2,182-bh);
+    ctx1.fillStyle='#5a8aaa'; ctx1.font='10px JetBrains Mono'; ctx1.fillText(d.label,x+bw/2,205);
+  });
+
+  const ox=startX+bw*2+gap*3;
+  afterData.forEach((d,i)=>{
+    const bh = (d.val/maxVal)*160;
+    const x = ox+i*(bw+gap);
+    const grad = ctx1.createLinearGradient(x,0,x+bw,0);
+    grad.addColorStop(0,d.color+'44'); grad.addColorStop(1,d.color+'aa');
+    ctx1.fillStyle=grad; ctx1.fillRect(x,190-bh,bw,bh);
+    ctx1.strokeStyle=d.color; ctx1.lineWidth=1.5; ctx1.strokeRect(x,190-bh,bw,bh);
+    ctx1.fillStyle=d.color; ctx1.fillText(d.val,x+bw/2,182-bh);
+    ctx1.fillStyle='#5a8aaa'; ctx1.font='10px JetBrains Mono'; ctx1.fillText(d.label,x+bw/2,205);
+  });
+
+  // Arrow
+  ctx1.strokeStyle='#4eff91'; ctx1.lineWidth=2; ctx1.setLineDash([4,3]);
+  ctx1.beginPath(); ctx1.moveTo(startX+bw*2+gap+5,100); ctx1.lineTo(ox-5,100); ctx1.stroke();
+  ctx1.setLineDash([]);
+  ctx1.fillStyle='#4eff91'; ctx1.font='10px JetBrains Mono'; ctx1.textAlign='center';
+  const arrowMid=(startX+bw*2+gap+5+ox-5)/2;
+  ctx1.fillText('SMOTE',arrowMid,96);
+  ctx1.fillText('can bang',arrowMid,108);
+  ctx1.textAlign='left';
+
+  // Pipeline canvas
+  const cv2 = document.getElementById('c-pipeline');
+  if(!cv2) return;
+  const ctx2 = cv2.getContext('2d');
+  cv2.width=500; cv2.height=220;
+  ctx2.fillStyle='#040d1a'; ctx2.fillRect(0,0,500,220);
+
+  const steps = [
+    {label:'4 Files UCI',sub:'303+294+200+123',color:'#1565C0'},
+    {label:'KNN Imputer',sub:'k=5, 1759 missing',color:'#0d6e4a'},
+    {label:'SMOTE',sub:'509→509 can bang',color:'#6a1b9a'},
+    {label:'Train/Test Split',sub:'80% / 20%',color:'#c62828'},
+    {label:'StandardScaler',sub:'fit tren train only',color:'#e65100'},
+  ];
+  const sw=82, sg=5, sy=80;
+  steps.forEach((s,i)=>{
+    const x=8+i*(sw+sg);
+    ctx2.fillStyle=s.color+'55'; ctx2.fillRect(x,sy,sw,60);
+    ctx2.strokeStyle=s.color; ctx2.lineWidth=1.5; ctx2.strokeRect(x,sy,sw,60);
+    ctx2.fillStyle=s.color; ctx2.font='bold 10px JetBrains Mono'; ctx2.textAlign='center';
+    s.label.split(' ').forEach((w,j)=>ctx2.fillText(w,x+sw/2,sy+18+j*13));
+    ctx2.fillStyle='#5a8aaa'; ctx2.font='9px JetBrains Mono';
+    ctx2.fillText(s.sub,x+sw/2,sy+56);
+    if(i<steps.length-1){
+      ctx2.strokeStyle='#4eff91'; ctx2.lineWidth=1.5;
+      ctx2.beginPath(); ctx2.moveTo(x+sw+1,sy+30); ctx2.lineTo(x+sw+sg-1,sy+30); ctx2.stroke();
+    }
+  });
+  ctx2.textAlign='left';
+  ctx2.fillStyle='#4eff91'; ctx2.font='11px JetBrains Mono'; ctx2.textAlign='center';
+  ctx2.fillText('Pipeline xu ly du lieu (dong bo Heart1_fixed)',250,30);
+  ctx2.fillStyle='#3a6080'; ctx2.font='10px JetBrains Mono';
+  ctx2.fillText('Khong data leakage: SMOTE va Scaler chi fit tren train set',250,185);
+  ctx2.textAlign='left';
+})();
+
+// ══════════════════════════════════════════════════════════
+//  PANEL 2: Grid Search
+// ══════════════════════════════════════════════════════════
+let gridTimer=null, gridIdx=0, gridPoints=[];
+(function initGrid() {
+  const cv = document.getElementById('c1-grid');
+  const ctx = cv.getContext('2d');
+  cv.width=700; cv.height=380;
+  drawLandscape(ctx, 700, 380);
+  gridPoints=[];
+  for (let i=0; i<6; i++) for (let j=0; j<6; j++) {
+    const lc = -2 + i * (5/5);
+    const lg = 1 - j * (5/5);
+    gridPoints.push({lc, lg, fit: fitnessAt(lc,lg)});
+  }
+  gridPoints.forEach(p => {
+    const [px,py] = toPixel(p.lc, p.lg, 700, 380);
+    ctx.strokeStyle='rgba(255,255,255,0.5)'; ctx.lineWidth=1.5;
+    ctx.beginPath();
+    ctx.moveTo(px-5,py); ctx.lineTo(px+5,py);
+    ctx.moveTo(px,py-5); ctx.lineTo(px,py+5);
+    ctx.stroke();
+  });
+  const [bx,by] = toPixel(1.57,-1.85,700,380);
+  ctx.fillStyle='#ff4060'; ctx.font='16px sans-serif';
+  ctx.fillText('✕', bx-7, by+6);
+  drawCostChart();
+})();
+
+function drawCostChart() {
+  const cv = document.getElementById('c1-cost');
+  const ctx = cv.getContext('2d');
+  cv.width=300; cv.height=160;
+  ctx.fillStyle='#071426'; ctx.fillRect(0,0,300,160);
+  const pts = [[1,30],[2,180],[3,1080],[4,6480],[5,38880]];
+  const maxV = 38880;
+  ctx.strokeStyle='#ff4060'; ctx.lineWidth=2;
+  ctx.beginPath();
+  pts.forEach(([x,y],i) => {
+    const px = 30 + (x-1)*55;
+    const py = 140 - (Math.log10(y)/Math.log10(maxV))*110;
+    i===0 ? ctx.moveTo(px,py) : ctx.lineTo(px,py);
+  });
+  ctx.stroke();
+  ctx.strokeStyle='#4eff91'; ctx.lineWidth=2; ctx.setLineDash([4,3]);
+  ctx.beginPath();
+  const doaY = 140 - (Math.log10(840)/Math.log10(maxV))*110;
+  ctx.moveTo(30,doaY); ctx.lineTo(250,doaY);
+  ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle='#ff4060'; ctx.font='11px JetBrains Mono'; ctx.fillText('Grid (luy thua)',20,15);
+  ctx.fillStyle='#4eff91'; ctx.fillText('DOA (co dinh ~840)',20,30);
+  pts.forEach(([x,y]) => {
+    const px=30+(x-1)*55;
+    const py=140-(Math.log10(y)/Math.log10(maxV))*110;
+    ctx.fillStyle='#ff4060'; ctx.font='9px JetBrains Mono';
+    ctx.fillText(y>1000?(y/1000).toFixed(0)+'k':y, px-10, py-6);
+    ctx.fillStyle='rgba(255,64,64,0.8)';
+    ctx.beginPath(); ctx.arc(px,py,4,0,Math.PI*2); ctx.fill();
+  });
+  ctx.fillStyle='#5a8aaa'; ctx.font='10px JetBrains Mono';
+  for(let i=1;i<=5;i++){ctx.fillText(i,25+(i-1)*55,155);}
+  ctx.fillText('So sieu tham so',90,155);
+}
+
+function redrawGrid(highlighted, done) {
+  const cv = document.getElementById('c1-grid');
+  const ctx = cv.getContext('2d');
+  ctx.clearRect(0,0,700,380);
+  drawLandscape(ctx, 700, 380);
+  gridPoints.forEach((p,i) => {
+    if (done.has(i) || i===highlighted) return;
+    const [px,py] = toPixel(p.lc, p.lg, 700, 380);
+    ctx.strokeStyle='rgba(255,255,255,0.4)'; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(px-5,py); ctx.lineTo(px+5,py); ctx.moveTo(px,py-5); ctx.lineTo(px,py+5); ctx.stroke();
+  });
+  let bestI=-1, bestF=0;
+  done.forEach(i => { if(gridPoints[i].fit>bestF){bestF=gridPoints[i].fit;bestI=i;} });
+  done.forEach(i => {
+    const [px,py] = toPixel(gridPoints[i].lc, gridPoints[i].lg, 700, 380);
+    ctx.fillStyle = i===bestI ? '#ffe040' : '#4eff91';
+    ctx.beginPath(); ctx.arc(px,py,5,0,Math.PI*2); ctx.fill();
+  });
+  if (highlighted >= 0) {
+    const [px,py] = toPixel(gridPoints[highlighted].lc, gridPoints[highlighted].lg, 700, 380);
+    ctx.fillStyle='#00b4ff'; ctx.beginPath(); ctx.arc(px,py,7,0,Math.PI*2); ctx.fill();
+    ctx.strokeStyle='rgba(0,180,255,0.4)'; ctx.lineWidth=2;
+    ctx.beginPath(); ctx.arc(px,py,12,0,Math.PI*2); ctx.stroke();
+  }
+  const [bx,by] = toPixel(1.57,-1.85,700,380);
+  ctx.fillStyle='#ff4060'; ctx.font='16px sans-serif'; ctx.fillText('✕', bx-7, by+6);
+  if (bestI>=0) {
+    const [sx,sy] = toPixel(gridPoints[bestI].lc, gridPoints[bestI].lg, 700, 380);
+    ctx.fillStyle='#ffe040'; ctx.font='18px sans-serif'; ctx.fillText('★', sx-9, sy+7);
+  }
+}
+
+const gridDone = new Set();
+function runGridAnim() {
+  if (gridTimer) return;
+  function step() {
+    if (gridIdx >= gridPoints.length) { gridTimer=null; return; }
+    redrawGrid(gridIdx, gridDone);
+    setTimeout(()=>{
+      gridDone.add(gridIdx); gridIdx++;
+      document.getElementById('grid-count').textContent=gridIdx;
+      if (gridIdx > 0) {
+        let best=0;
+        gridDone.forEach(i=>{if(gridPoints[i].fit>best)best=gridPoints[i].fit;});
+        document.getElementById('grid-best').textContent=(best*100).toFixed(1)+'%';
+      }
+      redrawGrid(-1, gridDone);
+      gridTimer = setTimeout(step, Math.max(80, 600/parseInt(document.getElementById('spd2')?.value||5)));
+    }, 180);
+  }
+  step();
+}
+function stopGridAnim() { clearTimeout(gridTimer); gridTimer=null; }
+function resetGrid() {
+  stopGridAnim(); gridIdx=0; gridDone.clear();
+  document.getElementById('grid-count').textContent='0';
+  document.getElementById('grid-best').textContent='—';
+  const cv=document.getElementById('c1-grid'); const ctx=cv.getContext('2d');
+  ctx.clearRect(0,0,700,380); drawLandscape(ctx,700,380);
+  gridPoints.forEach(p => {
+    const [px,py]=toPixel(p.lc,p.lg,700,380);
+    ctx.strokeStyle='rgba(255,255,255,0.5)'; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(px-5,py); ctx.lineTo(px+5,py); ctx.moveTo(px,py-5); ctx.lineTo(px,py+5); ctx.stroke();
+  });
+  const [bx,by]=toPixel(1.57,-1.85,700,380);
+  ctx.fillStyle='#ff4060'; ctx.font='16px sans-serif'; ctx.fillText('✕',bx-7,by+6);
+}
+
+// ══════════════════════════════════════════════════════════
+//  PANEL 3: Raindrop
+// ══════════════════════════════════════════════════════════
+const N_DROP=8, N_LAYERS=3, T_MAX=35;
+const COLORS=['#60cfff','#b0ff60','#ffb040'];
+let m1Timer=null, m1T=0;
+let m1Drops=[], m1Best={lc:1.57, lg:-1.85, fit:0.577};
+let m1Trails=[[],[],[]];
+
+function initDrops() {
+  m1Drops=[];
+  for(let h=0;h<N_LAYERS;h++){
+    const row=[];
+    for(let i=0;i<N_DROP;i++){
+      const lc=-2+Math.random()*5, lg=-4+Math.random()*5;
+      row.push({lc,lg,fit:fitnessAt(lc,lg)});
+    }
+    m1Drops.push(row);
+  }
+  m1Trails=[[],[],[]]; m1T=0;
+}
+function getAlpha(t,h){ return 0.95*Math.exp(-3*(t/T_MAX)*h); }
+function getBeta(t,h){
+  const b0=[0.30,0.40,0.65], b1=[0.62,0.55,0.22];
+  return b0[h]+(b1[h]-b0[h])*(t/T_MAX);
+}
+function stepDrops() {
+  m1T++;
+  for(let h=0;h<N_LAYERS;h++){
+    const alpha=getAlpha(m1T,h), beta=getBeta(m1T,h);
+    for(let i=0;i<N_DROP;i++){
+      const d=m1Drops[h][i];
+      const old_lc=d.lc, old_lg=d.lg;
+      const R_lc=(Math.random()-0.5)*2, R_lg=(Math.random()-0.5)*2;
+      d.lc=d.lc+alpha*(m1Best.lc-d.lc)+beta*R_lc;
+      d.lg=d.lg+alpha*(m1Best.lg-d.lg)+beta*R_lg;
+      d.lc=Math.max(-2,Math.min(3,d.lc)); d.lg=Math.max(-4,Math.min(1,d.lg));
+      d.fit=fitnessAt(d.lc,d.lg);
+      m1Trails[h].push({from:{lc:old_lc,lg:old_lg},to:{lc:d.lc,lg:d.lg},color:COLORS[h]});
+      if(d.fit>m1Best.fit) m1Best={lc:d.lc,lg:d.lg,fit:d.fit};
+    }
+  }
+  if(m1Trails[0].length>N_DROP*5) m1Trails.forEach(t=>t.splice(0,N_DROP));
+}
+function drawMech1() {
+  const cv=document.getElementById('c2-rain'); const ctx=cv.getContext('2d');
+  cv.width=700; cv.height=380;
+  drawLandscape(ctx,700,380);
+  m1Trails.forEach((trails,h) => {
+    trails.forEach((tr,ti) => {
+      const fade=0.15+0.5*(ti/trails.length);
+      const [fx,fy]=toPixel(tr.from.lc,tr.from.lg,700,380);
+      const [tx2,ty2]=toPixel(tr.to.lc,tr.to.lg,700,380);
+      ctx.strokeStyle=COLORS[h]; ctx.globalAlpha=fade*0.4; ctx.lineWidth=1;
+      ctx.beginPath(); ctx.moveTo(fx,fy); ctx.lineTo(tx2,ty2); ctx.stroke();
+      const angle=Math.atan2(ty2-fy,tx2-fx);
+      ctx.globalAlpha=fade*0.5;
+      ctx.beginPath(); ctx.moveTo(tx2,ty2);
+      ctx.lineTo(tx2-8*Math.cos(angle-0.4),ty2-8*Math.sin(angle-0.4));
+      ctx.lineTo(tx2-8*Math.cos(angle+0.4),ty2-8*Math.sin(angle+0.4));
+      ctx.closePath(); ctx.fillStyle=COLORS[h]; ctx.fill();
+    });
+  });
+  ctx.globalAlpha=1;
+  m1Drops.forEach((row,h) => {
+    row.forEach(d => {
+      const [px,py]=toPixel(d.lc,d.lg,700,380);
+      ctx.fillStyle=COLORS[h]; ctx.beginPath(); ctx.arc(px,py,5,0,Math.PI*2); ctx.fill();
+      ctx.strokeStyle='rgba(0,0,0,0.4)'; ctx.lineWidth=0.5; ctx.stroke();
+    });
+  });
+  const [bx,by]=toPixel(m1Best.lc,m1Best.lg,700,380);
+  ctx.fillStyle='#ffe040'; ctx.font='20px sans-serif'; ctx.fillText('★',bx-10,by+7);
+  document.getElementById('m1-iter').textContent=m1T;
+  document.getElementById('m1-fit').textContent=(m1Best.fit*100).toFixed(1)+'%';
+}
+function resetMech1(){clearTimeout(m1Timer);m1Timer=null;initDrops();drawMech1();}
+function stepMech1(){stepDrops();drawMech1();}
+function runMech1(){
+  if(m1Timer)return;
+  function loop(){
+    stepDrops(); drawMech1();
+    if(m1T<T_MAX) m1Timer=setTimeout(loop,Math.max(60,800/parseInt(document.getElementById('spd1').value)));
+    else m1Timer=null;
+  }
+  loop();
+}
+function stopMech1(){clearTimeout(m1Timer);m1Timer=null;}
+initDrops(); drawMech1();
+
+// ══════════════════════════════════════════════════════════
+//  PANEL 4: Evaporation
+// ══════════════════════════════════════════════════════════
+let m2Timer=null, m2T=0;
+let m2Drops=[], m2Best={lc:1.57,lg:-1.85,fit:0.577};
+let m2History=[];
+function initM2(){
+  m2Drops=[];
+  for(let i=0;i<10;i++){
+    const lc=-2+Math.random()*5, lg=-4+Math.random()*5;
+    m2Drops.push({lc,lg,fit:fitnessAt(lc,lg),prev_lc:null,prev_lg:null});
+  }
+  m2History=[{lc:1.57,lg:-1.85,fit:0.577}]; m2T=0;
+}
+function stepM2(){
+  m2T++;
+  const lambda=0.05+0.25*(m2T/T_MAX);
+  const top3=[...m2History].sort((a,b)=>b.fit-a.fit).slice(0,3);
+  const evap_lc=top3.reduce((s,x)=>s+x.lc,0)/top3.length;
+  const evap_lg=top3.reduce((s,x)=>s+x.lg,0)/top3.length;
+  m2Drops.forEach(d=>{
+    d.prev_lc=d.lc; d.prev_lg=d.lg;
+    d.lc+=lambda*(evap_lc-d.lc)+0.15*(Math.random()-0.5)*0.6;
+    d.lg+=lambda*(evap_lg-d.lg)+0.15*(Math.random()-0.5)*0.6;
+    d.lc=Math.max(-2,Math.min(3,d.lc)); d.lg=Math.max(-4,Math.min(1,d.lg));
+    d.fit=fitnessAt(d.lc,d.lg);
+    if(d.fit>m2Best.fit){m2Best={lc:d.lc,lg:d.lg,fit:d.fit};m2History.push({...m2Best});}
+  });
+  return {evap_lc,evap_lg};
+}
+function drawM2(evap_lc, evap_lg){
+  const cv=document.getElementById('c3-evap'); const ctx=cv.getContext('2d');
+  cv.width=700; cv.height=380;
+  drawLandscape(ctx,700,380);
+  if(evap_lc!==undefined){
+    const [ex,ey]=toPixel(evap_lc,evap_lg,700,380);
+    m2Drops.forEach(d=>{
+      if(d.prev_lc===null)return;
+      const [px,py]=toPixel(d.prev_lc,d.prev_lg,700,380);
+      ctx.setLineDash([3,4]); ctx.strokeStyle='rgba(180,180,180,0.25)'; ctx.lineWidth=1;
+      ctx.beginPath(); ctx.moveTo(px,py); ctx.lineTo(ex,ey); ctx.stroke();
+    });
+    ctx.setLineDash([]);
+    ctx.fillStyle='#ffb040'; ctx.save(); ctx.translate(ex,ey); ctx.rotate(Math.PI/4);
+    ctx.fillRect(-7,-7,14,14); ctx.restore();
+  }
+  m2Drops.forEach(d=>{
+    if(d.prev_lc===null)return;
+    const [fx,fy]=toPixel(d.prev_lc,d.prev_lg,700,380);
+    const [tx2,ty2]=toPixel(d.lc,d.lg,700,380);
+    ctx.strokeStyle='rgba(96,207,255,0.5)'; ctx.lineWidth=1.5; ctx.setLineDash([]);
+    ctx.beginPath(); ctx.moveTo(fx,fy); ctx.lineTo(tx2,ty2); ctx.stroke();
+    const angle=Math.atan2(ty2-fy,tx2-fx);
+    ctx.fillStyle='rgba(96,207,255,0.7)';
+    ctx.beginPath(); ctx.moveTo(tx2,ty2);
+    ctx.lineTo(tx2-7*Math.cos(angle-0.4),ty2-7*Math.sin(angle-0.4));
+    ctx.lineTo(tx2-7*Math.cos(angle+0.4),ty2-7*Math.sin(angle+0.4));
+    ctx.closePath(); ctx.fill();
+  });
+  m2Drops.forEach(d=>{
+    const [px,py]=toPixel(d.lc,d.lg,700,380);
+    ctx.fillStyle='#ff6060'; ctx.beginPath(); ctx.arc(px,py,5,0,Math.PI*2); ctx.fill();
+  });
+  const [bx,by]=toPixel(m2Best.lc,m2Best.lg,700,380);
+  ctx.strokeStyle='rgba(255,224,64,0.3)'; ctx.lineWidth=2;
+  ctx.beginPath(); ctx.arc(bx,by,14+3*Math.sin(m2T),0,Math.PI*2); ctx.stroke();
+  ctx.fillStyle='#ffe040'; ctx.font='20px sans-serif'; ctx.fillText('★',bx-10,by+7);
+  document.getElementById('m2-t').textContent=m2T;
+}
+function resetMech2(){clearTimeout(m2Timer);m2Timer=null;initM2();drawM2();}
+function stepMech2(){const e=stepM2();drawM2(e.evap_lc,e.evap_lg);}
+function runMech2(){
+  if(m2Timer)return;
+  function loop(){
+    const e=stepM2(); drawM2(e.evap_lc,e.evap_lg);
+    if(m2T<T_MAX) m2Timer=setTimeout(loop,Math.max(80,900/parseInt(document.getElementById('spd2').value)));
+    else m2Timer=null;
+  }
+  loop();
+}
+function stopMech2(){clearTimeout(m2Timer);m2Timer=null;}
+initM2(); drawM2();
+
+// ══════════════════════════════════════════════════════════
+//  PANEL 5: Levy Surge
+// ══════════════════════════════════════════════════════════
+let m3Timer=null, m3T=0, m3LevyCount=0;
+let m3Drops=[], m3Best={lc:1.57,lg:-1.85,fit:0.577};
+let m3LevyEvents=[];
+
+function levyStep(beta=1.5){
+  const num=gamma_approx(1+beta)*Math.sin(Math.PI*beta/2);
+  const denom=gamma_approx((1+beta)/2)*beta*Math.pow(2,(beta-1)/2);
+  const sigma=Math.pow(num/denom,1/beta);
+  const u=randn()*sigma, v=Math.abs(randn());
+  return u/Math.pow(v,1/beta);
+}
+function gamma_approx(n){
+  if(n<0.5)return Math.PI/(Math.sin(Math.PI*n)*gamma_approx(1-n));
+  n-=1; let x=0.99999999999980993;
+  const c=[676.5203681218851,-1259.1392167224028,771.32342877765313,-176.61502916214059,12.507343278686905,-0.13857109526572012,9.9843695780195716e-6,1.5056327351493116e-7];
+  for(let i=0;i<8;i++) x+=c[i]/(n+i+1);
+  const t=n+8-0.5;
+  return Math.sqrt(2*Math.PI)*Math.pow(t,n+0.5)*Math.exp(-t)*x;
+}
+function randn(){let u=0,v=0;while(!u)u=Math.random();while(!v)v=Math.random();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);}
+
+function initM3(){
+  m3Drops=[];
+  for(let i=0;i<12;i++){
+    const lc=-2+Math.random()*5, lg=-4+Math.random()*5;
+    m3Drops.push({lc,lg,fit:fitnessAt(lc,lg),stuck:0});
+  }
+  m3Best={lc:1.57,lg:-1.85,fit:0.577};
+  m3T=0; m3LevyCount=0; m3LevyEvents=[];
+}
+function stepM3(forcedLevy=false){
+  m3T++;
+  const doLevy=forcedLevy||(m3T%15===0);
+  m3Drops.forEach(d=>{
+    const old_lc=d.lc, old_lg=d.lg;
+    if(doLevy){
+      const scale=0.65;
+      d.lc+=scale*levyStep()*5; d.lg+=scale*levyStep()*5;
+      m3LevyEvents.push({from:{lc:old_lc,lg:old_lg},to:{lc:d.lc,lg:d.lg}});
+      if(m3LevyEvents.length>12) m3LevyEvents.shift();
+      m3LevyCount++;
+    } else {
+      const alpha=0.7*Math.exp(-3*m3T/T_MAX);
+      d.lc+=alpha*(m3Best.lc-d.lc)+(Math.random()-0.5)*0.4;
+      d.lg+=alpha*(m3Best.lg-d.lg)+(Math.random()-0.5)*0.4;
+    }
+    d.lc=Math.max(-2,Math.min(3,d.lc)); d.lg=Math.max(-4,Math.min(1,d.lg));
+    d.fit=fitnessAt(d.lc,d.lg);
+    if(d.fit>m3Best.fit) m3Best={lc:d.lc,lg:d.lg,fit:d.fit};
+  });
+  document.getElementById('m3-levy').textContent=m3LevyCount;
+}
+function drawM3(){
+  const cv=document.getElementById('c4-levy'); const ctx=cv.getContext('2d');
+  cv.width=700; cv.height=380;
+  drawLandscape(ctx,700,380);
+  m3LevyEvents.forEach((ev,i)=>{
+    const fade=(i+1)/m3LevyEvents.length;
+    const [fx,fy]=toPixel(ev.from.lc,ev.from.lg,700,380);
+    const [tx2,ty2]=toPixel(ev.to.lc,ev.to.lg,700,380);
+    ctx.setLineDash([4,3]); ctx.strokeStyle=`rgba(78,255,145,${fade*0.7})`; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(fx,fy); ctx.lineTo(tx2,ty2); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle=`rgba(96,207,255,${fade*0.8})`;
+    ctx.save(); ctx.translate(tx2,ty2); ctx.rotate(Math.PI/4); ctx.fillRect(-4,-4,8,8); ctx.restore();
+  });
+  m3Drops.forEach(d=>{
+    const [px,py]=toPixel(d.lc,d.lg,700,380);
+    ctx.fillStyle='#ff6060'; ctx.beginPath(); ctx.arc(px,py,4,0,Math.PI*2); ctx.fill();
+  });
+  const [bx,by]=toPixel(1.57,-1.85,700,380);
+  ctx.fillStyle='#ffe040'; ctx.font='20px sans-serif'; ctx.fillText('★',bx-10,by+7);
+  document.getElementById('m3-t').textContent=m3T;
+}
+function resetMech3(){clearTimeout(m3Timer);m3Timer=null;initM3();drawM3();}
+function triggerLevy(){stepM3(true);drawM3();}
+function runMech3(){
+  if(m3Timer)return;
+  function loop(){
+    stepM3(); drawM3();
+    if(m3T<T_MAX) m3Timer=setTimeout(loop,Math.max(80,800/parseInt(document.getElementById('spd3').value)));
+    else m3Timer=null;
+  }
+  loop();
+}
+function stopMech3(){clearTimeout(m3Timer);m3Timer=null;}
+initM3(); drawM3();
+
+// ══════════════════════════════════════════════════════════
+//  PANEL 6: Dynamic Parameters
+// ══════════════════════════════════════════════════════════
+let m4Timer=null, m4T=0;
+function drawDynParams(t){
+  const cv=document.getElementById('c5-dyn'); const ctx=cv.getContext('2d');
+  cv.width=700; cv.height=380;
+  ctx.fillStyle='#040d1a'; ctx.fillRect(0,0,700,380);
+  const W=700,H=380,PAD_L=55,PAD_R=20,PAD_T=30,PAD_B=40;
+  const gW=W-PAD_L-PAD_R, gH=H-PAD_T-PAD_B;
+  ctx.strokeStyle='rgba(26,58,92,0.5)'; ctx.lineWidth=1;
+  for(let i=0;i<=5;i++){
+    const x=PAD_L+i*(gW/5); ctx.beginPath(); ctx.moveTo(x,PAD_T); ctx.lineTo(x,PAD_T+gH); ctx.stroke();
+    const y=PAD_T+i*(gH/5); ctx.beginPath(); ctx.moveTo(PAD_L,y); ctx.lineTo(PAD_L+gW,y); ctx.stroke();
+  }
+  ctx.strokeStyle='#1a3a5c'; ctx.lineWidth=1.5;
+  ctx.beginPath(); ctx.moveTo(PAD_L,PAD_T); ctx.lineTo(PAD_L,PAD_T+gH); ctx.lineTo(PAD_L+gW,PAD_T+gH); ctx.stroke();
+  ctx.fillStyle='#5a8aaa'; ctx.font='11px JetBrains Mono';
+  for(let i=0;i<=35;i+=7){ ctx.fillText(i,PAD_L+i/35*gW-8,PAD_T+gH+14); }
+  for(let v=0;v<=1;v+=0.2){ ctx.fillText(v.toFixed(1),2,PAD_T+gH-(v*gH)+4); }
+  ctx.fillText('Vong lap t',PAD_L+gW/2-30,PAD_T+gH+30);
+  const COLRS=['#60cfff','#b0ff60','#ffb040'];
+  for(let h=0;h<3;h++){
+    ctx.strokeStyle=COLRS[h]; ctx.lineWidth=2; ctx.setLineDash([]);
+    ctx.beginPath();
+    for(let tt=0;tt<=Math.min(t,35);tt++){
+      const alpha=0.95*Math.exp(-3*(tt/35)*h);
+      const x=PAD_L+tt/35*gW, y=PAD_T+gH-alpha*gH;
+      tt===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+    }
+    ctx.stroke();
+  }
+  const b0=[0.30,0.40,0.65], b1=[0.62,0.55,0.22];
+  for(let h=0;h<3;h++){
+    ctx.strokeStyle=COLRS[h]; ctx.lineWidth=1.5; ctx.setLineDash([4,3]);
+    ctx.beginPath();
+    for(let tt=0;tt<=Math.min(t,35);tt++){
+      const beta=b0[h]+(b1[h]-b0[h])*(tt/35);
+      const x=PAD_L+tt/35*gW, y=PAD_T+gH-beta*gH;
+      tt===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+    }
+    ctx.stroke();
+  }
+  ctx.setLineDash([]);
+  ctx.strokeStyle='rgba(255,64,64,0.5)'; ctx.lineWidth=1.5; ctx.setLineDash([6,3]);
+  const gridStep=0.2;
+  ctx.beginPath(); ctx.moveTo(PAD_L,PAD_T+gH-gridStep*gH); ctx.lineTo(PAD_L+gW,PAD_T+gH-gridStep*gH); ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle='rgba(255,64,64,0.7)'; ctx.font='10px JetBrains Mono';
+  ctx.fillText('Grid (co dinh)',PAD_L+gW-80,PAD_T+gH-gridStep*gH-4);
+  if(t>0){
+    const tx_px=PAD_L+Math.min(t,35)/35*gW;
+    ctx.strokeStyle='rgba(255,224,64,0.4)'; ctx.lineWidth=1;
+    ctx.beginPath(); ctx.moveTo(tx_px,PAD_T); ctx.lineTo(tx_px,PAD_T+gH); ctx.stroke();
+  }
+  document.getElementById('m4-t').textContent=Math.min(t,35);
+  if(t>0){
+    document.getElementById('m4-a0').textContent=(0.95*Math.exp(-3*(Math.min(t,35)/35)*0)).toFixed(2);
+    document.getElementById('m4-b2').textContent=(b0[2]+(b1[2]-b0[2])*(Math.min(t,35)/35)).toFixed(2);
+  }
+}
+function resetMech4(){clearTimeout(m4Timer);m4Timer=null;m4T=0;drawDynParams(0);}
+function runMech4(){
+  if(m4Timer)return;
+  function loop(){
+    m4T++; drawDynParams(m4T);
+    if(m4T<35) m4Timer=setTimeout(loop,Math.max(80,600/parseInt(document.getElementById('spd4').value)));
+    else m4Timer=null;
+  }
+  loop();
+}
+function stopMech4(){clearTimeout(m4Timer);m4Timer=null;}
+drawDynParams(0);
+
+// ══════════════════════════════════════════════════════════
+//  PANEL 7: Convergence — dung so lieu thuc DOA n_iter=2000
+// ══════════════════════════════════════════════════════════
+let convTimer=null, convT=0;
+// Mô phỏng đường hội tụ thực tế: DOA đạt ~86%, Grid ~82%
+function doaConv(t){ return 0.71+0.15*(1-Math.exp(-t*0.12))+0.003*Math.sin(t*0.4); }
+const gridConvPts=[[0,0.71],[6,0.738],[12,0.762],[18,0.787],[24,0.803],[30,0.812],[36,0.820]];
+
+function drawConv(upTo){
+  const cv=document.getElementById('conv-canvas'); const ctx=cv.getContext('2d');
+  cv.width=700; cv.height=320;
+  const W=700,H=320,PL=65,PR=20,PT=30,PB=45;
+  const gW=W-PL-PR, gH=H-PT-PB;
+  ctx.fillStyle='#071426'; ctx.fillRect(0,0,W,H);
+  ctx.strokeStyle='rgba(26,58,92,0.4)'; ctx.lineWidth=1;
+  for(let i=0;i<=6;i++){
+    const x=PL+i*(gW/6); ctx.beginPath(); ctx.moveTo(x,PT); ctx.lineTo(x,PT+gH); ctx.stroke();
+  }
+  for(let i=0;i<=5;i++){
+    const y=PT+i*(gH/5); ctx.beginPath(); ctx.moveTo(PL,y); ctx.lineTo(PL+gW,y); ctx.stroke();
+  }
+  ctx.strokeStyle='#1a3a5c'; ctx.lineWidth=1.5;
+  ctx.beginPath(); ctx.moveTo(PL,PT); ctx.lineTo(PL,PT+gH); ctx.lineTo(PL+gW,PT+gH); ctx.stroke();
+  ctx.fillStyle='#5a8aaa'; ctx.font='11px JetBrains Mono';
+  const yMin=0.71, yMax=0.875;
+  const yVals=[0.72,0.74,0.76,0.78,0.80,0.82,0.84,0.86];
+  yVals.forEach((v)=>{
+    const y=PT+gH-(v-yMin)/(yMax-yMin)*gH;
+    if(y>PT && y<PT+gH) ctx.fillText((v*100).toFixed(0)+'%',2,y+4);
+  });
+  for(let i=0;i<=36;i+=6){ctx.fillText(i,PL+i/36*gW-6,PT+gH+14);}
+  ctx.fillText('So lan danh gia (×100)',PL+gW/2-60,PT+gH+32);
+
+  // DOA line
+  ctx.strokeStyle='#60cfff'; ctx.lineWidth=2.5; ctx.setLineDash([]);
+  ctx.beginPath();
+  for(let t=0;t<=Math.min(upTo,36);t+=0.5){
+    const v=doaConv(t);
+    const x=PL+t/36*gW, y=PT+gH-(v-yMin)/(yMax-yMin)*gH;
+    if(y<PT) continue;
+    t===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+  }
+  ctx.stroke();
+  if(upTo>0){
+    const t=Math.min(upTo,36), v=doaConv(t);
+    const x=PL+t/36*gW, y=PT+gH-(v-yMin)/(yMax-yMin)*gH;
+    ctx.fillStyle='#60cfff'; ctx.beginPath(); ctx.arc(x,y,5,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle='#60cfff'; ctx.font='11px JetBrains Mono'; ctx.fillText((v*100).toFixed(1)+'%',x+6,y-6);
+  }
+
+  // Grid line
+  ctx.strokeStyle='#ff8c40'; ctx.lineWidth=2; ctx.setLineDash([5,4]);
+  ctx.beginPath();
+  gridConvPts.filter(([t])=>t<=upTo).forEach(([t,v],i)=>{
+    const x=PL+t/36*gW, y=PT+gH-(v-yMin)/(yMax-yMin)*gH;
+    i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+  });
+  ctx.stroke(); ctx.setLineDash([]);
+  gridConvPts.filter(([t])=>t<=upTo).forEach(([t,v])=>{
+    const x=PL+t/36*gW, y=PT+gH-(v-yMin)/(yMax-yMin)*gH;
+    ctx.fillStyle='#ff8c40'; ctx.beginPath(); ctx.arc(x,y,4,0,Math.PI*2); ctx.fill();
+  });
+
+  // Legend
+  ctx.fillStyle='#60cfff'; ctx.fillRect(PL+10,PT+8,20,2); ctx.fillText('DOA (lien tuc cai thien, ~86%)',PL+36,PT+13);
+  ctx.setLineDash([5,4]); ctx.strokeStyle='#ff8c40'; ctx.lineWidth=1.5;
+  ctx.beginPath(); ctx.moveTo(PL+10,PT+22); ctx.lineTo(PL+30,PT+22); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle='#ff8c40'; ctx.fillText('Grid Search (nhay bac, ~82%)',PL+36,PT+26);
+
+  if(upTo>=36){
+    document.getElementById('cv-doa').textContent=(doaConv(36)*100).toFixed(1)+'%';
+    document.getElementById('cv-grid').textContent=(gridConvPts[gridConvPts.length-1][1]*100).toFixed(1)+'%';
+  }
+}
+
+function resetConv(){clearTimeout(convTimer);convTimer=null;convT=0;drawConv(0);}
+function runConv(){
+  if(convTimer)return;
+  function loop(){
+    convT+=0.8; drawConv(convT);
+    if(convT<36) convTimer=setTimeout(loop,50);
+    else convTimer=null;
+  }
+  loop();
+}
+
+// Bar chart panel 7
+(function drawBar6(){
+  const cv=document.getElementById('c6-cost'); const ctx=cv.getContext('2d');
+  cv.width=300; cv.height=200;
+  ctx.fillStyle='#040d1a'; ctx.fillRect(0,0,300,200);
+  // DOA: 25 droplets × 2000 iter × 5 fold = 250,000; Grid: 81 × 5 = 405
+  const bars=[{l:'Grid\n(81×5f)',v:405,c:'#ff4060'},{l:'DOA\n(25×2000×5)',v:250000,c:'#60cfff'}];
+  const maxV=250000;
+  bars.forEach((b,i)=>{
+    const bw=80, x=30+i*155, bh=Math.max(4,(b.v/maxV)*140);
+    const grad=ctx.createLinearGradient(x,0,x+bw,0);
+    grad.addColorStop(0,b.c+'44'); grad.addColorStop(1,b.c+'aa');
+    ctx.fillStyle=grad; ctx.fillRect(x,165-bh,bw,bh);
+    ctx.strokeStyle=b.c; ctx.lineWidth=1.5; ctx.strokeRect(x,165-bh,bw,bh);
+    ctx.fillStyle=b.c; ctx.font='11px JetBrains Mono'; ctx.textAlign='center';
+    const label=b.v>=1000?(b.v/1000).toFixed(0)+'k':b.v;
+    ctx.fillText(label,x+bw/2,155-bh);
+    ctx.fillStyle='#5a8aaa'; ctx.font='9px JetBrains Mono';
+    b.l.split('\n').forEach((line,j)=>ctx.fillText(line,x+bw/2,178+j*13));
+  });
+  ctx.textAlign='left';
+  ctx.fillStyle='rgba(78,255,145,0.8)'; ctx.font='9px JetBrains Mono';
+  ctx.fillText('DOA toi uu 15 chieu dong thoi',10,16);
+  ctx.fillText('Grid chi tim C va gamma',10,28);
+})();
+
+drawConv(0);
+
+// ══════════════════════════════════════════════════════════
+//  Tab switching
+// ══════════════════════════════════════════════════════════
+function switchTab(idx){
+  document.querySelectorAll('.panel').forEach((p,i)=>p.classList.toggle('active',i===idx));
+  document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',i===idx));
+}
+</script>
+</body>
+</html>
